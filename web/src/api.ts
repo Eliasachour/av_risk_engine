@@ -1,6 +1,8 @@
 import type { ScenarioIn, EvaluateResult, SimulateResult, Preset, Enums } from "./types";
 
 const BASE = "/api";
+const path = "https://av-risk-engine.onrender.com"
+
 
 /** Erreur API avec message lisible (extrait du champ `detail` de FastAPI). */
 export class ApiError extends Error {
@@ -25,11 +27,7 @@ async function req<T>(path: string, opts?: RequestInit, canal?: string): Promise
   }
   const timeout = setTimeout(() => canal && controllers[canal]?.abort(), 15000);
   try {
-    const r = await fetch(`${BASE}${path}`, {
-      headers: { "Content-Type": "application/json" },
-      signal,
-      ...opts,
-    });
+    const r = await fetch("https://av-risk-engine.onrender.com");
     if (!r.ok) {
       let msg = `Erreur ${r.status}`;
       try {
