@@ -48,3 +48,23 @@ Vite proxifie `/api/*` vers `http://127.0.0.1:8000` — pas de CORS à gérer en
 
 Documentation interactive : http://127.0.0.1:8000/docs (Swagger UI généré par
 FastAPI).
+
+## Déploiement Render
+
+**Backend (Web Service, Python 3)** :
+- Build : `pip install -r requirements.txt`
+- Start : `uvicorn api:app --host 0.0.0.0 --port $PORT`
+- URL actuelle : https://av-risk-engine.onrender.com
+
+**Frontend (Static Site)** :
+- Root Directory : `web`
+- Build : `npm install && npm run build`
+- Publish Directory : `dist`
+
+En production, le frontend appelle directement l'API Render (URL par défaut
+codée dans `src/api.ts`, surchargable par la variable d'environnement
+`VITE_API_BASE` au build). En dev local, le proxy Vite continue de rediriger
+`/api` vers `localhost:8000`.
+
+Note plan gratuit : le backend s'endort après ~15 min d'inactivité ; le
+premier appel suivant prend 30–60 s (réveil du conteneur).

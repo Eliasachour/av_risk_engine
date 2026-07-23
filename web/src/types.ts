@@ -99,3 +99,12 @@ export const COULEURS_NIVEAU: Record<RiskLevel, { bg: string; fg: string; strong
   DANGER: { bg: "#ffe0b2", fg: "#7a3d00", strong: "#ef6c00" },
   CRITICAL: { bg: "#ffcdd2", fg: "#8a1c1c", strong: "#c62828" },
 };
+
+export interface Contraintes {
+  meteo_routes: Record<string, string[]>;
+  vis_meteo: Record<string, [number, number]>;
+  facteur_nuit: number;
+  limites_route: Record<string, number[]>;
+  zone_travaux_limites: number[];
+  marge_vitesse_ego: number;
+}

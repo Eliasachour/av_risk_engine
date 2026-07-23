@@ -1,11 +1,13 @@
 # Dépendances de développement / test
 pytest>=7.0
 
+# API web (interface React + déploiement Render)
+fastapi>=0.110
+uvicorn>=0.29
+
 # Visualisation (graphes du simulateur sim/)
 matplotlib>=3.5
 pillow>=9.0          # requis pour la vue de dessus animée (GIF)
-fastapi
-uvicorn
 
 # --- CARLA (uniquement pour l'exécution dans le simulateur, PAS pour les tests) ---
 # CARLA n'est en général pas installable via un simple `pip install carla`.

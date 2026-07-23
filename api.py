@@ -9,11 +9,10 @@ Endpoints :
   POST /evaluate            — évalue un scénario à t=0
   POST /simulate            — simulation complète (frames + trajectoires)
 
-Lancement local : python api.py ou uvicorn api:app --reload
+Lancement : uvicorn api:app --reload  (http://127.0.0.1:8000)
 """
 from __future__ import annotations
 
-import os
 from typing import List, Optional
 
 from fastapi import FastAPI, HTTPException
@@ -48,9 +47,6 @@ async def valueerror_handler(request, exc: ValueError):
     from fastapi.responses import JSONResponse
     return JSONResponse(status_code=400, content={"detail": str(exc)})
 
-
-# Le paramètre allow_origins=["*"] autorise toutes les requêtes (pratique pour tester).
-# En production stricte, tu pourras remplacer "*" par l'URL publique de ton frontend Vite.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -195,6 +191,32 @@ def preset(preset_id: str):
     raise HTTPException(status_code=404, detail=f"Scénario {preset_id} introuvable")
 
 
+@app.get("/contraintes")
+def contraintes():
+    """Règles de cohérence entre paramètres (source de vérité : scenarios/constraints.py).
+
+    Le frontend s'en sert pour restreindre les choix : états de route compatibles
+    avec la météo, plages de visibilité plausibles, limites de vitesse par type de
+    route (étendues en zone de travaux).
+    """
+    from scenarios.constraints import (
+        COMPAT_METEO_ROUTE,
+        FACTEUR_NUIT,
+        LIMITES_ROUTE,
+        MARGE_VITESSE_EGO,
+        VIS_METEO,
+        ZONE_TRAVAUX_LIMITES,
+    )
+    return {
+        "meteo_routes": {m.value: [e.value for e in etats] for m, etats in COMPAT_METEO_ROUTE.items()},
+        "vis_meteo": {m.value: list(plage) for m, plage in VIS_METEO.items()},
+        "facteur_nuit": FACTEUR_NUIT,
+        "limites_route": {t.value: lims for t, lims in LIMITES_ROUTE.items()},
+        "zone_travaux_limites": ZONE_TRAVAUX_LIMITES,
+        "marge_vitesse_ego": MARGE_VITESSE_EGO,
+    }
+
+
 @app.get("/seuils")
 def seuils():
     """Grille des seuils de référence (pour l'affichage des jauges)."""
@@ -216,9 +238,12 @@ def evaluate(scenario: ScenarioIn):
     a = assess_risk(ctx)
     table = tableau_metriques(ctx)
 
+    from scenarios.constraints import valider as valider_coherence
+    incoherences = valider_coherence(ctx)
+
     return {
         "niveau_global": a.level.name,
-        "avertissements": a.avertissements,
+        "avertissements": a.avertissements + incoherences,
         "agents": [
             {
                 "type": m.agent.type_agent.value,
@@ -299,7 +324,4 @@ def simulate(payload: SimulateIn):
 
 if __name__ == "__main__":
     import uvicorn
-    # Récupère le port défini par Render, sinon utilise 8000 par défaut (pour le local)
-    port = int(os.environ.get("PORT", 8000))
-    # host="0.0.0.0" permet d'exposer l'API à l'extérieur du conteneur
-    uvicorn.run("api:app", host="0.0.0.0", port=port)
+    uvicorn.run("api:app", host="127.0.0.1", port=8000, reload=True)

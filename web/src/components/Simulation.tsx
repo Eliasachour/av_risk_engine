@@ -372,122 +372,144 @@ function TopDown({
   );
 }
 
-/* -------------------- Courbes enrichies (3 graphes + bandeau) -------------------- */
+/* -------------------- Courbes enrichies (3 graphes + bandeau, zoomables) -------------------- */
 
 function Courbes({ donnees, sim, tCurrent }: {
   donnees: any[]; sim: SimulateResult; tCurrent: number;
 }) {
+  const [zoom, setZoom] = useState<string | null>(null);
   const tickStyle = { fontSize: 10, fill: "#5a6478" };
   const gridStroke = "#eef0f4";
 
+  const renderDist = () => (
+    <LineChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
+      <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
+      <XAxis dataKey="t" tick={tickStyle} />
+      <YAxis tick={tickStyle} width={40} label={{ value: "m", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
+      <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
+      <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
+      <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" />
+      {sim.types_agents.map((t, i) => (
+        <Line key={`d${i}`} dataKey={`dist_${i}`} name={`d ${t} #${i + 1}`}
+          stroke={PALETTE[i % PALETTE.length]} strokeWidth={1.8} dot={false} />
+      ))}
+      {sim.types_agents.map((_, i) => (
+        <Line key={`r${i}`} dataKey={`rss_${i}`} name={`RSS #${i + 1}`}
+          stroke={PALETTE[i % PALETTE.length]} strokeDasharray="4 3" strokeWidth={1.2} dot={false} opacity={0.6} />
+      ))}
+    </LineChart>
+  );
+
+  const renderTemporel = () => (
+    <LineChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
+      <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
+      <XAxis dataKey="t" tick={tickStyle} />
+      <YAxis tick={tickStyle} width={40} domain={[0, 10]}
+        label={{ value: "s", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
+      <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
+      <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
+      <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" />
+      <ReferenceLine y={4} stroke="#2e7d32" strokeDasharray="2 4" strokeWidth={1}
+        label={{ value: "SAFE", position: "right", fontSize: 9, fill: "#2e7d32" }} />
+      <ReferenceLine y={2} stroke="#f9a825" strokeDasharray="2 4" strokeWidth={1}
+        label={{ value: "WATCH", position: "right", fontSize: 9, fill: "#f9a825" }} />
+      <ReferenceLine y={1} stroke="#c62828" strokeDasharray="2 4" strokeWidth={1}
+        label={{ value: "DANGER", position: "right", fontSize: 9, fill: "#c62828" }} />
+      {sim.types_agents.map((t, i) => (
+        <Line key={`ttc${i}`} dataKey={`ttc_${i}`} name={`TTC ${t} #${i + 1}`}
+          stroke={PALETTE[i % PALETTE.length]} strokeWidth={1.8} dot={false} />
+      ))}
+      {sim.types_agents.map((_, i) => (
+        <Line key={`thw${i}`} dataKey={`thw_${i}`} name={`THW #${i + 1}`}
+          stroke={PALETTE[i % PALETTE.length]} strokeDasharray="2 2" strokeWidth={1.2} dot={false} opacity={0.6} />
+      ))}
+    </LineChart>
+  );
+
+  const renderDrac = () => (
+    <LineChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
+      <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
+      <XAxis dataKey="t" tick={tickStyle} />
+      <YAxis tick={tickStyle} width={40}
+        label={{ value: "m/s²", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
+      <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
+      <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
+      <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" />
+      <ReferenceLine y={sim.mu_g} stroke="#c62828" strokeWidth={1.5}
+        label={{ value: `µ·g = ${sim.mu_g.toFixed(1)}`, position: "right", fontSize: 10, fill: "#c62828" }} />
+      {sim.types_agents.map((t, i) => (
+        <Line key={`drac${i}`} dataKey={`drac_${i}`} name={`DRAC ${t} #${i + 1}`}
+          stroke={PALETTE[i % PALETTE.length]} strokeWidth={1.8} dot={false} />
+      ))}
+    </LineChart>
+  );
+
+  const renderBandeau = () => (
+    <ComposedChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
+      <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
+      <XAxis dataKey="t" tick={tickStyle} />
+      <YAxis yAxisId="left" tick={tickStyle} width={40} orientation="left"
+        label={{ value: "km/h", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
+      <YAxis yAxisId="right" tick={tickStyle} width={45} orientation="right"
+        domain={[0, 3]} ticks={[0, 1, 2, 3]}
+        tickFormatter={(v) => ["S", "W", "D", "C"][v] || ""} />
+      <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
+      <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
+      <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" yAxisId="left" />
+      <ReferenceArea yAxisId="right" y1={0} y2={1} fill="#e6f4ea" fillOpacity={0.35} />
+      <ReferenceArea yAxisId="right" y1={1} y2={2} fill="#fff8e1" fillOpacity={0.4} />
+      <ReferenceArea yAxisId="right" y1={2} y2={3} fill="#ffcdd2" fillOpacity={0.4} />
+      <Area yAxisId="right" dataKey="niveau_int" name="Niveau"
+        stroke="#5a6478" strokeWidth={1.5} fill="#5a647830" type="stepAfter" />
+      <Line yAxisId="left" dataKey="ego_kmh" name="Vitesse ego (km/h)"
+        stroke="#2563eb" strokeWidth={2} dot={false} />
+    </ComposedChart>
+  );
+
+  const blocs = [
+    { id: "dist", titre: "Distance réelle vs distance de sécurité RSS", h: 140, render: renderDist },
+    { id: "temp", titre: "Métriques temporelles (TTC, THW), plafonnées à 10 s", h: 140, render: renderTemporel },
+    { id: "drac", titre: `Décélération requise vs disponible (µ·g = ${sim.mu_g.toFixed(1)} m/s²)`, h: 130, render: renderDrac },
+    { id: "bandeau", titre: "Vitesse de l'ego et niveau de risque global", h: 110, render: renderBandeau },
+  ];
+
+  const zoomBloc = blocs.find((b) => b.id === zoom);
+
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-      {/* Graphe 1 — Distances vs RSS */}
-      <GrapheBloc titre="Distance réelle vs distance de sécurité RSS" hauteur={140}>
-        <LineChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
-          <XAxis dataKey="t" tick={tickStyle} />
-          <YAxis tick={tickStyle} width={40} label={{ value: "m", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
-          <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
-          <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
-          <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" />
-          {sim.types_agents.map((t, i) => (
-            <Line key={`d${i}`} dataKey={`dist_${i}`}
-              name={`d ${t} #${i + 1}`}
-              stroke={PALETTE[i % PALETTE.length]} strokeWidth={1.8} dot={false} />
-          ))}
-          {sim.types_agents.map((_, i) => (
-            <Line key={`r${i}`} dataKey={`rss_${i}`}
-              name={`RSS #${i + 1}`}
-              stroke={PALETTE[i % PALETTE.length]}
-              strokeDasharray="4 3" strokeWidth={1.2} dot={false} opacity={0.6} />
-          ))}
-        </LineChart>
-      </GrapheBloc>
+      {blocs.map((b) => (
+        <GrapheBloc key={b.id} titre={b.titre} hauteur={b.h} onZoom={() => setZoom(b.id)}>
+          {b.render()}
+        </GrapheBloc>
+      ))}
 
-      {/* Graphe 2 — Métriques temporelles */}
-      <GrapheBloc titre="Métriques temporelles (TTC, THW), plafonnées à 10 s" hauteur={140}>
-        <LineChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
-          <XAxis dataKey="t" tick={tickStyle} />
-          <YAxis tick={tickStyle} width={40} domain={[0, 10]}
-            label={{ value: "s", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
-          <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
-          <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
-          <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" />
-          <ReferenceLine y={4} stroke="#2e7d32" strokeDasharray="2 4" strokeWidth={1}
-            label={{ value: "SAFE", position: "right", fontSize: 9, fill: "#2e7d32" }} />
-          <ReferenceLine y={2} stroke="#f9a825" strokeDasharray="2 4" strokeWidth={1}
-            label={{ value: "WATCH", position: "right", fontSize: 9, fill: "#f9a825" }} />
-          <ReferenceLine y={1} stroke="#c62828" strokeDasharray="2 4" strokeWidth={1}
-            label={{ value: "DANGER", position: "right", fontSize: 9, fill: "#c62828" }} />
-          {sim.types_agents.map((t, i) => (
-            <Line key={`ttc${i}`} dataKey={`ttc_${i}`}
-              name={`TTC ${t} #${i + 1}`}
-              stroke={PALETTE[i % PALETTE.length]} strokeWidth={1.8} dot={false} />
-          ))}
-          {sim.types_agents.map((_, i) => (
-            <Line key={`thw${i}`} dataKey={`thw_${i}`}
-              name={`THW #${i + 1}`}
-              stroke={PALETTE[i % PALETTE.length]}
-              strokeDasharray="2 2" strokeWidth={1.2} dot={false} opacity={0.6} />
-          ))}
-        </LineChart>
-      </GrapheBloc>
-
-      {/* Graphe 3 — DRAC vs µ·g */}
-      <GrapheBloc titre={`Décélération requise vs disponible (µ·g = ${sim.mu_g.toFixed(1)} m/s²)`} hauteur={130}>
-        <LineChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
-          <XAxis dataKey="t" tick={tickStyle} />
-          <YAxis tick={tickStyle} width={40}
-            label={{ value: "m/s²", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
-          <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
-          <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
-          <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" />
-          <ReferenceLine y={sim.mu_g} stroke="#c62828" strokeWidth={1.5}
-            label={{ value: `µ·g = ${sim.mu_g.toFixed(1)}`, position: "right", fontSize: 10, fill: "#c62828" }} />
-          {sim.types_agents.map((t, i) => (
-            <Line key={`drac${i}`} dataKey={`drac_${i}`}
-              name={`DRAC ${t} #${i + 1}`}
-              stroke={PALETTE[i % PALETTE.length]} strokeWidth={1.8} dot={false} />
-          ))}
-        </LineChart>
-      </GrapheBloc>
-
-      {/* Bandeau bas — vitesse ego + niveau global */}
-      <GrapheBloc titre="Vitesse de l'ego et niveau de risque global" hauteur={110}>
-        <ComposedChart data={donnees} margin={{ top: 4, right: 12, left: 0, bottom: 0 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke={gridStroke} />
-          <XAxis dataKey="t" tick={tickStyle} />
-          <YAxis yAxisId="left" tick={tickStyle} width={40} orientation="left"
-            label={{ value: "km/h", angle: -90, position: "insideLeft", fontSize: 10, fill: "#8a94a6" }} />
-          <YAxis yAxisId="right" tick={tickStyle} width={45} orientation="right"
-            domain={[0, 3]} ticks={[0, 1, 2, 3]}
-            tickFormatter={(v) => ["S", "W", "D", "C"][v] || ""} />
-          <Tooltip contentStyle={{ fontSize: 11, borderRadius: 6 }} />
-          <Legend wrapperStyle={{ fontSize: 10 }} iconSize={8} />
-          <ReferenceLine x={tCurrent} stroke="#2563eb" strokeDasharray="3 3" yAxisId="left" />
-          {/* Zones colorées de risque en fond */}
-          <ReferenceArea yAxisId="right" y1={0} y2={1} fill="#e6f4ea" fillOpacity={0.35} />
-          <ReferenceArea yAxisId="right" y1={1} y2={2} fill="#fff8e1" fillOpacity={0.4} />
-          <ReferenceArea yAxisId="right" y1={2} y2={3} fill="#ffcdd2" fillOpacity={0.4} />
-          <Area yAxisId="right" dataKey="niveau_int" name="Niveau"
-            stroke="#5a6478" strokeWidth={1.5}
-            fill="#5a647830" type="stepAfter" />
-          <Line yAxisId="left" dataKey="ego_kmh" name="Vitesse ego (km/h)"
-            stroke="#2563eb" strokeWidth={2} dot={false} />
-        </ComposedChart>
-      </GrapheBloc>
+      {zoomBloc && (
+        <div className="modal-overlay" onClick={() => setZoom(null)}>
+          <div className="modal-chart" onClick={(e) => e.stopPropagation()}>
+            <div className="modal-head">
+              <span>{zoomBloc.titre}</span>
+              <button className="btn" onClick={() => setZoom(null)}>✕ Fermer</button>
+            </div>
+            <div className="modal-body">
+              <ResponsiveContainer>{zoomBloc.render()}</ResponsiveContainer>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
 
-function GrapheBloc({ titre, hauteur, children }: { titre: string; hauteur: number; children: any }) {
+function GrapheBloc({ titre, hauteur, onZoom, children }: {
+  titre: string; hauteur: number; onZoom?: () => void; children: any;
+}) {
   return (
-    <div>
-      <div style={{ fontSize: 11, fontWeight: 600, color: "var(--text-mute)", marginBottom: 4 }}>
-        {titre}
+    <div className="graphe-bloc">
+      <div className="graphe-head">
+        <span className="graphe-titre">{titre}</span>
+        {onZoom && (
+          <button className="btn-zoom" onClick={onZoom} title="Agrandir">⤢</button>
+        )}
       </div>
       <div style={{ height: hauteur }}>
         <ResponsiveContainer>{children}</ResponsiveContainer>

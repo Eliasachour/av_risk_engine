@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { ScenarioIn, AgentIn, Enums, Preset, RiskLevel } from "../types";
+import type { ScenarioIn, AgentIn, Enums, Preset, RiskLevel, Contraintes } from "../types";
 import { COULEURS_NIVEAU } from "../types";
 import { api } from "../api";
 
@@ -31,13 +31,71 @@ export function ScenarioForm({ scenario, onChange, onSimulate, enums, onResetLay
   const [showPresets, setShowPresets] = useState(false);
   const [reaction, setReaction] = useState(true);
   const [ag, setAg] = useState<AgentIn>(AG_DEFAULT);
+  const [contraintes, setContraintes] = useState<Contraintes | null>(null);
 
   useEffect(() => {
     api.presets().then(setPresets).catch(console.error);
+    api.contraintes().then(setContraintes).catch(console.error);
   }, []);
 
   const set = <K extends keyof ScenarioIn>(k: K, v: ScenarioIn[K]) =>
     onChange({ ...scenario, [k]: v });
+
+  // --- Cohérence entre paramètres (mêmes règles que scenarios/constraints.py) ---
+
+  const etatsCompatibles: string[] =
+    contraintes?.meteo_routes[scenario.meteo] ?? enums.etat_route;
+
+  const limitesCompatibles: number[] = (() => {
+    if (!contraintes) return [];
+    const base = contraintes.limites_route[scenario.type_route] ?? [];
+    if (!scenario.zone_travaux) return base;
+    const mx = Math.max(...base);
+    return [...new Set([...base, ...contraintes.zone_travaux_limites.filter((v) => v < mx)])]
+      .sort((a, b) => a - b);
+  })();
+
+  const plageVis = (meteo: string, heure: string): [number, number] => {
+    if (!contraintes) return [0, 1000];
+    let [lo, hi] = contraintes.vis_meteo[meteo] ?? [0, 1000];
+    if (heure === "nuit") { lo *= contraintes.facteur_nuit; hi *= contraintes.facteur_nuit; }
+    return [lo, hi];
+  };
+
+  /** Change la météo en réalignant automatiquement l'état de route et la visibilité. */
+  const setMeteo = (meteo: string) => {
+    const compat = contraintes?.meteo_routes[meteo] ?? enums.etat_route;
+    const etat = compat.includes(scenario.etat_route) ? scenario.etat_route : compat[0];
+    const [lo, hi] = plageVis(meteo, scenario.heure);
+    const vis = Math.min(Math.max(scenario.visibilite_m, lo), hi);
+    onChange({ ...scenario, meteo, etat_route: etat, visibilite_m: Math.round(vis) });
+  };
+
+  /** Change l'heure en réajustant la visibilité dans la plage plausible. */
+  const setHeure = (heure: string) => {
+    const [lo, hi] = plageVis(scenario.meteo, heure);
+    const vis = Math.min(Math.max(scenario.visibilite_m, lo), hi);
+    onChange({ ...scenario, heure, visibilite_m: Math.round(vis) });
+  };
+
+  /** Change le type de route (ou zone travaux) en réalignant la limite. */
+  const setRoute = (patch: Partial<ScenarioIn>) => {
+    const next = { ...scenario, ...patch };
+    if (contraintes) {
+      const base = contraintes.limites_route[next.type_route] ?? [];
+      let lims = base;
+      if (next.zone_travaux) {
+        const mx = Math.max(...base);
+        lims = [...new Set([...base, ...contraintes.zone_travaux_limites.filter((v) => v < mx)])];
+      }
+      if (lims.length && !lims.includes(next.limite_vitesse_kmh)) {
+        // choisir la limite plausible la plus proche
+        next.limite_vitesse_kmh = lims.reduce((best, v) =>
+          Math.abs(v - next.limite_vitesse_kmh) < Math.abs(best - next.limite_vitesse_kmh) ? v : best);
+      }
+    }
+    onChange(next);
+  };
 
   const addAgent = () => {
     onChange({ ...scenario, agents: [...scenario.agents, ag] });
@@ -87,7 +145,7 @@ export function ScenarioForm({ scenario, onChange, onSimulate, enums, onResetLay
       <h3>Route</h3>
       <div className="field">
         <label>Type de route</label>
-        <select value={scenario.type_route} onChange={(e) => set("type_route", e.target.value)}>
+        <select value={scenario.type_route} onChange={(e) => setRoute({ type_route: e.target.value })}>
           {enums.type_route.map((v) => <option key={v}>{v}</option>)}
         </select>
       </div>
@@ -100,13 +158,20 @@ export function ScenarioForm({ scenario, onChange, onSimulate, enums, onResetLay
         </div>
         <div className="field">
           <label>Limite (km/h)</label>
-          <input type="number" value={scenario.limite_vitesse_kmh}
-            onChange={(e) => set("limite_vitesse_kmh", num(e.target.value))} />
+          {limitesCompatibles.length ? (
+            <select value={scenario.limite_vitesse_kmh}
+              onChange={(e) => set("limite_vitesse_kmh", num(e.target.value, 50))}>
+              {limitesCompatibles.map((v) => <option key={v} value={v}>{v}</option>)}
+            </select>
+          ) : (
+            <input type="number" value={scenario.limite_vitesse_kmh}
+              onChange={(e) => set("limite_vitesse_kmh", num(e.target.value))} />
+          )}
         </div>
       </div>
       <label className="checkbox">
         <input type="checkbox" checked={scenario.zone_travaux}
-          onChange={(e) => set("zone_travaux", e.target.checked)} />
+          onChange={(e) => setRoute({ zone_travaux: e.target.checked })} />
         Zone de travaux
       </label>
 
@@ -114,21 +179,21 @@ export function ScenarioForm({ scenario, onChange, onSimulate, enums, onResetLay
       <div className="row-2">
         <div className="field">
           <label>Météo</label>
-          <select value={scenario.meteo} onChange={(e) => set("meteo", e.target.value)}>
+          <select value={scenario.meteo} onChange={(e) => setMeteo(e.target.value)}>
             {enums.meteo.map((v) => <option key={v}>{v}</option>)}
           </select>
         </div>
         <div className="field">
           <label>État route</label>
           <select value={scenario.etat_route} onChange={(e) => set("etat_route", e.target.value)}>
-            {enums.etat_route.map((v) => <option key={v}>{v}</option>)}
+            {etatsCompatibles.map((v) => <option key={v}>{v}</option>)}
           </select>
         </div>
       </div>
       <div className="row-2">
         <div className="field">
           <label>Heure</label>
-          <select value={scenario.heure} onChange={(e) => set("heure", e.target.value)}>
+          <select value={scenario.heure} onChange={(e) => setHeure(e.target.value)}>
             {enums.heure.map((v) => <option key={v}>{v}</option>)}
           </select>
         </div>
