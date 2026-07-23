@@ -9,10 +9,11 @@ Endpoints :
   POST /evaluate            — évalue un scénario à t=0
   POST /simulate            — simulation complète (frames + trajectoires)
 
-Lancement : uvicorn api:app --reload  (http://127.0.0.1:8000)
+Lancement local : python api.py ou uvicorn api:app --reload
 """
 from __future__ import annotations
 
+import os
 from typing import List, Optional
 
 from fastapi import FastAPI, HTTPException
@@ -47,6 +48,9 @@ async def valueerror_handler(request, exc: ValueError):
     from fastapi.responses import JSONResponse
     return JSONResponse(status_code=400, content={"detail": str(exc)})
 
+
+# Le paramètre allow_origins=["*"] autorise toutes les requêtes (pratique pour tester).
+# En production stricte, tu pourras remplacer "*" par l'URL publique de ton frontend Vite.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -295,4 +299,7 @@ def simulate(payload: SimulateIn):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("api:app", host="127.0.0.1", port=8000, reload=True)
+    # Récupère le port défini par Render, sinon utilise 8000 par défaut (pour le local)
+    port = int(os.environ.get("PORT", 8000))
+    # host="0.0.0.0" permet d'exposer l'API à l'extérieur du conteneur
+    uvicorn.run("api:app", host="0.0.0.0", port=port)
