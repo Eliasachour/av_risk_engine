@@ -15,7 +15,7 @@ python3 -m pytest --cov=risk_engine --cov=sim --cov=world \
 
 ## Résultat courant
 
-**77 tests, 100 % au vert.** Couverture globale 56 % — mais cette moyenne mélange
+**96 tests, 100 % au vert.** Couverture globale 56 % — mais cette moyenne mélange
 le cœur logique (très couvert) et les couches d'interface/rendu (non testables sans
 environnement graphique), qu'il faut lire séparément :
 
@@ -67,6 +67,16 @@ relèvent d'entrées/sorties dépendantes de l'environnement, pas de l'algorithm
 - **test_weather.py** (4) — conversion météo CARLA.
 - **test_calibration.py** (5) — jeu de référence fourni, somme de la matrice,
   synthèse cohérente, ancres non ambiguës, **zéro détection manquée**.
+- **test_control.py** (7) — la commande recommandée exportable :
+  SAFE = aucune action, obstacle en voie = mode « physique », plafonnement
+  µ·g, verglas = plafond réduit, croisement hors voie = mode « proportionnel »,
+  throttle toujours nul (couche de sécurité), cohérence de la table par niveau.
+- **test_invariants.py** (10) — les propriétés que le moteur doit toujours
+  respecter, quelles que soient les évolutions de seuils ou de filtrage :
+  monotonie en distance, friction dégradée / nuit / VRU / profondeur inférée
+  plus sévères, niveau global = pire agent, filtrage latéral jamais amplifiant,
+  agent qui s'éloigne = SAFE, NaN toléré par l'assainissement, obstacle
+  inévitable = CRITICAL.
 - **test_optimize.py** (1) — l'optimiseur ne crée jamais de détection manquée et ne
   régresse pas sur les fausses alarmes.
 

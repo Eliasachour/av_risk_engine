@@ -23,18 +23,8 @@ from typing import List, Optional
 from risk_engine import (
     RiskAssessment, RiskConfig, RiskLevel, ScenarioContext, assess_risk, metrics, modifiers,
 )
+from risk_engine.control import ObsAgent, commande_recommandee
 from world.extraction import ActorState, AgentObservation, refresh_context
-
-# Décélérations VISÉES par l'ego selon le niveau (mode réactif), en m/s².
-# Elles sont ensuite PLAFONNÉES à l'adhérence disponible µ·g (voir run) : sur sol
-# glissant, l'ego ne peut pas freiner aussi fort, même s'il le « veut ».
-FREINAGE = {
-    RiskLevel.SAFE: 0.0,
-    RiskLevel.WATCH: -2.0,
-    RiskLevel.DANGER: -5.0,
-    RiskLevel.CRITICAL: -8.0,
-}
-
 
 @dataclass
 class Frame:
@@ -74,11 +64,6 @@ def _advance(s: ActorState, accel: float, dt: float) -> ActorState:
     return replace(s, x=s.x + v * math.cos(r) * dt, y=s.y + v * math.sin(r) * dt, speed_ms=v)
 
 
-def _dans_la_voie_devant(s, ego, demi_voie: float = 2.5) -> bool:
-    """Vrai si l'agent est devant l'ego et dans sa voie (séparation latérale faible)."""
-    return (s.x - ego.x) > 0.2 and abs(s.y - ego.y) < demi_voie
-
-
 def run(
     ctx: ScenarioContext,
     dt: float = 0.1,
@@ -89,8 +74,6 @@ def run(
 ) -> List[Frame]:
     cfg = cfg or RiskConfig()
     ego, states, meta, accels = _init(ctx)
-    # Décélération maximale réellement atteignable, fixée par l'adhérence (µ·g).
-    a_max = modifiers.mu(ctx.etat_route) * metrics.G
     frames: List[Frame] = []
     t = 0.0
     while t <= t_max + 1e-9:
@@ -98,27 +81,15 @@ def run(
         ctx_t = refresh_context(ctx, ego, observations)
         a = assess_risk(ctx_t, cfg)
 
-        # Freinage fondé sur la PHYSIQUE (fix A) : l'ego freine de la décélération
-        # réellement requise par l'agent le plus menaçant DANS SA VOIE (DRAC),
-        # plafonnée à l'adhérence µ·g. Robuste au nombre d'agents (on prend le pire).
-        # Pour un croisement (agent hors voie), freinage proportionnel au niveau :
-        # l'ego ralentit tant que l'agent est dans la voie, puis reprend une fois dégagé.
+        # Freinage : logique déléguée au moteur (`risk_engine/control.py`), le
+        # même code sera utilisé côté CARLA — pas de duplication.
         if not reaction:
             ego_accel = 0.0
         else:
-            # Décélération requise pour s'arrêter QUELQUES MÈTRES AVANT le plus
-            # menaçant des agents en voie (marge d'arrêt), plafonnée à µ·g.
-            MARGE_ARRET = 6.0
-            requis = 0.0
-            for ar, s in zip(a.details, states):
-                if _dans_la_voie_devant(s, ego) and ar.drac > 0.0:
-                    d = math.hypot(s.x - ego.x, s.y - ego.y)
-                    d_sur = max(d - MARGE_ARRET, 0.5)
-                    requis = max(requis, ar.drac * d / d_sur)  # = v_fermeture² / (2·d_sur)
-            if requis > 0.0:
-                ego_accel = -min(requis, a_max)
-            else:
-                ego_accel = max(FREINAGE[a.level], -a_max)
+            obs = [ObsAgent(x=s.x, y=s.y, drac=ar.drac)
+                   for s, ar in zip(states, a.details)]
+            cmd = commande_recommandee(a, ctx_t, ego.x, ego.y, obs)
+            ego_accel = cmd.acceleration_ms2
 
         # Détection de collision à cet instant (fix B) : contact avec un agent.
         est_collision = any(math.hypot(s.x - ego.x, s.y - ego.y) < collision_m for s in states)

@@ -18,6 +18,7 @@ from .engine import (
     assess_risk,
 )
 from . import metrics, modifiers, weighting, sanitize
+from .control import CommandeEgo, ObsAgent, commande_recommandee
 from .report import (
     MetriquesAgent,
     format_impact,
@@ -42,6 +43,9 @@ __all__ = [
     "AgentRisk",
     "assess_risk",
     "assess_agent",
+    "CommandeEgo",
+    "ObsAgent",
+    "commande_recommandee",
     "metrics",
     "modifiers",
     "weighting",

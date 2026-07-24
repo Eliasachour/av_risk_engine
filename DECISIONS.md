@@ -78,3 +78,38 @@ d'avoir à les reconstituer de mémoire.
   est réutilisée à l'identique par le simulateur interne et par CARLA.
 - Justification : rend le cœur testable (couverture ~93–100 %) et calibrable hors ligne ;
   l'intégration CARLA devient un simple adaptateur.
+
+### D10 — Interface web découplée (React + FastAPI), cohérence servie par l'API
+- Problème : offrir une interface moderne et accessible en ligne sans dupliquer la
+  logique du moteur ni les règles de cohérence des paramètres.
+- Options : réécrire la logique en JavaScript · Pyodide dans le navigateur ·
+  API REST fine au-dessus du moteur + frontend séparé.
+- Choix : **API FastAPI** (`api.py`) qui expose le moteur tel quel, et frontend
+  **React + Vite + TypeScript** (`web/`) qui la consomme. Les règles de cohérence
+  (météo ↔ état de route, visibilité, limites) restent dans
+  `scenarios/constraints.py` et sont **servies** par l'endpoint `/contraintes` —
+  une seule source de vérité, appliquée automatiquement dans le formulaire et
+  vérifiée par `/evaluate` (avertissements).
+- Justification : troisième interface du même moteur sans duplication — la
+  démonstration concrète du découplage (D9). Les entrées invalides renvoient des
+  erreurs 400 lisibles (jamais de 500), les requêtes en vol sont annulées côté
+  client. Déployée publiquement sur Render (backend Web Service + frontend
+  Static Site).
+
+### D11 — Commande recommandée exportable par le moteur
+- Problème : la logique de traduction *évaluation → commande véhicule* (décélération
+  physique dans la voie, plafond µ·g, freinage proportionnel en croisement) vivait
+  dans le simulateur (`sim/kinematic.py`). Elle allait devoir être dupliquée dans
+  la glu CARLA (`world/carla_world.py`) au moment de brancher `VehicleControl`.
+- Options : dupliquer (chaque environnement gère son contrôleur) · sortir la
+  logique dans un module partagé du moteur.
+- Choix : **module partagé `risk_engine/control.py`** — fonction pure
+  `commande_recommandee(assessment, ctx, ego_x, ego_y, agents) → CommandeEgo`
+  avec sortie normalisée (accélération m/s² *et* throttle/brake ∈ [0,1] pour
+  branchement direct sur `carla.VehicleControl`). Le simulateur interne
+  consomme désormais cette fonction ; la glu CARLA fera de même.
+- Justification : source unique de vérité pour la commande. Aucun changement de
+  comportement (89→89 tests inchangés + calibration identique) ; 7 tests dédiés
+  verrouillent le contrat public du module. Le champ `steer` n'est pas exposé
+  volontairement : le moteur ne modélise pas la trajectoire latérale — limite
+  documentée. C'est le dernier pivot avant CARLA.

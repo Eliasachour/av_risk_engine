@@ -14,6 +14,14 @@ tkinter — c'est ce qui le rend testable, calibrable et réutilisable.
 - **demo.py** — scénario de démonstration minimal en console (sans formulaire).
 - **calibrate.py** — lance la calibration sur les scénarios de référence : table
   prédit/attendu, matrice de confusion, synthèse. `--details` pour le détail par métrique.
+- **optimize.py** — optimisation des seuils par descente par coordonnées sous
+  contrainte dure « zéro détection manquée », puis minimisation des fausses alarmes.
+  Affiche l'avant/après et les seuils modifiés (proposition, rien n'est écrit).
+- **api.py** — API web FastAPI exposant le moteur : `/enums`, `/presets`,
+  `/contraintes` (règles de cohérence), `/seuils`, `/evaluate` (t = 0) et
+  `/simulate` (frames complètes). Gestion d'erreurs propre (entrées invalides →
+  400 lisible), CORS ouvert. Sert de backend à l'interface web (`web/`) et de
+  démonstration du découplage du moteur. Déployée sur Render.
 - **conftest.py**, **pytest.ini** — configuration de la suite de tests.
 - **requirements.txt** — dépendances (pytest, matplotlib, pillow).
 - **README.md** — présentation générale et démarrage rapide.
@@ -40,6 +48,12 @@ tkinter — c'est ce qui le rend testable, calibrable et réutilisable.
 - **sanitize.py** — *robustesse*. `sanitize_agent` et `sanitize_context` : bornent les
   entrées hors plage physique (vitesses, distances, accélérations, caps, NaN/inf) et
   renvoient la liste des corrections, sans rejeter.
+- **control.py** — *commande recommandée* (`commande_recommandee`, `CommandeEgo`,
+  `ObsAgent`). Traduit une évaluation de risque en commande véhicule prête à
+  appliquer (accélération m/s², throttle/brake ∈ [0,1], mode). Freinage physique
+  quand un agent est dans la voie devant (décélération requise, plafond µ·g),
+  proportionnel au niveau sinon. Utilisée à l'identique par le simulateur
+  interne et par la glu CARLA — c'est le point de pivot du contrôleur.
 - **report.py** — *présentation*. `metriques_agent` / `tableau_metriques` (assemble les
   métriques par agent), `lignes_tableau`, `format_tableau` (table console),
   `format_seuils` (grille de référence des seuils), `format_impact` (résumé d'impact).
@@ -81,12 +95,45 @@ tkinter — c'est ce qui le rend testable, calibrable et réutilisable.
   `matrice_confusion`, `synthese` (détections manquées / fausses alarmes / exactitude),
   `format_rapport`.
 - **BASELINE_v1.md** — le point de départ de calibration, figé et documenté.
+- **CHANGELOG.md** — journal complet des évolutions (v0.1 → v1.7) : chaque
+  changement, sa justification, son effet mesuré sur les trois compteurs.
+- **ETIQUETAGE.md** — le référentiel d'étiquetage (4 règles reproductibles :
+  inévitabilité, graduation TTC, durcissement contextuel en zone tendue,
+  correction géométrique latérale) et ses limites assumées.
 - **__init__.py** — expose l'API de calibration.
 
-## tests/ — 76 tests
+## web/ — l'interface web (React + Vite + TypeScript)
+
+Tableau de bord à trois panneaux redimensionnables (largeurs persistées),
+branché sur `api.py`. Preuve vivante du découplage : troisième interface du
+même moteur (après la console et tkinter), sans une ligne dupliquée.
+
+- **src/App.tsx** — orchestration : évaluation temps réel (debounce 300 ms,
+  annulation des requêtes en vol), barre supérieure avec statut API et messages
+  d'erreur, splitters de redimensionnement.
+- **src/components/ScenarioForm.tsx** — formulaire complet (route, environnement,
+  ego, agents avec écart latéral et accélération), préréglages SC-01..24, et
+  **cohérence automatique des paramètres** (météo → états de route compatibles,
+  visibilité plausible, limites par type de route) servie par `/contraintes`.
+- **src/components/InstantResults.tsx** — niveau global (pulsation en CRITICAL),
+  six cartes de métriques avec jauges, badges et info-bulles des seuils,
+  déclencheur/impact, barres de contribution et corroboration.
+- **src/components/Simulation.tsx** — vue de dessus SVG animée (traces, halo de
+  freinage, repère ego/monde, route courbée en virage) et quatre graphes
+  (distance vs RSS, TTC/THW avec seuils, DRAC vs µ·g, vitesse + niveau), chacun
+  **agrandissable en modal**, avec timeline lecture auto + curseur manuel.
+- **src/api.ts / src/types.ts** — client API (AbortController, timeout, erreurs
+  lisibles) et types miroirs des dataclasses. URL de production Render intégrée.
+- **README.md** — démarrage local et guide de déploiement Render.
+
+## tests/ — 89 tests
 
 Couvrent : métriques (`test_metrics`), moteur (`test_engine`), grille de seuils
 (`test_thresholds`), pondération (`test_weighting`), assainissement (`test_sanitize`),
 contraintes de saisie (`test_constraints`), extraction géométrique (`test_extraction`),
-météo (`test_weather`), simulateur (`test_kinematic`), présentation (`test_report`) et
-calibration (`test_calibration`).
+météo (`test_weather`), simulateur (`test_kinematic`), présentation (`test_report`),
+calibration (`test_calibration`), optimiseur (`test_optimize`) et **invariants du
+moteur** (`test_invariants` : 10 propriétés — monotonie en distance, sévérité accrue
+sur sol dégradé / de nuit / pour un VRU / en profondeur inférée, niveau global = pire
+agent, filtrage latéral jamais amplifiant, agent qui s'éloigne = SAFE, NaN toléré,
+obstacle inévitable = CRITICAL).

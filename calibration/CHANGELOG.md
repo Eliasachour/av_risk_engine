@@ -222,38 +222,31 @@ de la méthode. Le point d'équilibre est celui où méthode et moteur produisen
 des étiquettes cohérentes *par construction*, la seule vraie fausse alarme
 étant alors un désaccord entre la physique et la sortie de l'algorithme.
 
-## v1.7 — Demi-tour lucide : règle 3 raffinée (durcissement en zone tendue seulement)
+## Phase 10 — Verrouillage : le baseline v1.7 est protégé par les tests
 
-**Contexte.** L'audit v1.6 avait révélé 3 détections manquées apparues après
-application stricte de la règle 3 « +1 cran pour tout VRU/sol/vis ». Diagnostic
-honnête : la règle était **trop mécanique**. Elle durcissait un piéton vu à 5 s
-au même titre qu'un piéton à 1 s, saturant l'échelle et banalisant les alertes.
+**Contexte.** Le baseline v1.7 (0 manquée · 8 fausses alarmes · 16/24 = 67 %) est
+défendu par la méthode d'étiquetage documentée. Pour éviter toute régression
+silencieuse lors des évolutions futures, il est *codifié* dans la suite de tests.
 
-**Amendement.** La règle 3 exige désormais **deux préalables cumulatifs** : un
-conflit doit exister *et* être temporellement tendu (niveau de base ≥ WATCH et
-TTC < 2 s). En dessous de cette tension, le contexte défavorable ne durcit pas —
-l'ego a le temps de réagir sans qu'on ait besoin de crier au loup.
+**Ajout.** Trois garde-fous automatisés :
+- `tests/test_calibration.py::test_aucune_detection_manquee` — le moteur ne doit
+  jamais sous-classer un scénario de référence. Test strict, sans borne.
+- `tests/test_optimize.py::test_optimisation_respecte_la_contrainte_de_securite`
+  — l'optimiseur de seuils ne doit ni créer de détection manquée, ni augmenter
+  le nombre de fausses alarmes.
+- `tests/test_invariants.py` — **10 propriétés physiques** que le moteur doit
+  toujours respecter, quels que soient les seuils ou le filtrage : monotonie en
+  distance, friction dégradée / nuit / VRU / profondeur inférée plus sévères,
+  niveau global = pire agent, filtrage latéral jamais amplifiant, agent qui
+  s'éloigne = SAFE, NaN toléré par l'assainissement, obstacle inévitable = CRITICAL.
 
-**Justification.** Le durcissement contextuel sert à compenser une marge d'incertitude
-non mesurée (fragilité VRU, freinage allongé, perception dégradée). Cette compensation
-est légitime quand l'ego dispose de peu de temps pour réagir — donc dans la zone
-temporelle tendue. Au-delà, elle sature l'échelle sans améliorer la sécurité.
+**Effet.** Les 89 tests actuels échouent au moindre changement qui casserait
+l'invariant zéro détection manquée ou l'une des dix propriétés. Une régression
+future se voit **immédiatement** au lieu d'être détectée à la calibration
+suivante. C'est le passage d'un baseline *déclaré* à un baseline *garanti*.
 
-**Étiquettes révisées par cette v1.7** (par rapport à la v1.6) : SC-03 CRITICAL→WATCH,
-SC-05 DANGER→WATCH, SC-12 WATCH→SAFE, SC-13 DANGER→WATCH, SC-22 DANGER→WATCH.
-Autres étiquettes inchangées (les inévitables, les TTC déjà tendus, les cas non VRU/sol/vis).
-
-**Effet mesuré (sécurité RESTAURÉE) :**
-manquées 3→**0** · fausses alarmes 3→**8** · exactitude 18/24→**16/24 (67 %)**.
-
-L'exactitude apparente baisse par rapport à v1.6 (75 %→67 %), mais **la sécurité est
-restaurée** (invariant zéro détection manquée). Et surtout, le résultat est
-*meilleur qu'au départ* (v1.0 baseline : 11 fausses alarmes, 54 %) sans avoir eu
-à retoucher le moteur.
-
-**Ce que ce demi-tour enseigne.** Toute méthode d'étiquetage est un compromis entre
-rigueur physique et adéquation opérationnelle. La v1.6 était plus rigoureuse mais
-créait un cadre où le moteur ne pouvait plus atteindre son objectif principal
-(zéro détection manquée). La v1.7 raffine la règle en gardant sa reproductibilité
-tout en la rendant compatible avec les capacités du moteur. C'est un choix
-méthodologique assumé, non un aveu de faiblesse.
+**Statut du moteur (état courant).** manquées **0** · fausses alarmes **8** ·
+exactitude **16/24 (67 %)**. Configuration : `RiskConfig()` par défaut, filtrage
+latéral 2D actif, étiquettes v1.7. L'optimiseur (`optimize.py`) reste une
+**proposition** (16/24 → 18/24 = 75 % en combiné, à valider par validation
+croisée avant adoption).

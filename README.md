@@ -13,8 +13,24 @@ python3 run.py            # formulaire -> évaluation du risque
 python3 simulate.py       # formulaire -> simulation + figures
 python3 simulate.py --demo --gif --reaction  # démo sans formulaire
 python3 calibrate.py      # calibration sur les scénarios de référence
-python3 -m pytest -q      # la suite de tests
+python3 optimize.py       # optimisation des seuils (proposition avant/après)
+python3 -m pytest -q      # la suite de tests (89)
 ```
+
+### Interface web (React + FastAPI)
+
+```bash
+# Terminal 1 — backend (port 8000)
+python3 api.py
+# Terminal 2 — frontend (port 5173)
+cd web && npm install && npm run dev
+```
+
+Tableau de bord à trois panneaux : scénario (avec préréglages SC-01..24 et
+cohérence automatique des paramètres), évaluation à t = 0 en temps réel, et
+simulation (vue de dessus animée + graphes agrandissables). Guide de
+déploiement Render dans `web/README.md` — démo en ligne :
+backend https://av-risk-engine.onrender.com
 
 Options de `simulate.py` : `--demo` (scénario intégré), `--reaction` (l'ego freine),
 `--gif` (vue de dessus animée), `--agent N` (n'afficher que la courbe de l'agent N),
@@ -64,7 +80,7 @@ une couche de pondération indique en plus **quelle métrique pèse le plus**.
 - **scenarios_ref.py** — les six scénarios de référence SC-01..06 et leur niveau attendu (vérité terrain, ajustable).
 - **evaluate.py** — compare prédit vs attendu : matrice de confusion et distinction détections manquées / fausses alarmes.
 
-### tests/ — 74 tests
+### tests/ — 89 tests
 Couvrent métriques, moteur, grille de seuils, pondération, assainissement, contraintes, extraction, météo, simulateur et calibration.
 
 ## Note CARLA
