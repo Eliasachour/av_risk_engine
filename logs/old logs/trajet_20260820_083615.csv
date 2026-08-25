@@ -1,0 +1,509 @@
+t,distance_parcourue_m,vitesse_kmh,niveau,n_agents_percus,obstacle_statique_m,recommandation
+0.05,0.1,5.3,SAFE,0,,Voie libre
+0.10,0.2,7.1,SAFE,0,,Voie libre
+0.15,0.3,8.8,SAFE,0,,Voie libre
+0.20,0.4,4.3,SAFE,0,,Voie libre
+0.25,0.4,1.5,SAFE,0,,Voie libre
+0.30,0.4,0.1,SAFE,0,,Voie libre
+0.35,0.4,0.4,SAFE,0,,Voie libre
+0.40,0.4,0.6,SAFE,0,,Voie libre
+0.45,0.4,0.5,SAFE,0,,Voie libre
+0.50,0.4,0.5,SAFE,0,,Voie libre
+0.55,0.4,0.4,SAFE,0,,Voie libre
+0.60,0.4,0.3,SAFE,0,,Voie libre
+0.65,0.4,0.2,SAFE,0,,Voie libre
+0.70,0.4,1.5,SAFE,0,,Voie libre
+0.75,0.5,4.1,SAFE,0,,Voie libre
+0.80,0.6,5.8,SAFE,0,,Voie libre
+0.85,0.6,7.2,SAFE,0,,Voie libre
+0.90,0.8,8.2,SAFE,0,,Voie libre
+0.95,0.9,9.0,SAFE,0,,Voie libre
+1.00,1.0,9.8,SAFE,0,,Voie libre
+1.05,1.2,10.5,SAFE,0,,Voie libre
+1.10,1.3,11.3,SAFE,0,,Voie libre
+1.15,1.5,11.9,SAFE,0,,Voie libre
+1.20,1.6,12.6,SAFE,0,,Voie libre
+1.25,1.8,13.3,SAFE,0,,Voie libre
+1.30,2.0,13.9,SAFE,0,,Voie libre
+1.35,2.2,14.5,SAFE,0,,Voie libre
+1.40,2.4,15.0,SAFE,0,,Voie libre
+1.45,2.6,15.5,SAFE,0,,Voie libre
+1.50,2.8,15.9,SAFE,0,,Voie libre
+1.55,3.1,16.4,SAFE,0,,Voie libre
+1.60,3.3,16.7,SAFE,0,,Voie libre
+1.65,3.5,17.1,SAFE,0,,Voie libre
+1.70,3.8,17.4,SAFE,0,,Voie libre
+1.75,4.0,17.7,SAFE,0,,Voie libre
+1.80,4.3,18.0,SAFE,0,,Voie libre
+1.85,4.5,18.2,SAFE,0,,Voie libre
+1.90,4.8,18.3,SAFE,0,,Voie libre
+1.95,5.0,18.1,SAFE,0,,Voie libre
+2.00,5.3,18.3,SAFE,0,,Voie libre
+2.05,5.5,18.1,SAFE,0,,Voie libre
+2.10,5.8,18.3,SAFE,0,,Voie libre
+2.15,6.0,18.4,SAFE,0,,Voie libre
+2.20,6.3,18.2,SAFE,0,,Voie libre
+2.25,6.5,18.2,SAFE,0,,Voie libre
+2.30,6.8,18.1,SAFE,0,,Voie libre
+2.35,7.0,18.1,SAFE,0,,Voie libre
+2.40,7.3,18.1,SAFE,0,,Voie libre
+2.45,7.6,18.2,SAFE,0,,Voie libre
+2.50,7.8,18.2,SAFE,0,,Voie libre
+2.55,8.1,18.3,SAFE,0,,Voie libre
+2.60,8.3,18.3,SAFE,0,,Voie libre
+2.65,8.6,18.5,SAFE,0,,Voie libre
+2.70,8.8,18.5,SAFE,0,,Voie libre
+2.75,9.1,18.7,SAFE,0,,Voie libre
+2.80,9.3,18.7,SAFE,0,,Voie libre
+2.85,9.6,18.8,SAFE,0,,Voie libre
+2.90,9.9,18.8,SAFE,0,,Voie libre
+2.95,10.1,19.0,SAFE,0,,Voie libre
+3.00,10.4,19.0,SAFE,0,,Voie libre
+3.05,10.7,19.1,SAFE,0,,Voie libre
+3.10,10.9,19.1,SAFE,0,,Voie libre
+3.15,11.2,19.2,SAFE,0,,Voie libre
+3.20,11.5,19.2,SAFE,0,,Voie libre
+3.25,11.7,19.3,SAFE,0,,Voie libre
+3.30,12.0,19.3,CRITICAL,1,,FREINEZ de 19 km/h  (19 -> 0 km/h)
+3.35,12.3,19.3,CRITICAL,1,,FREINEZ de 19 km/h  (19 -> 0 km/h)
+3.40,12.5,19.0,CRITICAL,1,,FREINEZ de 19 km/h  (19 -> 0 km/h)
+3.45,12.8,18.7,CRITICAL,1,,FREINEZ de 19 km/h  (19 -> 0 km/h)
+3.50,13.0,13.8,CRITICAL,1,,FREINEZ de 14 km/h  (14 -> 0 km/h)
+3.55,13.2,9.0,CRITICAL,1,,FREINEZ de 9 km/h  (9 -> 0 km/h)
+3.60,13.2,4.3,CRITICAL,1,,FREINEZ de 4 km/h  (4 -> 0 km/h)
+3.65,13.3,0.0,SAFE,1,,Situation maîtrisée
+3.70,13.3,0.0,SAFE,1,,Situation maîtrisée
+3.75,13.3,0.0,SAFE,1,,Situation maîtrisée
+3.80,13.3,0.9,SAFE,1,,Situation maîtrisée
+3.85,13.3,1.5,SAFE,1,,Situation maîtrisée
+3.90,13.3,2.3,SAFE,1,,Situation maîtrisée
+3.95,13.4,3.0,SAFE,1,,Situation maîtrisée
+4.00,13.4,3.6,SAFE,1,,Situation maîtrisée
+4.05,13.5,4.2,SAFE,1,,Situation maîtrisée
+4.10,13.5,5.0,SAFE,1,,Situation maîtrisée
+4.15,13.6,5.8,SAFE,1,,Situation maîtrisée
+4.20,13.7,6.5,SAFE,1,,Situation maîtrisée
+4.25,13.8,7.4,SAFE,1,,Situation maîtrisée
+4.30,13.9,8.0,SAFE,1,,Situation maîtrisée
+4.35,14.0,8.8,SAFE,1,,Situation maîtrisée
+4.40,14.1,9.3,SAFE,1,,Situation maîtrisée
+4.45,14.3,10.1,SAFE,1,,Situation maîtrisée
+4.50,14.4,10.7,SAFE,1,,Situation maîtrisée
+4.55,14.6,11.5,SAFE,1,,Situation maîtrisée
+4.60,14.7,12.1,SAFE,1,,Situation maîtrisée
+4.65,14.9,12.7,SAFE,1,,Situation maîtrisée
+4.70,15.1,13.4,SAFE,1,,Situation maîtrisée
+4.75,15.3,14.0,SAFE,1,,Situation maîtrisée
+4.80,15.5,14.5,SAFE,1,,Situation maîtrisée
+4.85,15.7,15.0,SAFE,1,,Situation maîtrisée
+4.90,15.9,15.5,SAFE,1,,Situation maîtrisée
+4.95,16.1,16.0,SAFE,1,,Situation maîtrisée
+5.00,16.3,16.4,SAFE,1,,Situation maîtrisée
+5.05,16.6,16.8,SAFE,1,,Situation maîtrisée
+5.10,16.8,17.1,SAFE,1,,Situation maîtrisée
+5.15,17.0,17.5,SAFE,1,,Situation maîtrisée
+5.20,17.3,17.8,SAFE,1,,Situation maîtrisée
+5.25,17.5,18.1,SAFE,1,,Situation maîtrisée
+5.30,17.8,18.1,SAFE,1,,Situation maîtrisée
+5.35,18.0,18.3,SAFE,1,,Situation maîtrisée
+5.40,18.3,18.4,SAFE,1,,Situation maîtrisée
+5.45,18.6,18.3,SAFE,1,,Situation maîtrisée
+5.50,18.8,18.0,SAFE,1,,Situation maîtrisée
+5.55,19.1,18.5,SAFE,1,,Situation maîtrisée
+5.60,19.3,18.4,SAFE,1,,Situation maîtrisée
+5.65,19.6,18.3,SAFE,1,,Situation maîtrisée
+5.70,19.8,18.2,SAFE,1,,Situation maîtrisée
+5.75,20.1,18.2,SAFE,1,,Situation maîtrisée
+5.80,20.3,18.1,SAFE,1,,Situation maîtrisée
+5.85,20.6,18.2,SAFE,1,,Situation maîtrisée
+5.90,20.8,18.1,SAFE,1,,Situation maîtrisée
+5.95,21.1,18.3,SAFE,1,,Situation maîtrisée
+6.00,21.3,18.3,SAFE,1,,Situation maîtrisée
+6.05,21.6,18.4,SAFE,1,,Situation maîtrisée
+6.10,21.9,18.4,SAFE,1,,Situation maîtrisée
+6.15,22.1,18.5,SAFE,1,,Situation maîtrisée
+6.20,22.4,18.5,SAFE,1,,Situation maîtrisée
+6.25,22.6,18.7,SAFE,1,,Situation maîtrisée
+6.30,22.9,18.7,SAFE,1,,Situation maîtrisée
+6.35,23.2,18.8,SAFE,1,,Situation maîtrisée
+6.40,23.4,18.7,SAFE,1,,Situation maîtrisée
+6.45,23.7,18.9,SAFE,1,,Situation maîtrisée
+6.50,23.9,18.8,SAFE,1,,Situation maîtrisée
+6.55,24.2,19.0,SAFE,1,,Situation maîtrisée
+6.60,24.5,19.0,SAFE,1,,Situation maîtrisée
+6.65,24.7,19.1,SAFE,1,,Situation maîtrisée
+6.70,25.0,19.0,SAFE,1,,Situation maîtrisée
+6.75,25.3,19.2,SAFE,1,,Situation maîtrisée
+6.80,25.5,19.1,SAFE,1,,Situation maîtrisée
+6.85,25.8,19.2,SAFE,1,,Situation maîtrisée
+6.90,26.0,19.2,SAFE,1,,Situation maîtrisée
+6.95,26.3,19.3,SAFE,1,,Situation maîtrisée
+7.00,26.6,19.3,SAFE,1,,Situation maîtrisée
+7.05,26.9,19.4,SAFE,1,,Situation maîtrisée
+7.10,27.1,19.3,SAFE,1,,Situation maîtrisée
+7.15,27.4,19.4,SAFE,1,,Situation maîtrisée
+7.20,27.7,19.4,SAFE,1,,Situation maîtrisée
+7.25,27.9,19.5,SAFE,1,,Situation maîtrisée
+7.30,28.2,19.4,SAFE,1,,Situation maîtrisée
+7.35,28.5,19.5,SAFE,1,,Situation maîtrisée
+7.40,28.7,19.5,SAFE,1,,Situation maîtrisée
+7.45,29.0,19.6,SAFE,1,,Situation maîtrisée
+7.50,29.3,19.5,SAFE,1,,Situation maîtrisée
+7.55,29.6,19.6,SAFE,1,,Situation maîtrisée
+7.60,29.8,19.6,SAFE,1,,Situation maîtrisée
+7.65,30.1,19.6,SAFE,1,,Situation maîtrisée
+7.70,30.4,19.6,SAFE,1,,Situation maîtrisée
+7.75,30.6,19.7,SAFE,1,,Situation maîtrisée
+7.80,30.9,19.6,SAFE,1,,Situation maîtrisée
+7.85,31.2,19.7,SAFE,1,,Situation maîtrisée
+7.90,31.5,19.6,SAFE,1,,Situation maîtrisée
+7.95,31.7,19.7,SAFE,1,,Situation maîtrisée
+8.00,32.0,19.6,SAFE,1,,Situation maîtrisée
+8.05,32.3,19.7,SAFE,1,,Situation maîtrisée
+8.10,32.6,19.7,SAFE,1,,Situation maîtrisée
+8.15,32.8,19.7,SAFE,1,,Situation maîtrisée
+8.20,33.1,19.7,SAFE,1,,Situation maîtrisée
+8.25,33.4,19.8,SAFE,1,,Situation maîtrisée
+8.30,33.7,19.7,SAFE,1,,Situation maîtrisée
+8.35,33.9,19.8,SAFE,1,,Situation maîtrisée
+8.40,34.2,19.7,SAFE,1,,Situation maîtrisée
+8.45,34.5,19.8,SAFE,1,,Situation maîtrisée
+8.50,34.7,19.7,SAFE,1,,Situation maîtrisée
+8.55,35.0,19.8,SAFE,1,,Situation maîtrisée
+8.60,35.3,19.7,SAFE,1,,Situation maîtrisée
+8.65,35.6,19.8,SAFE,1,,Situation maîtrisée
+8.70,35.8,19.7,SAFE,1,,Situation maîtrisée
+8.75,36.1,19.8,SAFE,1,,Situation maîtrisée
+8.80,36.4,19.7,SAFE,1,,Situation maîtrisée
+8.85,36.7,19.8,SAFE,1,,Situation maîtrisée
+8.90,36.9,19.7,SAFE,1,,Situation maîtrisée
+8.95,37.2,19.8,SAFE,1,,Situation maîtrisée
+9.00,37.5,19.7,SAFE,1,,Situation maîtrisée
+9.05,37.8,19.8,SAFE,1,,Situation maîtrisée
+9.10,38.0,19.7,SAFE,1,,Situation maîtrisée
+9.15,38.3,19.8,SAFE,1,,Situation maîtrisée
+9.20,38.6,19.7,SAFE,1,,Situation maîtrisée
+9.25,38.9,19.8,SAFE,1,,Situation maîtrisée
+9.30,39.1,19.7,SAFE,1,,Situation maîtrisée
+9.35,39.4,19.8,SAFE,1,,Situation maîtrisée
+9.40,39.7,19.7,SAFE,1,,Situation maîtrisée
+9.45,40.0,19.8,SAFE,1,,Situation maîtrisée
+9.50,40.2,19.7,SAFE,1,,Situation maîtrisée
+9.55,40.5,19.8,SAFE,1,,Situation maîtrisée
+9.60,40.8,19.7,SAFE,1,,Situation maîtrisée
+9.65,41.1,19.8,SAFE,1,,Situation maîtrisée
+9.70,41.3,19.7,SAFE,1,,Situation maîtrisée
+9.75,41.6,19.8,SAFE,1,,Situation maîtrisée
+9.80,41.9,19.7,SAFE,1,,Situation maîtrisée
+9.85,42.2,19.8,SAFE,1,,Situation maîtrisée
+9.90,42.4,19.7,SAFE,1,,Situation maîtrisée
+9.95,42.7,19.8,SAFE,1,,Situation maîtrisée
+10.00,43.0,19.7,SAFE,1,,Situation maîtrisée
+10.05,43.3,19.8,SAFE,1,,Situation maîtrisée
+10.10,43.5,19.7,SAFE,1,,Situation maîtrisée
+10.15,43.8,19.8,SAFE,1,,Situation maîtrisée
+10.20,44.1,19.7,SAFE,1,,Situation maîtrisée
+10.25,44.4,19.8,SAFE,1,,Situation maîtrisée
+10.30,44.6,19.7,SAFE,1,,Situation maîtrisée
+10.35,44.9,19.8,SAFE,1,,Situation maîtrisée
+10.40,45.2,19.7,SAFE,1,,Situation maîtrisée
+10.45,45.5,19.8,SAFE,1,,Situation maîtrisée
+10.50,45.7,19.7,SAFE,1,,Situation maîtrisée
+10.55,46.0,19.8,SAFE,1,,Situation maîtrisée
+10.60,46.3,19.7,SAFE,1,,Situation maîtrisée
+10.65,46.5,19.8,SAFE,1,,Situation maîtrisée
+10.70,46.8,19.7,SAFE,1,,Situation maîtrisée
+10.75,47.1,19.8,SAFE,1,,Situation maîtrisée
+10.80,47.4,19.7,SAFE,1,,Situation maîtrisée
+10.85,47.6,19.8,SAFE,1,,Situation maîtrisée
+10.90,47.9,19.7,SAFE,1,,Situation maîtrisée
+10.95,48.2,19.8,SAFE,1,,Situation maîtrisée
+11.00,48.5,19.7,SAFE,1,,Situation maîtrisée
+11.05,48.7,19.8,SAFE,1,,Situation maîtrisée
+11.10,49.0,19.7,SAFE,1,,Situation maîtrisée
+11.15,49.3,19.8,SAFE,1,,Situation maîtrisée
+11.20,49.6,19.7,SAFE,1,,Situation maîtrisée
+11.25,49.8,19.8,SAFE,1,,Situation maîtrisée
+11.30,50.1,19.7,WATCH,1,,Vigilance — situation à la limite
+11.35,50.4,19.7,WATCH,1,,Vigilance — situation à la limite
+11.40,50.7,19.4,WATCH,1,,Vigilance — situation à la limite
+11.45,50.9,19.2,WATCH,1,,Vigilance — situation à la limite
+11.50,51.2,18.7,WATCH,1,,Vigilance — situation à la limite
+11.55,51.5,18.4,SAFE,1,,Situation maîtrisée
+11.60,51.7,17.9,SAFE,1,,Situation maîtrisée
+11.65,52.0,18.1,WATCH,1,,Vigilance — situation à la limite
+11.70,52.2,18.0,WATCH,1,,Vigilance — situation à la limite
+11.75,52.4,15.7,SAFE,1,,Situation maîtrisée
+11.80,52.6,14.9,SAFE,1,,Situation maîtrisée
+11.85,52.8,15.0,SAFE,1,,Situation maîtrisée
+11.90,53.1,15.3,SAFE,1,,Situation maîtrisée
+11.95,53.3,15.6,SAFE,1,,Situation maîtrisée
+12.00,53.5,16.0,SAFE,1,,Situation maîtrisée
+12.05,53.7,16.4,SAFE,1,,Situation maîtrisée
+12.10,54.0,16.7,WATCH,1,,Vigilance — situation à la limite
+12.15,54.2,16.9,WATCH,1,,Ralentissez de 1 km/h  (17 -> 16 km/h)
+12.20,54.4,16.8,WATCH,1,,Ralentissez de 1 km/h  (17 -> 16 km/h)
+12.25,54.6,16.5,WATCH,1,,Ralentissez de 1 km/h  (16 -> 15 km/h)
+12.30,54.9,16.1,WATCH,1,,Vigilance — situation à la limite
+12.35,55.1,15.7,WATCH,1,,Vigilance — situation à la limite
+12.40,55.3,15.3,WATCH,1,,Vigilance — situation à la limite
+12.45,55.5,14.8,WATCH,1,,Vigilance — situation à la limite
+12.50,55.7,14.4,SAFE,1,,Situation maîtrisée
+12.55,55.9,14.1,SAFE,1,,Situation maîtrisée
+12.60,56.1,14.1,SAFE,1,,Situation maîtrisée
+12.65,56.3,14.2,WATCH,1,,Vigilance — situation à la limite
+12.70,56.5,14.4,WATCH,1,,Vigilance — situation à la limite
+12.75,56.7,14.3,WATCH,1,,Vigilance — situation à la limite
+12.80,56.9,14.0,WATCH,1,,Vigilance — situation à la limite
+12.85,57.1,13.7,WATCH,1,,Vigilance — situation à la limite
+12.90,57.3,13.3,WATCH,1,,Vigilance — situation à la limite
+12.95,57.5,13.0,SAFE,1,,Situation maîtrisée
+13.00,57.6,12.7,SAFE,1,,Situation maîtrisée
+13.05,57.8,12.7,SAFE,1,,Situation maîtrisée
+13.10,58.0,12.9,WATCH,1,,Vigilance — situation à la limite
+13.15,58.2,13.1,WATCH,1,,Vigilance — situation à la limite
+13.20,58.4,13.0,WATCH,1,,Vigilance — situation à la limite
+13.25,58.5,12.8,WATCH,1,,Vigilance — situation à la limite
+13.30,58.7,12.5,WATCH,1,,Vigilance — situation à la limite
+13.35,58.9,12.2,WATCH,1,,Vigilance — situation à la limite
+13.40,59.1,11.9,WATCH,1,,Vigilance — situation à la limite
+13.45,59.2,11.5,SAFE,1,,Situation maîtrisée
+13.50,59.4,11.3,SAFE,1,,Situation maîtrisée
+13.55,59.5,11.2,WATCH,1,,Vigilance — situation à la limite
+13.60,59.7,11.3,WATCH,1,,Vigilance — situation à la limite
+13.65,59.8,11.2,WATCH,1,,Vigilance — situation à la limite
+13.70,60.0,11.0,WATCH,1,,Vigilance — situation à la limite
+13.75,60.1,10.7,WATCH,1,,Vigilance — situation à la limite
+13.80,60.3,10.4,SAFE,1,,Situation maîtrisée
+13.85,60.4,10.2,SAFE,1,,Situation maîtrisée
+13.90,60.6,10.2,SAFE,1,,Situation maîtrisée
+13.95,60.7,10.4,WATCH,1,,Vigilance — situation à la limite
+14.00,60.9,10.6,WATCH,1,,Vigilance — situation à la limite
+14.05,61.0,10.6,WATCH,1,,Vigilance — situation à la limite
+14.10,61.2,10.5,WATCH,1,,Vigilance — situation à la limite
+14.15,61.3,10.2,WATCH,1,,Vigilance — situation à la limite
+14.20,61.4,10.0,WATCH,1,,Vigilance — situation à la limite
+14.25,61.6,9.6,WATCH,1,,Vigilance — situation à la limite
+14.30,61.7,9.3,WATCH,1,,Vigilance — situation à la limite
+14.35,61.8,9.0,SAFE,1,,Situation maîtrisée
+14.40,62.0,8.8,SAFE,1,,Situation maîtrisée
+14.45,62.1,8.7,SAFE,1,,Situation maîtrisée
+14.50,62.2,9.0,WATCH,1,,Vigilance — situation à la limite
+14.55,62.3,9.2,WATCH,1,,Vigilance — situation à la limite
+14.60,62.5,9.2,WATCH,1,,Vigilance — situation à la limite
+14.65,62.6,9.1,WATCH,1,,Vigilance — situation à la limite
+14.70,62.7,8.9,WATCH,1,,Vigilance — situation à la limite
+14.75,62.8,8.6,WATCH,1,,Vigilance — situation à la limite
+14.80,62.9,8.3,WATCH,1,,Vigilance — situation à la limite
+14.85,63.1,8.0,WATCH,1,,Vigilance — situation à la limite
+14.90,63.2,7.7,SAFE,1,,Situation maîtrisée
+14.95,63.3,7.5,SAFE,1,,Situation maîtrisée
+15.00,63.4,7.5,SAFE,1,,Situation maîtrisée
+15.05,63.5,7.7,WATCH,1,,Vigilance — situation à la limite
+15.10,63.6,8.0,WATCH,1,,Vigilance — situation à la limite
+15.15,63.7,8.0,WATCH,1,,Vigilance — situation à la limite
+15.20,63.8,7.9,CRITICAL,1,,FREINEZ de 8 km/h  (8 -> 0 km/h)
+15.25,63.9,7.6,CRITICAL,1,,FREINEZ de 8 km/h  (8 -> 0 km/h)
+15.30,64.0,6.9,CRITICAL,1,,FREINEZ de 7 km/h  (7 -> 0 km/h)
+15.35,64.1,2.3,CRITICAL,1,,FREINEZ de 2 km/h  (2 -> 0 km/h)
+15.40,64.1,0.0,CRITICAL,1,,Vigilance — situation à la limite
+15.45,64.1,0.0,SAFE,1,,Situation maîtrisée
+15.50,64.1,0.0,SAFE,1,,Situation maîtrisée
+15.55,64.1,0.0,CRITICAL,1,,Vigilance — situation à la limite
+15.60,64.1,0.0,CRITICAL,1,,Vigilance — situation à la limite
+15.65,64.1,0.0,SAFE,1,,Situation maîtrisée
+15.70,64.1,0.0,SAFE,1,,Situation maîtrisée
+15.75,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+15.80,64.1,0.0,SAFE,1,,Situation maîtrisée
+15.85,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+15.90,64.1,0.0,SAFE,1,,Situation maîtrisée
+15.95,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.00,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.05,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.10,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.15,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.20,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.25,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.30,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.35,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.40,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.45,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.50,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.55,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.60,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.65,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.70,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.75,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.80,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.85,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+16.90,64.1,0.0,SAFE,1,,Situation maîtrisée
+16.95,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.00,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.05,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.10,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.15,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.20,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.25,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.30,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.35,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.40,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.45,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.50,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.55,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.60,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.65,64.1,0.3,CRITICAL,1,,Vigilance — situation à la limite
+17.70,64.1,0.0,SAFE,1,,Situation maîtrisée
+17.75,64.1,0.3,SAFE,1,,Situation maîtrisée
+17.80,64.1,0.1,SAFE,1,,Situation maîtrisée
+17.85,64.1,0.3,SAFE,1,,Situation maîtrisée
+17.90,64.1,0.9,SAFE,1,,Situation maîtrisée
+17.95,64.1,1.6,SAFE,1,,Situation maîtrisée
+18.00,64.2,2.1,SAFE,1,,Situation maîtrisée
+18.05,64.2,2.7,SAFE,1,,Situation maîtrisée
+18.10,64.2,3.4,SAFE,1,,Situation maîtrisée
+18.15,64.3,4.0,SAFE,1,,Situation maîtrisée
+18.20,64.4,4.7,SAFE,1,,Situation maîtrisée
+18.25,64.4,5.3,WATCH,1,,Vigilance — situation à la limite
+18.30,64.5,5.9,WATCH,1,,Ralentissez de 1 km/h  (6 -> 5 km/h)
+18.35,64.6,5.9,WATCH,1,,Ralentissez de 1 km/h  (6 -> 5 km/h)
+18.40,64.7,6.1,WATCH,1,,Ralentissez de 1 km/h  (6 -> 5 km/h)
+18.45,64.8,5.3,SAFE,1,,Situation maîtrisée
+18.50,64.8,3.6,SAFE,1,,Situation maîtrisée
+18.55,64.9,4.1,SAFE,1,,Situation maîtrisée
+18.60,64.9,4.4,SAFE,1,,Situation maîtrisée
+18.65,65.0,5.2,SAFE,1,,Situation maîtrisée
+18.70,65.1,5.6,SAFE,1,,Situation maîtrisée
+18.75,65.1,6.5,WATCH,1,,Ralentissez de 1 km/h  (7 -> 5 km/h)
+18.80,65.2,6.8,WATCH,1,,Ralentissez de 1 km/h  (7 -> 6 km/h)
+18.85,65.3,7.2,DANGER,1,,Ralentissez de 2 km/h  (7 -> 5 km/h)
+18.90,65.4,6.9,WATCH,1,,Ralentissez de 1 km/h  (7 -> 6 km/h)
+18.95,65.5,6.9,WATCH,1,,Vigilance — situation à la limite
+19.00,65.6,6.4,SAFE,1,,Situation maîtrisée
+19.05,65.7,6.6,SAFE,1,,Situation maîtrisée
+19.10,65.8,6.4,SAFE,1,,Situation maîtrisée
+19.15,65.9,6.9,SAFE,1,,Situation maîtrisée
+19.20,66.0,7.2,SAFE,1,,Situation maîtrisée
+19.25,66.1,8.0,SAFE,1,,Situation maîtrisée
+19.30,66.2,8.5,SAFE,1,,Situation maîtrisée
+19.35,66.3,9.1,SAFE,1,,Situation maîtrisée
+19.40,66.5,9.6,SAFE,1,,Situation maîtrisée
+19.45,66.6,10.3,WATCH,1,,Vigilance — situation à la limite
+19.50,66.8,10.7,WATCH,1,,Vigilance — situation à la limite
+19.55,66.9,10.8,WATCH,1,,Vigilance — situation à la limite
+19.60,67.1,10.8,SAFE,1,,Situation maîtrisée
+19.65,67.2,10.7,SAFE,1,,Situation maîtrisée
+19.70,67.4,10.8,SAFE,1,,Situation maîtrisée
+19.75,67.5,11.1,SAFE,1,,Situation maîtrisée
+19.80,67.7,11.5,SAFE,1,,Situation maîtrisée
+19.85,67.8,12.0,SAFE,1,,Situation maîtrisée
+19.90,68.0,12.6,SAFE,1,,Situation maîtrisée
+19.95,68.2,13.2,WATCH,1,,Vigilance — situation à la limite
+20.00,68.4,13.6,WATCH,1,,Vigilance — situation à la limite
+20.05,68.6,13.7,WATCH,1,,Vigilance — situation à la limite
+20.10,68.7,13.5,WATCH,1,,Vigilance — situation à la limite
+20.15,68.9,13.3,WATCH,1,,Vigilance — situation à la limite
+20.20,69.1,12.9,WATCH,1,,Vigilance — situation à la limite
+20.25,69.3,12.6,WATCH,1,,Vigilance — situation à la limite
+20.30,69.5,12.2,WATCH,1,,Vigilance — situation à la limite
+20.35,69.6,11.8,SAFE,1,,Situation maîtrisée
+20.40,69.8,11.6,SAFE,1,,Situation maîtrisée
+20.45,70.0,11.6,WATCH,1,,Vigilance — situation à la limite
+20.50,70.1,11.6,WATCH,1,,Vigilance — situation à la limite
+20.55,70.3,11.5,WATCH,1,,Vigilance — situation à la limite
+20.60,70.4,11.3,WATCH,1,,Vigilance — situation à la limite
+20.65,70.6,11.0,WATCH,1,,Vigilance — situation à la limite
+20.70,70.7,10.7,SAFE,1,,Situation maîtrisée
+20.75,70.9,10.5,SAFE,1,,Situation maîtrisée
+20.80,71.0,10.4,WATCH,1,,Vigilance — situation à la limite
+20.85,71.2,10.5,WATCH,1,,Vigilance — situation à la limite
+20.90,71.3,10.4,WATCH,1,,Vigilance — situation à la limite
+20.95,71.5,10.3,WATCH,1,,Vigilance — situation à la limite
+21.00,71.6,10.0,WATCH,1,,Vigilance — situation à la limite
+21.05,71.7,9.7,WATCH,1,,Vigilance — situation à la limite
+21.10,71.9,9.3,WATCH,1,,Vigilance — situation à la limite
+21.15,72.0,9.0,WATCH,1,,Vigilance — situation à la limite
+21.20,72.1,8.7,WATCH,1,,Vigilance — situation à la limite
+21.25,72.2,8.4,SAFE,1,,Situation maîtrisée
+21.30,72.3,8.1,SAFE,1,,Situation maîtrisée
+21.35,72.5,8.1,WATCH,1,,Vigilance — situation à la limite
+21.40,72.6,8.2,WATCH,1,,Vigilance — situation à la limite
+21.45,72.7,8.1,WATCH,1,,Vigilance — situation à la limite
+21.50,72.8,7.9,WATCH,1,,Vigilance — situation à la limite
+21.55,72.9,7.7,WATCH,1,,Vigilance — situation à la limite
+21.60,73.0,7.4,WATCH,1,,Vigilance — situation à la limite
+21.65,73.1,7.2,SAFE,1,,Situation maîtrisée
+21.70,73.2,7.0,SAFE,1,,Situation maîtrisée
+21.75,73.3,7.0,WATCH,1,,Vigilance — situation à la limite
+21.80,73.4,7.1,WATCH,1,,Vigilance — situation à la limite
+21.85,73.5,7.0,WATCH,1,,Vigilance — situation à la limite
+21.90,73.6,6.9,WATCH,1,,Vigilance — situation à la limite
+21.95,73.7,6.7,WATCH,1,,Vigilance — situation à la limite
+22.00,73.8,6.4,WATCH,1,,Vigilance — situation à la limite
+22.05,73.9,4.3,SAFE,1,,Situation maîtrisée
+22.10,73.9,2.5,SAFE,1,,Situation maîtrisée
+22.15,73.9,2.8,SAFE,1,,Situation maîtrisée
+22.20,74.0,3.4,SAFE,1,,Situation maîtrisée
+22.25,74.0,4.1,SAFE,1,,Situation maîtrisée
+22.30,74.1,4.6,SAFE,1,,Situation maîtrisée
+22.35,74.2,5.4,SAFE,1,,Situation maîtrisée
+22.40,74.3,5.9,WATCH,1,,Vigilance — situation à la limite
+22.45,74.3,6.6,WATCH,1,,Ralentissez de 1 km/h  (7 -> 5 km/h)
+22.50,74.4,6.6,WATCH,1,,Ralentissez de 2 km/h  (7 -> 5 km/h)
+22.55,74.5,6.8,WATCH,1,,Ralentissez de 2 km/h  (7 -> 5 km/h)
+22.60,74.6,6.5,WATCH,1,,Ralentissez de 2 km/h  (6 -> 5 km/h)
+22.65,74.7,6.5,WATCH,1,,Ralentissez de 2 km/h  (6 -> 5 km/h)
+22.70,74.8,6.0,WATCH,1,,Ralentissez de 1 km/h  (6 -> 5 km/h)
+22.75,74.9,6.0,SAFE,0,,Voie libre
+22.80,75.0,5.6,SAFE,0,,Voie libre
+22.85,75.0,5.9,SAFE,0,,Voie libre
+22.90,75.1,6.0,SAFE,0,,Voie libre
+22.95,75.2,6.7,SAFE,0,,Voie libre
+23.00,75.3,7.1,SAFE,0,,Voie libre
+23.05,75.4,7.9,SAFE,0,,Voie libre
+23.10,75.5,8.4,SAFE,0,,Voie libre
+23.15,75.6,9.1,SAFE,0,,Voie libre
+23.20,75.8,9.6,SAFE,0,,Voie libre
+23.25,75.9,10.2,SAFE,0,,Voie libre
+23.30,76.1,10.8,SAFE,0,,Voie libre
+23.35,76.2,11.5,SAFE,0,,Voie libre
+23.40,76.4,12.1,SAFE,0,,Voie libre
+23.45,76.6,12.8,SAFE,0,,Voie libre
+23.50,76.7,13.4,SAFE,0,,Voie libre
+23.55,76.9,14.0,SAFE,0,,Voie libre
+23.60,77.1,14.6,SAFE,0,,Voie libre
+23.65,77.3,15.1,SAFE,0,,Voie libre
+23.70,77.5,15.6,SAFE,0,,Voie libre
+23.75,77.8,16.0,SAFE,0,,Voie libre
+23.80,78.0,16.4,SAFE,0,,Voie libre
+23.85,78.2,16.8,SAFE,0,,Voie libre
+23.90,78.5,17.1,SAFE,0,,Voie libre
+23.95,78.7,17.5,SAFE,0,,Voie libre
+24.00,78.9,17.8,SAFE,0,,Voie libre
+24.05,79.2,18.0,SAFE,0,,Voie libre
+24.10,79.4,18.3,SAFE,0,,Voie libre
+24.15,79.7,18.4,SAFE,0,,Voie libre
+24.20,80.0,18.0,SAFE,0,,Voie libre
+24.25,80.2,18.4,SAFE,0,,Voie libre
+24.30,80.5,18.0,SAFE,0,,Voie libre
+24.35,80.7,18.5,SAFE,0,,Voie libre
+24.40,81.0,18.3,SAFE,0,,Voie libre
+24.45,81.2,18.3,SAFE,0,,Voie libre
+24.50,81.5,18.1,SAFE,0,,Voie libre
+24.55,81.7,18.1,SAFE,0,,Voie libre
+24.60,82.0,18.1,SAFE,0,,Voie libre
+24.65,82.2,18.2,SAFE,0,,Voie libre
+24.70,82.5,18.2,SAFE,0,,Voie libre
+24.75,82.7,18.3,SAFE,0,,Voie libre
+24.80,83.0,18.5,SAFE,0,,Voie libre
+24.85,83.2,18.7,SAFE,0,,Voie libre
+24.90,83.5,18.7,SAFE,0,,Voie libre
+24.95,83.8,18.8,SAFE,0,,Voie libre
+25.00,84.0,18.7,SAFE,0,,Voie libre
+25.05,84.3,18.9,SAFE,0,,Voie libre
+25.10,84.5,18.9,SAFE,0,,Voie libre
+25.15,84.8,19.0,SAFE,0,,Voie libre
+25.20,85.1,19.0,SAFE,0,,Voie libre
+25.25,85.3,19.1,SAFE,0,,Voie libre
+25.30,85.6,19.1,SAFE,0,,Voie libre
+25.35,85.9,19.4,SAFE,0,,Voie libre
+25.40,86.1,19.4,SAFE,0,,Voie libre

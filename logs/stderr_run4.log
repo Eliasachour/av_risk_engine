@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\esme_\OneDrive\Documents\elias\CARLA_0.9.16\av_risk_engine\av_risk_engine\apps\carla_benchmark_v8_opt.py", line 635, in main
+    print("\n\u2705 POINT B ATTEINT : fin de la simulation.")
+  File "C:\Users\esme_\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 2: character maps to <undefined>

@@ -1,0 +1,1371 @@
+t,distance_parcourue_m,vitesse_kmh,niveau,n_agents_percus,recommandation
+0.05,0.1,5.3,SAFE,0,Voie libre
+0.10,0.2,7.1,SAFE,0,Voie libre
+0.15,0.3,8.8,SAFE,0,Voie libre
+0.20,0.4,10.6,SAFE,0,Voie libre
+0.25,0.6,12.3,SAFE,0,Voie libre
+0.30,0.7,14.1,SAFE,0,Voie libre
+0.35,1.0,15.9,SAFE,0,Voie libre
+0.40,1.2,17.6,SAFE,0,Voie libre
+0.45,1.5,19.4,SAFE,0,Voie libre
+0.50,1.7,21.2,SAFE,0,Voie libre
+0.55,2.0,22.9,SAFE,0,Voie libre
+0.60,2.3,16.0,SAFE,0,Voie libre
+0.65,2.4,0.6,SAFE,0,Voie libre
+0.70,2.4,0.9,SAFE,0,Voie libre
+0.75,2.4,0.9,SAFE,0,Voie libre
+0.80,2.4,0.8,SAFE,0,Voie libre
+0.85,2.4,3.4,SAFE,0,Voie libre
+0.90,2.5,5.4,SAFE,0,Voie libre
+0.95,2.6,7.1,SAFE,0,Voie libre
+1.00,2.7,8.2,SAFE,0,Voie libre
+1.05,2.8,9.3,SAFE,0,Voie libre
+1.10,3.0,10.2,SAFE,0,Voie libre
+1.15,3.1,11.1,SAFE,0,Voie libre
+1.20,3.3,11.8,SAFE,0,Voie libre
+1.25,3.4,12.6,SAFE,0,Voie libre
+1.30,3.6,13.3,SAFE,0,Voie libre
+1.35,3.8,13.9,SAFE,0,Voie libre
+1.40,4.0,14.4,SAFE,0,Voie libre
+1.45,4.2,14.9,SAFE,0,Voie libre
+1.50,4.4,15.4,SAFE,0,Voie libre
+1.55,4.6,15.8,SAFE,0,Voie libre
+1.60,4.9,16.2,SAFE,0,Voie libre
+1.65,5.1,16.6,SAFE,0,Voie libre
+1.70,5.3,16.9,SAFE,0,Voie libre
+1.75,5.6,17.2,SAFE,0,Voie libre
+1.80,5.8,17.5,SAFE,0,Voie libre
+1.85,6.0,17.7,SAFE,0,Voie libre
+1.90,6.3,17.9,SAFE,0,Voie libre
+1.95,6.5,18.2,SAFE,0,Voie libre
+2.00,6.8,18.1,SAFE,0,Voie libre
+2.05,7.0,18.3,SAFE,0,Voie libre
+2.10,7.3,17.9,SAFE,0,Voie libre
+2.15,7.5,18.3,SAFE,0,Voie libre
+2.20,7.8,17.9,SAFE,0,Voie libre
+2.25,8.1,18.4,SAFE,0,Voie libre
+2.30,8.3,18.0,SAFE,0,Voie libre
+2.35,8.6,18.5,SAFE,0,Voie libre
+2.40,8.8,18.3,SAFE,0,Voie libre
+2.45,9.1,18.2,SAFE,0,Voie libre
+2.50,9.3,18.0,SAFE,0,Voie libre
+2.55,9.6,18.6,SAFE,0,Voie libre
+2.60,9.8,18.6,SAFE,0,Voie libre
+2.65,10.1,18.5,SAFE,0,Voie libre
+2.70,10.3,18.3,SAFE,0,Voie libre
+2.75,10.6,18.4,SAFE,0,Voie libre
+2.80,10.9,18.2,SAFE,0,Voie libre
+2.85,11.1,18.3,SAFE,0,Voie libre
+2.90,11.4,18.2,SAFE,0,Voie libre
+2.95,11.6,18.3,SAFE,0,Voie libre
+3.00,11.9,18.2,SAFE,0,Voie libre
+3.05,12.1,18.4,SAFE,0,Voie libre
+3.10,12.4,18.3,SAFE,0,Voie libre
+3.15,12.6,18.4,SAFE,0,Voie libre
+3.20,12.9,18.4,SAFE,0,Voie libre
+3.25,13.1,18.5,SAFE,0,Voie libre
+3.30,13.4,18.5,SAFE,0,Voie libre
+3.35,13.7,18.6,SAFE,0,Voie libre
+3.40,13.9,18.5,SAFE,0,Voie libre
+3.45,14.2,18.7,SAFE,0,Voie libre
+3.50,14.4,18.6,SAFE,0,Voie libre
+3.55,14.7,18.7,SAFE,0,Voie libre
+3.60,15.0,18.7,SAFE,0,Voie libre
+3.65,15.2,18.8,SAFE,0,Voie libre
+3.70,15.5,18.7,SAFE,0,Voie libre
+3.75,15.7,18.8,SAFE,0,Voie libre
+3.80,16.0,18.8,SAFE,0,Voie libre
+3.85,16.3,18.9,SAFE,0,Voie libre
+3.90,16.5,18.8,SAFE,0,Voie libre
+3.95,16.8,18.9,SAFE,0,Voie libre
+4.00,17.0,18.9,SAFE,0,Voie libre
+4.05,17.3,19.0,SAFE,0,Voie libre
+4.10,17.6,18.9,SAFE,0,Voie libre
+4.15,17.8,19.0,SAFE,0,Voie libre
+4.20,18.1,19.0,SAFE,0,Voie libre
+4.25,18.4,19.1,SAFE,0,Voie libre
+4.30,18.6,19.0,SAFE,0,Voie libre
+4.35,18.9,19.1,SAFE,0,Voie libre
+4.40,19.2,19.0,SAFE,0,Voie libre
+4.45,19.4,19.1,SAFE,0,Voie libre
+4.50,19.7,19.0,SAFE,0,Voie libre
+4.55,19.9,19.1,SAFE,0,Voie libre
+4.60,20.2,19.1,SAFE,0,Voie libre
+4.65,20.5,19.2,SAFE,0,Voie libre
+4.70,20.7,19.1,SAFE,0,Voie libre
+4.75,21.0,19.2,SAFE,0,Voie libre
+4.80,21.3,19.1,SAFE,0,Voie libre
+4.85,21.5,19.2,SAFE,0,Voie libre
+4.90,21.8,19.2,SAFE,0,Voie libre
+4.95,22.1,19.2,SAFE,0,Voie libre
+5.00,22.3,19.2,SAFE,0,Voie libre
+5.05,22.6,19.3,SAFE,0,Voie libre
+5.10,22.9,19.2,SAFE,0,Voie libre
+5.15,23.1,19.3,SAFE,0,Voie libre
+5.20,23.4,19.2,SAFE,0,Voie libre
+5.25,23.7,19.3,SAFE,0,Voie libre
+5.30,23.9,19.2,SAFE,0,Voie libre
+5.35,24.2,19.3,SAFE,0,Voie libre
+5.40,24.5,19.3,SAFE,0,Voie libre
+5.45,24.7,19.4,SAFE,0,Voie libre
+5.50,25.0,19.3,SAFE,0,Voie libre
+5.55,25.3,19.4,SAFE,0,Voie libre
+5.60,25.5,19.3,SAFE,0,Voie libre
+5.65,25.8,19.4,SAFE,0,Voie libre
+5.70,26.1,19.3,SAFE,0,Voie libre
+5.75,26.4,19.4,SAFE,0,Voie libre
+5.80,26.6,19.3,SAFE,0,Voie libre
+5.85,26.9,19.4,SAFE,0,Voie libre
+5.90,27.2,19.4,SAFE,0,Voie libre
+5.95,27.4,19.5,SAFE,0,Voie libre
+6.00,27.7,19.4,SAFE,0,Voie libre
+6.05,28.0,19.5,SAFE,0,Voie libre
+6.10,28.2,19.4,SAFE,0,Voie libre
+6.15,28.5,19.5,SAFE,0,Voie libre
+6.20,28.8,19.4,SAFE,0,Voie libre
+6.25,29.1,19.5,SAFE,0,Voie libre
+6.30,29.3,19.5,SAFE,0,Voie libre
+6.35,29.6,19.6,SAFE,0,Voie libre
+6.40,29.9,19.5,SAFE,0,Voie libre
+6.45,30.1,19.6,SAFE,0,Voie libre
+6.50,30.4,19.5,SAFE,0,Voie libre
+6.55,30.7,19.6,SAFE,0,Voie libre
+6.60,31.0,19.5,SAFE,0,Voie libre
+6.65,31.2,19.6,SAFE,0,Voie libre
+6.70,31.5,19.5,SAFE,0,Voie libre
+6.75,31.8,19.6,SAFE,0,Voie libre
+6.80,32.0,19.6,SAFE,0,Voie libre
+6.85,32.3,19.7,SAFE,0,Voie libre
+6.90,32.6,19.6,SAFE,0,Voie libre
+6.95,32.9,19.7,SAFE,0,Voie libre
+7.00,33.1,19.6,SAFE,0,Voie libre
+7.05,33.4,19.7,SAFE,0,Voie libre
+7.10,33.7,19.6,SAFE,0,Voie libre
+7.15,33.9,19.7,SAFE,0,Voie libre
+7.20,34.2,19.6,SAFE,0,Voie libre
+7.25,34.5,19.7,SAFE,0,Voie libre
+7.30,34.8,19.7,SAFE,0,Voie libre
+7.35,35.0,19.8,SAFE,0,Voie libre
+7.40,35.3,19.7,SAFE,0,Voie libre
+7.45,35.6,19.8,SAFE,0,Voie libre
+7.50,35.9,19.7,SAFE,0,Voie libre
+7.55,36.1,19.8,SAFE,0,Voie libre
+7.60,36.4,19.7,SAFE,0,Voie libre
+7.65,36.7,19.8,SAFE,0,Voie libre
+7.70,37.0,19.8,SAFE,0,Voie libre
+7.75,37.2,19.9,SAFE,0,Voie libre
+7.80,37.5,19.8,SAFE,0,Voie libre
+7.85,37.8,19.9,SAFE,0,Voie libre
+7.90,38.1,19.8,SAFE,0,Voie libre
+7.95,38.3,19.9,SAFE,0,Voie libre
+8.00,38.6,19.8,SAFE,0,Voie libre
+8.05,38.9,19.9,SAFE,0,Voie libre
+8.10,39.2,19.8,SAFE,0,Voie libre
+8.15,39.4,19.9,SAFE,0,Voie libre
+8.20,39.7,19.9,SAFE,0,Voie libre
+8.25,40.0,20.0,SAFE,0,Voie libre
+8.30,40.3,19.9,SAFE,0,Voie libre
+8.35,40.5,20.0,SAFE,0,Voie libre
+8.40,40.8,19.9,SAFE,0,Voie libre
+8.45,41.1,20.0,SAFE,0,Voie libre
+8.50,41.4,19.9,SAFE,0,Voie libre
+8.55,41.7,20.0,SAFE,0,Voie libre
+8.60,41.9,19.9,SAFE,0,Voie libre
+8.65,42.2,20.0,SAFE,0,Voie libre
+8.70,42.5,20.0,SAFE,0,Voie libre
+8.75,42.8,20.1,SAFE,0,Voie libre
+8.80,43.0,20.0,SAFE,0,Voie libre
+8.85,43.3,20.1,SAFE,0,Voie libre
+8.90,43.6,20.0,SAFE,1,Situation maîtrisée
+8.95,43.9,20.1,SAFE,1,Situation maîtrisée
+9.00,44.2,20.0,SAFE,1,Situation maîtrisée
+9.05,44.4,20.1,SAFE,1,Situation maîtrisée
+9.10,44.7,20.0,SAFE,1,Situation maîtrisée
+9.15,45.0,20.1,SAFE,2,Situation maîtrisée
+9.20,45.3,20.1,SAFE,2,Situation maîtrisée
+9.25,45.6,20.1,SAFE,2,Situation maîtrisée
+9.30,45.8,20.1,SAFE,2,Situation maîtrisée
+9.35,46.1,20.2,SAFE,2,Situation maîtrisée
+9.40,46.4,20.1,SAFE,2,Situation maîtrisée
+9.45,46.7,20.2,SAFE,2,Situation maîtrisée
+9.50,46.9,20.1,SAFE,2,Situation maîtrisée
+9.55,47.2,20.2,SAFE,2,Situation maîtrisée
+9.60,47.5,20.1,SAFE,2,Situation maîtrisée
+9.65,47.8,20.2,SAFE,2,Situation maîtrisée
+9.70,48.1,20.1,SAFE,2,Situation maîtrisée
+9.75,48.3,20.2,SAFE,2,Situation maîtrisée
+9.80,48.6,20.1,SAFE,2,Situation maîtrisée
+9.85,48.9,20.2,SAFE,2,Situation maîtrisée
+9.90,49.2,20.1,SAFE,2,Situation maîtrisée
+9.95,49.5,20.2,SAFE,2,Situation maîtrisée
+10.00,49.7,20.1,SAFE,2,Situation maîtrisée
+10.05,50.0,20.2,SAFE,2,Situation maîtrisée
+10.10,50.3,20.1,SAFE,3,Situation maîtrisée
+10.15,50.6,20.2,SAFE,3,Situation maîtrisée
+10.20,50.9,20.1,SAFE,3,Situation maîtrisée
+10.25,51.1,20.2,SAFE,3,Situation maîtrisée
+10.30,51.4,20.1,SAFE,3,Situation maîtrisée
+10.35,51.7,20.2,SAFE,3,Situation maîtrisée
+10.40,52.0,20.2,SAFE,3,Situation maîtrisée
+10.45,52.3,20.2,SAFE,3,Situation maîtrisée
+10.50,52.6,20.2,SAFE,3,Situation maîtrisée
+10.55,52.8,20.2,SAFE,3,Situation maîtrisée
+10.60,53.1,20.2,SAFE,3,Situation maîtrisée
+10.65,53.4,20.2,SAFE,3,Situation maîtrisée
+10.70,53.7,20.2,SAFE,3,Situation maîtrisée
+10.75,54.0,20.2,SAFE,3,Situation maîtrisée
+10.80,54.2,20.2,SAFE,3,Situation maîtrisée
+10.85,54.5,20.2,SAFE,4,Situation maîtrisée
+10.90,54.8,20.2,SAFE,4,Situation maîtrisée
+10.95,55.1,20.2,SAFE,4,Situation maîtrisée
+11.00,55.4,20.2,SAFE,4,Situation maîtrisée
+11.05,55.6,20.2,SAFE,4,Situation maîtrisée
+11.10,55.9,20.2,SAFE,4,Situation maîtrisée
+11.15,56.2,20.2,SAFE,4,Situation maîtrisée
+11.20,56.5,20.2,SAFE,4,Situation maîtrisée
+11.25,56.8,20.2,SAFE,4,Situation maîtrisée
+11.30,57.0,20.2,SAFE,5,Situation maîtrisée
+11.35,57.3,20.2,SAFE,5,Situation maîtrisée
+11.40,57.6,20.2,SAFE,5,Situation maîtrisée
+11.45,57.9,20.2,SAFE,5,Situation maîtrisée
+11.50,58.2,20.2,SAFE,5,Situation maîtrisée
+11.55,58.4,20.2,SAFE,5,Situation maîtrisée
+11.60,58.7,20.2,SAFE,5,Situation maîtrisée
+11.65,59.0,20.2,SAFE,5,Situation maîtrisée
+11.70,59.3,20.2,SAFE,5,Situation maîtrisée
+11.75,59.6,20.2,SAFE,5,Situation maîtrisée
+11.80,59.8,20.2,SAFE,5,Situation maîtrisée
+11.85,60.1,20.2,SAFE,5,Situation maîtrisée
+11.90,60.4,20.2,SAFE,5,Situation maîtrisée
+11.95,60.7,20.2,SAFE,5,Situation maîtrisée
+12.00,61.0,20.2,SAFE,5,Situation maîtrisée
+12.05,61.2,20.2,SAFE,5,Situation maîtrisée
+12.10,61.5,20.2,SAFE,6,Situation maîtrisée
+12.15,61.8,20.2,SAFE,6,Situation maîtrisée
+12.20,62.1,20.2,SAFE,6,Situation maîtrisée
+12.25,62.4,20.2,SAFE,6,Situation maîtrisée
+12.30,62.7,20.2,SAFE,6,Situation maîtrisée
+12.35,62.9,20.2,SAFE,6,Situation maîtrisée
+12.40,63.2,20.3,SAFE,6,Situation maîtrisée
+12.45,63.5,20.3,SAFE,6,Situation maîtrisée
+12.50,63.8,20.3,SAFE,6,Situation maîtrisée
+12.55,64.1,20.4,SAFE,6,Situation maîtrisée
+12.60,64.3,20.4,SAFE,6,Situation maîtrisée
+12.65,64.6,20.4,SAFE,6,Situation maîtrisée
+12.70,64.9,20.3,SAFE,6,Situation maîtrisée
+12.75,65.2,20.3,SAFE,6,Situation maîtrisée
+12.80,65.5,20.2,SAFE,6,Situation maîtrisée
+12.85,65.8,20.3,SAFE,6,Situation maîtrisée
+12.90,66.0,20.2,SAFE,6,Situation maîtrisée
+12.95,66.3,20.4,SAFE,6,Situation maîtrisée
+13.00,66.6,20.3,SAFE,6,Situation maîtrisée
+13.05,66.9,20.4,SAFE,6,Situation maîtrisée
+13.10,67.2,20.3,SAFE,6,Situation maîtrisée
+13.15,67.4,20.7,SAFE,6,Situation maîtrisée
+13.20,67.7,20.4,SAFE,6,Situation maîtrisée
+13.25,68.0,20.9,SAFE,6,Situation maîtrisée
+13.30,68.3,20.5,SAFE,6,Situation maîtrisée
+13.35,68.6,21.1,SAFE,6,Situation maîtrisée
+13.40,68.9,20.7,SAFE,6,Situation maîtrisée
+13.45,69.2,21.1,SAFE,6,Situation maîtrisée
+13.50,69.5,20.6,SAFE,6,Situation maîtrisée
+13.55,69.8,21.1,SAFE,6,Situation maîtrisée
+13.60,70.0,20.7,SAFE,6,Situation maîtrisée
+13.65,70.3,21.1,SAFE,6,Situation maîtrisée
+13.70,70.6,20.6,SAFE,6,Situation maîtrisée
+13.75,70.9,21.1,SAFE,6,Situation maîtrisée
+13.80,71.2,20.7,SAFE,6,Situation maîtrisée
+13.85,71.5,21.0,SAFE,6,Situation maîtrisée
+13.90,71.8,20.5,SAFE,6,Situation maîtrisée
+13.95,72.1,21.0,SAFE,6,Situation maîtrisée
+14.00,72.4,20.6,SAFE,6,Situation maîtrisée
+14.05,72.6,21.0,SAFE,6,Situation maîtrisée
+14.10,72.9,20.5,SAFE,6,Situation maîtrisée
+14.15,73.2,21.0,SAFE,6,Situation maîtrisée
+14.20,73.5,20.6,SAFE,6,Situation maîtrisée
+14.25,73.8,20.9,SAFE,6,Situation maîtrisée
+14.30,74.1,20.4,SAFE,6,Situation maîtrisée
+14.35,74.4,20.9,SAFE,6,Situation maîtrisée
+14.40,74.7,20.5,SAFE,6,Situation maîtrisée
+14.45,74.9,20.9,SAFE,6,Situation maîtrisée
+14.50,75.2,20.4,SAFE,6,Situation maîtrisée
+14.55,75.5,20.9,SAFE,6,Situation maîtrisée
+14.60,75.8,20.5,SAFE,6,Situation maîtrisée
+14.65,76.1,20.8,CRITICAL,6,FREINEZ de 20 km/h  (21 -> 1 km/h)
+14.70,76.4,20.2,CRITICAL,6,FREINEZ de 20 km/h  (20 -> 1 km/h)
+14.75,76.7,20.3,CRITICAL,6,FREINEZ de 20 km/h  (20 -> 1 km/h)
+14.80,76.9,19.3,CRITICAL,5,FREINEZ de 19 km/h  (19 -> 0 km/h)
+14.85,77.2,16.6,CRITICAL,5,FREINEZ de 16 km/h  (17 -> 0 km/h)
+14.90,77.4,11.8,CRITICAL,5,FREINEZ de 12 km/h  (12 -> 0 km/h)
+14.95,77.5,7.0,CRITICAL,5,FREINEZ de 7 km/h  (7 -> 0 km/h)
+15.00,77.6,2.2,CRITICAL,5,FREINEZ de 2 km/h  (2 -> 0 km/h)
+15.05,77.6,0.0,SAFE,5,Situation maîtrisée
+15.10,77.6,0.0,SAFE,5,Situation maîtrisée
+15.15,77.6,0.0,SAFE,5,Situation maîtrisée
+15.20,77.6,0.0,SAFE,5,Situation maîtrisée
+15.25,77.6,0.0,SAFE,5,Situation maîtrisée
+15.30,77.6,0.0,SAFE,5,Situation maîtrisée
+15.35,77.6,0.0,SAFE,5,Situation maîtrisée
+15.40,77.6,0.0,SAFE,5,Situation maîtrisée
+15.45,77.6,0.0,SAFE,5,Situation maîtrisée
+15.50,77.6,0.0,SAFE,5,Situation maîtrisée
+15.55,77.6,0.0,SAFE,5,Situation maîtrisée
+15.60,77.6,0.0,SAFE,5,Situation maîtrisée
+15.65,77.6,0.0,SAFE,5,Situation maîtrisée
+15.70,77.6,0.0,SAFE,6,Situation maîtrisée
+15.75,77.6,0.3,CRITICAL,6,Vigilance — situation à la limite
+15.80,77.6,0.0,SAFE,6,Situation maîtrisée
+15.85,77.6,0.4,CRITICAL,6,Vigilance — situation à la limite
+15.90,77.6,0.0,SAFE,6,Situation maîtrisée
+15.95,77.6,0.4,DANGER,6,Vigilance — situation à la limite
+16.00,77.6,0.0,SAFE,6,Situation maîtrisée
+16.05,77.6,0.3,SAFE,6,Situation maîtrisée
+16.10,77.6,0.0,SAFE,6,Situation maîtrisée
+16.15,77.6,0.8,WATCH,6,Vigilance — situation à la limite
+16.20,77.6,0.0,SAFE,6,Situation maîtrisée
+16.25,77.6,0.4,SAFE,6,Situation maîtrisée
+16.30,77.6,1.0,SAFE,6,Situation maîtrisée
+16.35,77.6,1.5,WATCH,6,Vigilance — situation à la limite
+16.40,77.6,0.0,SAFE,6,Situation maîtrisée
+16.45,77.6,0.7,SAFE,6,Situation maîtrisée
+16.50,77.6,1.3,SAFE,6,Situation maîtrisée
+16.55,77.7,2.1,WATCH,6,Vigilance — situation à la limite
+16.60,77.7,0.0,SAFE,6,Situation maîtrisée
+16.65,77.7,0.6,SAFE,6,Situation maîtrisée
+16.70,77.7,1.3,SAFE,6,Situation maîtrisée
+16.75,77.7,2.0,SAFE,6,Situation maîtrisée
+16.80,77.7,2.8,WATCH,6,Vigilance — situation à la limite
+16.85,77.8,0.0,SAFE,6,Situation maîtrisée
+16.90,77.8,0.6,SAFE,6,Situation maîtrisée
+16.95,77.8,1.3,SAFE,6,Situation maîtrisée
+17.00,77.8,2.1,SAFE,6,Situation maîtrisée
+17.05,77.8,3.1,SAFE,6,Situation maîtrisée
+17.10,77.9,3.8,WATCH,6,Vigilance — situation à la limite
+17.15,77.9,0.8,SAFE,6,Situation maîtrisée
+17.20,77.9,0.8,SAFE,6,Situation maîtrisée
+17.25,77.9,1.8,SAFE,6,Situation maîtrisée
+17.30,78.0,2.7,SAFE,6,Situation maîtrisée
+17.35,78.0,3.5,SAFE,6,Situation maîtrisée
+17.40,78.1,4.3,WATCH,6,Vigilance — situation à la limite
+17.45,78.1,2.8,SAFE,6,Situation maîtrisée
+17.50,78.2,1.7,SAFE,6,Situation maîtrisée
+17.55,78.2,2.7,SAFE,6,Situation maîtrisée
+17.60,78.2,3.6,SAFE,6,Situation maîtrisée
+17.65,78.3,4.3,SAFE,6,Situation maîtrisée
+17.70,78.4,5.3,WATCH,6,Vigilance — situation à la limite
+17.75,78.4,4.6,SAFE,6,Situation maîtrisée
+17.80,78.5,4.7,SAFE,6,Situation maîtrisée
+17.85,78.6,5.5,SAFE,6,Situation maîtrisée
+17.90,78.6,6.2,WATCH,6,Vigilance — situation à la limite
+17.95,78.7,6.9,WATCH,6,Ralentissez de 1 km/h  (7 -> 6 km/h)
+18.00,78.8,7.1,WATCH,6,Ralentissez de 1 km/h  (7 -> 6 km/h)
+18.05,78.9,7.2,WATCH,6,Ralentissez de 1 km/h  (7 -> 6 km/h)
+18.10,79.0,7.0,WATCH,6,Vigilance — situation à la limite
+18.15,79.1,6.9,WATCH,6,Vigilance — situation à la limite
+18.20,79.2,6.6,SAFE,6,Situation maîtrisée
+18.25,79.3,6.6,SAFE,6,SAFE : Arrêt au feu rouge
+18.30,79.4,6.4,SAFE,6,SAFE : Arrêt au feu rouge
+18.35,79.5,3.1,SAFE,6,SAFE : Arrêt au feu rouge
+18.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+18.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+19.55,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.60,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.65,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.70,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.75,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.80,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.85,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.90,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+19.95,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.00,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.05,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.10,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.15,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.20,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.25,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.30,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.35,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.40,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.45,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.50,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.55,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.60,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.65,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.70,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.75,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.80,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.85,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.90,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+20.95,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.00,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.05,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.10,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.15,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.20,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.25,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.30,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.35,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.40,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.45,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.50,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.55,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+21.60,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+21.65,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+21.70,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+21.75,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+21.80,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+21.85,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+21.90,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+21.95,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.00,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.05,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.10,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.15,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.20,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.25,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.30,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.35,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.40,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.45,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.50,79.5,0.0,SAFE,8,SAFE : Arrêt au feu rouge
+22.55,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+22.60,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+22.65,79.5,0.0,SAFE,7,SAFE : Arrêt au feu rouge
+22.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+22.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+22.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+22.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+22.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+22.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+23.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+24.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+25.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+26.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+27.45,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.50,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.55,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.60,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.65,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.70,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.75,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.80,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.85,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.90,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+27.95,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.00,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.05,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.10,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.15,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.20,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.25,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.30,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.35,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.40,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.45,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.50,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.55,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.60,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.65,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.70,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.75,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.80,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.85,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.90,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+28.95,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.00,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.05,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.10,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.15,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.20,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.25,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.30,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.35,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+29.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+29.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+30.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+31.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+32.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+33.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+34.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+35.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+36.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.45,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.50,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.55,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.60,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.65,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.70,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.75,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.80,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.85,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.90,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+37.95,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.00,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.05,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.10,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.15,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.20,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.25,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.30,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.35,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.40,79.5,0.0,SAFE,6,SAFE : Arrêt au feu rouge
+38.45,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.50,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.55,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.60,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.65,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.70,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.75,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.80,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.85,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.90,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+38.95,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.00,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.05,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.10,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.15,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.20,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.25,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.30,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.35,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.40,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.45,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.50,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.55,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.60,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.65,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.70,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.75,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.80,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.85,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.90,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+39.95,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.00,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.05,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.10,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.15,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.20,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.25,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.30,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.35,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.40,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.45,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.50,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.55,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.60,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.65,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.70,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.75,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.80,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.85,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.90,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+40.95,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.00,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.05,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.10,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.15,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.20,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.25,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.30,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.35,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.40,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.45,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.50,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.55,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.60,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.65,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.70,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.75,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.80,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.85,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.90,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+41.95,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.00,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.05,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.10,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.15,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.20,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.25,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.30,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.35,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.40,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.45,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.50,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.55,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.60,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.65,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.70,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.75,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.80,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.85,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.90,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+42.95,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+43.00,79.5,0.0,SAFE,5,SAFE : Arrêt au feu rouge
+43.05,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.10,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.15,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.20,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.25,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.30,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.35,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.40,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.45,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.50,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.55,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.60,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.65,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.70,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.75,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.80,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.85,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.90,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+43.95,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.00,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.05,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.10,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.15,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.20,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.25,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.30,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.35,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.40,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.45,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.50,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.55,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.60,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.65,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.70,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.75,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.80,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.85,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.90,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+44.95,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.00,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.05,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.10,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.15,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.20,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.25,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.30,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.35,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.40,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.45,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.50,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.55,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.60,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.65,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.70,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.75,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.80,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.85,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.90,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+45.95,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.00,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.05,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.10,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.15,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.20,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.25,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.30,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.35,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.40,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.45,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.50,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.55,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.60,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.65,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.70,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.75,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.80,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.85,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.90,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+46.95,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.00,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.05,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.10,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.15,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.20,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.25,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.30,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.35,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.40,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.45,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.50,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.55,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.60,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.65,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.70,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.75,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.80,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.85,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.90,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+47.95,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+48.00,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+48.05,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+48.10,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+48.15,79.5,0.0,SAFE,4,SAFE : Arrêt au feu rouge
+48.20,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.25,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.30,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.35,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.40,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.45,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.50,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.55,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.60,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.65,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.70,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.75,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.80,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.85,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.90,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+48.95,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+49.00,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+49.05,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+49.10,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+49.15,79.5,0.0,SAFE,3,SAFE : Arrêt au feu rouge
+49.20,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.25,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.30,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.35,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.40,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.45,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.50,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.55,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.60,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.65,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.70,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.75,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.80,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.85,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.90,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+49.95,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+50.00,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+50.05,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+50.10,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+50.15,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+50.20,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+50.25,79.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+50.30,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.35,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.40,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.45,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.50,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.55,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.60,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.65,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.70,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.75,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.80,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.85,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.90,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+50.95,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+51.00,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+51.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+51.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+52.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+53.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+54.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+55.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+56.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+57.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+58.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+59.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+60.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+61.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.10,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.15,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.20,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.25,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.30,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.35,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.40,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.45,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.50,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.55,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.60,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.65,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.70,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.75,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.80,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.85,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.90,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+62.95,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+63.00,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+63.05,79.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+63.10,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.15,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.20,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.25,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.30,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.35,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.40,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.45,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.50,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.55,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.60,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.65,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.70,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.75,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.80,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.85,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.90,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+63.95,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.00,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.05,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.10,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.15,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.20,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.25,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.30,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.35,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.40,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.45,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.50,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.55,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.60,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.65,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.70,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.75,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.80,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.85,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.90,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+64.95,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.00,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.05,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.10,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.15,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.20,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.25,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.30,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.35,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.40,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.45,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.50,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.55,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.60,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.65,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.70,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.75,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.80,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.85,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.90,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+65.95,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.00,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.05,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.10,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.15,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.20,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.25,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.30,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.35,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.40,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.45,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.50,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.55,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.60,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.65,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.70,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.75,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.80,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.85,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.90,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+66.95,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.00,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.05,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.10,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.15,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.20,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.25,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.30,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.35,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.40,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.45,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.50,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.55,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.60,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.65,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.70,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.75,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.80,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.85,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.90,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+67.95,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.00,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.05,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.10,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.15,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.20,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.25,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.30,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.35,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.40,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.45,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+68.50,79.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge

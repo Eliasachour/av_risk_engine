@@ -1,0 +1,2 @@
+scenario,profil_tm,seed,statut_fin,arrive,temps_arrivee_s,vitesse_moyenne_kmh,distance_parcourue_m,n_collisions,n_freinages,niveau_max
+3,strict,42,bloque,0,114.70,6.54,208.3,44,14,CRITICAL

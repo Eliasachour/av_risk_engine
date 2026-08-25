@@ -1,0 +1,2 @@
+scenario,ttc_watch,ci_danger,drac_danger,profil_tm,seed,statut_fin,arrive,temps_arrivee_s,vitesse_moyenne_kmh,distance_parcourue_m,n_collisions,n_freinages,niveau_max
+2,2.0,0.6,6.0,strict,42,arrive,1,134.65,9.90,370.4,0,4,CRITICAL

@@ -1,0 +1,2123 @@
+t,distance_parcourue_m,vitesse_kmh,niveau,n_agents_percus,recommandation
+0.05,0.1,5.3,SAFE,1,Situation maîtrisée
+0.10,0.2,7.1,SAFE,1,Situation maîtrisée
+0.15,0.3,8.8,SAFE,1,Situation maîtrisée
+0.20,0.4,10.6,SAFE,1,Situation maîtrisée
+0.25,0.6,12.3,SAFE,1,Situation maîtrisée
+0.30,0.7,14.1,SAFE,1,Situation maîtrisée
+0.35,1.0,15.9,SAFE,1,Situation maîtrisée
+0.40,1.2,17.6,SAFE,1,Situation maîtrisée
+0.45,1.5,19.4,SAFE,1,Situation maîtrisée
+0.50,1.7,21.2,SAFE,1,Situation maîtrisée
+0.55,2.0,22.9,SAFE,1,Situation maîtrisée
+0.60,2.3,13.4,SAFE,1,Situation maîtrisée
+0.65,2.3,0.7,SAFE,1,Situation maîtrisée
+0.70,2.3,0.9,SAFE,1,Situation maîtrisée
+0.75,2.4,0.9,SAFE,1,Situation maîtrisée
+0.80,2.4,0.7,SAFE,1,Situation maîtrisée
+0.85,2.4,3.5,SAFE,1,Situation maîtrisée
+0.90,2.5,5.7,SAFE,1,Situation maîtrisée
+0.95,2.6,7.3,SAFE,1,Situation maîtrisée
+1.00,2.7,8.5,SAFE,1,Situation maîtrisée
+1.05,2.8,9.5,SAFE,1,Situation maîtrisée
+1.10,2.9,10.5,SAFE,1,Situation maîtrisée
+1.15,3.1,11.4,SAFE,1,SAFE : Arrêt au feu rouge
+1.20,3.3,12.0,SAFE,1,SAFE : Arrêt au feu rouge
+1.25,3.4,12.1,SAFE,1,SAFE : Arrêt au feu rouge
+1.30,3.6,11.8,SAFE,1,SAFE : Arrêt au feu rouge
+1.35,3.7,11.2,SAFE,1,SAFE : Arrêt au feu rouge
+1.40,3.9,10.5,SAFE,1,SAFE : Arrêt au feu rouge
+1.45,4.0,9.8,SAFE,1,SAFE : Arrêt au feu rouge
+1.50,4.2,9.1,SAFE,1,SAFE : Arrêt au feu rouge
+1.55,4.3,8.3,SAFE,1,SAFE : Arrêt au feu rouge
+1.60,4.4,7.3,SAFE,1,SAFE : Arrêt au feu rouge
+1.65,4.5,3.1,SAFE,1,SAFE : Arrêt au feu rouge
+1.70,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+1.75,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+1.80,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+1.85,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+1.90,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+1.95,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.00,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.05,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.10,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.15,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.20,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.25,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.30,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.35,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.40,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.45,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.50,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.55,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.60,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.65,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.70,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.75,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.80,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.85,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.90,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+2.95,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+3.00,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+3.05,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+3.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.70,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.75,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.80,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.85,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.90,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+3.95,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.00,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.05,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.70,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.75,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.80,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.85,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.90,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+4.95,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.00,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.05,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.70,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.75,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.80,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.85,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.90,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+5.95,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.00,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.05,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.70,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.75,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.80,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.85,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.90,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+6.95,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.00,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.05,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.70,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.75,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.80,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.85,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.90,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+7.95,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.00,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.05,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.70,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.75,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.80,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.85,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.90,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+8.95,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.00,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.05,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.70,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.75,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.80,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.85,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.90,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+9.95,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.00,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.05,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.10,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.15,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.20,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.25,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.30,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.35,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.40,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.45,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.50,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.55,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.60,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.65,4.5,0.0,SAFE,0,SAFE : Arrêt au feu rouge
+10.70,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+10.75,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+10.80,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+10.85,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+10.90,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+10.95,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.00,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.05,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.10,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.15,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.20,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.25,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.30,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.35,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.40,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.45,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.50,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.55,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.60,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.65,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.70,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.75,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.80,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.85,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.90,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+11.95,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.00,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.05,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.10,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.15,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.20,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.25,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.30,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.35,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.40,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.45,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.50,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.55,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.60,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.65,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.70,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.75,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.80,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.85,4.5,0.0,SAFE,1,SAFE : Arrêt au feu rouge
+12.90,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+12.95,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.00,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.05,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.10,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.15,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.20,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.25,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.30,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.35,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.40,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.45,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.50,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.55,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.60,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.65,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.70,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.75,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.80,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.85,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.90,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+13.95,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.00,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.05,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.10,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.15,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.20,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.25,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.30,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.35,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.40,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.45,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.50,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.55,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.60,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.65,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.70,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.75,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.80,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.85,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.90,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+14.95,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+15.00,4.5,0.0,SAFE,2,SAFE : Arrêt au feu rouge
+15.05,4.5,0.0,SAFE,2,Situation maîtrisée
+15.10,4.5,0.0,SAFE,2,Situation maîtrisée
+15.15,4.5,0.0,SAFE,2,Situation maîtrisée
+15.20,4.5,0.3,SAFE,2,Situation maîtrisée
+15.25,4.5,0.7,SAFE,2,Situation maîtrisée
+15.30,4.5,1.3,SAFE,2,Situation maîtrisée
+15.35,4.5,2.1,SAFE,2,Situation maîtrisée
+15.40,4.6,2.9,SAFE,2,Situation maîtrisée
+15.45,4.6,3.8,SAFE,2,Situation maîtrisée
+15.50,4.7,4.4,SAFE,2,Situation maîtrisée
+15.55,4.7,5.3,SAFE,2,Situation maîtrisée
+15.60,4.8,6.1,SAFE,2,Situation maîtrisée
+15.65,4.9,7.0,SAFE,2,Situation maîtrisée
+15.70,5.0,7.8,SAFE,2,Situation maîtrisée
+15.75,5.1,8.6,SAFE,2,Situation maîtrisée
+15.80,5.3,9.4,SAFE,2,Situation maîtrisée
+15.85,5.4,10.2,SAFE,2,Situation maîtrisée
+15.90,5.5,11.1,SAFE,2,Situation maîtrisée
+15.95,5.7,11.9,SAFE,2,Situation maîtrisée
+16.00,5.9,12.6,SAFE,2,Situation maîtrisée
+16.05,6.0,13.3,SAFE,2,Situation maîtrisée
+16.10,6.2,14.0,SAFE,2,Situation maîtrisée
+16.15,6.4,14.6,SAFE,2,Situation maîtrisée
+16.20,6.6,15.1,SAFE,2,Situation maîtrisée
+16.25,6.9,15.6,SAFE,2,Situation maîtrisée
+16.30,7.1,16.0,SAFE,2,Situation maîtrisée
+16.35,7.3,16.5,SAFE,2,Situation maîtrisée
+16.40,7.5,16.8,SAFE,2,Situation maîtrisée
+16.45,7.8,17.2,SAFE,2,Situation maîtrisée
+16.50,8.0,17.5,SAFE,2,Situation maîtrisée
+16.55,8.3,17.8,SAFE,2,Situation maîtrisée
+16.60,8.5,18.0,SAFE,2,Situation maîtrisée
+16.65,8.8,18.3,SAFE,2,Situation maîtrisée
+16.70,9.0,18.0,SAFE,2,Situation maîtrisée
+16.75,9.3,18.2,SAFE,2,Situation maîtrisée
+16.80,9.5,18.1,SAFE,2,Situation maîtrisée
+16.85,9.8,18.1,SAFE,2,Situation maîtrisée
+16.90,10.0,18.2,SAFE,2,Situation maîtrisée
+16.95,10.3,18.2,SAFE,2,Situation maîtrisée
+17.00,10.5,18.1,SAFE,2,Situation maîtrisée
+17.05,10.8,18.3,SAFE,2,Situation maîtrisée
+17.10,11.0,18.3,SAFE,2,Situation maîtrisée
+17.15,11.3,18.1,SAFE,2,Situation maîtrisée
+17.20,11.5,18.1,SAFE,2,Situation maîtrisée
+17.25,11.8,17.9,SAFE,2,Situation maîtrisée
+17.30,12.0,17.4,SAFE,2,Situation maîtrisée
+17.35,12.3,16.8,SAFE,2,Situation maîtrisée
+17.40,12.5,16.2,SAFE,1,Situation maîtrisée
+17.45,12.7,15.7,SAFE,1,Situation maîtrisée
+17.50,12.9,15.3,SAFE,1,Situation maîtrisée
+17.55,13.1,14.9,SAFE,1,Situation maîtrisée
+17.60,13.3,14.6,SAFE,1,Situation maîtrisée
+17.65,13.5,14.2,SAFE,1,Situation maîtrisée
+17.70,13.7,13.8,SAFE,1,Situation maîtrisée
+17.75,13.9,13.5,SAFE,1,Situation maîtrisée
+17.80,14.1,13.1,SAFE,1,Situation maîtrisée
+17.85,14.3,12.8,SAFE,1,Situation maîtrisée
+17.90,14.4,12.5,SAFE,1,Situation maîtrisée
+17.95,14.6,12.3,SAFE,1,Situation maîtrisée
+18.00,14.8,12.0,SAFE,1,Situation maîtrisée
+18.05,14.9,11.8,SAFE,1,Situation maîtrisée
+18.10,15.1,11.5,SAFE,1,Situation maîtrisée
+18.15,15.2,11.3,SAFE,1,Situation maîtrisée
+18.20,15.4,11.1,SAFE,1,Situation maîtrisée
+18.25,15.6,10.9,SAFE,1,Situation maîtrisée
+18.30,15.7,10.6,SAFE,1,Situation maîtrisée
+18.35,15.8,10.4,SAFE,1,Situation maîtrisée
+18.40,16.0,10.3,SAFE,1,Situation maîtrisée
+18.45,16.1,10.2,SAFE,1,Situation maîtrisée
+18.50,16.3,10.1,SAFE,1,Situation maîtrisée
+18.55,16.4,10.1,SAFE,1,Situation maîtrisée
+18.60,16.5,10.0,SAFE,1,Situation maîtrisée
+18.65,16.7,10.0,SAFE,1,Situation maîtrisée
+18.70,16.8,10.0,SAFE,1,Situation maîtrisée
+18.75,16.9,10.0,SAFE,1,Situation maîtrisée
+18.80,17.1,9.9,SAFE,1,Situation maîtrisée
+18.85,17.2,10.0,SAFE,1,Situation maîtrisée
+18.90,17.4,9.9,SAFE,1,Situation maîtrisée
+18.95,17.5,9.8,SAFE,1,Situation maîtrisée
+19.00,17.6,9.6,SAFE,1,Situation maîtrisée
+19.05,17.8,9.4,SAFE,1,Situation maîtrisée
+19.10,17.9,9.2,SAFE,1,Situation maîtrisée
+19.15,18.0,9.0,SAFE,1,Situation maîtrisée
+19.20,18.1,9.0,SAFE,1,Situation maîtrisée
+19.25,18.2,9.1,SAFE,0,Voie libre
+19.30,18.3,9.2,SAFE,0,Voie libre
+19.35,18.5,9.2,SAFE,0,Voie libre
+19.40,18.6,9.3,SAFE,0,Voie libre
+19.45,18.7,9.4,SAFE,0,Voie libre
+19.50,18.8,9.5,SAFE,0,Voie libre
+19.55,19.0,9.6,SAFE,0,Voie libre
+19.60,19.1,9.7,SAFE,0,Voie libre
+19.65,19.2,9.8,SAFE,0,Voie libre
+19.70,19.3,9.8,SAFE,0,Voie libre
+19.75,19.5,9.9,SAFE,0,Voie libre
+19.80,19.6,9.9,SAFE,0,Voie libre
+19.85,19.7,10.0,SAFE,0,Voie libre
+19.90,19.9,10.0,SAFE,0,Voie libre
+19.95,20.0,10.0,SAFE,0,Voie libre
+20.00,20.1,10.1,SAFE,0,Voie libre
+20.05,20.3,10.1,SAFE,0,Voie libre
+20.10,20.4,10.1,SAFE,0,Voie libre
+20.15,20.5,10.1,SAFE,0,Voie libre
+20.20,20.7,10.1,SAFE,0,Voie libre
+20.25,20.8,10.1,SAFE,0,Voie libre
+20.30,20.9,10.1,SAFE,0,Voie libre
+20.35,21.1,10.1,SAFE,0,Voie libre
+20.40,21.2,10.1,SAFE,0,Voie libre
+20.45,21.3,10.1,SAFE,0,Voie libre
+20.50,21.5,10.1,SAFE,0,Voie libre
+20.55,21.6,10.1,SAFE,0,Voie libre
+20.60,21.8,10.1,SAFE,0,Voie libre
+20.65,21.9,10.1,SAFE,0,Voie libre
+20.70,22.0,10.1,SAFE,0,Voie libre
+20.75,22.2,10.1,SAFE,0,Voie libre
+20.80,22.3,10.0,SAFE,0,Voie libre
+20.85,22.4,10.0,SAFE,0,Voie libre
+20.90,22.6,10.0,SAFE,0,Voie libre
+20.95,22.7,10.0,SAFE,0,Voie libre
+21.00,22.9,10.0,SAFE,0,Voie libre
+21.05,23.0,10.0,SAFE,0,Voie libre
+21.10,23.1,10.0,SAFE,0,Voie libre
+21.15,23.3,10.0,SAFE,0,Voie libre
+21.20,23.4,10.0,SAFE,0,Voie libre
+21.25,23.5,10.0,SAFE,0,Voie libre
+21.30,23.7,10.0,SAFE,0,Voie libre
+21.35,23.8,10.0,SAFE,0,Voie libre
+21.40,24.0,10.0,SAFE,0,Voie libre
+21.45,24.1,10.0,SAFE,0,Voie libre
+21.50,24.2,10.0,SAFE,0,Voie libre
+21.55,24.4,10.0,SAFE,0,Voie libre
+21.60,24.5,10.0,SAFE,0,Voie libre
+21.65,24.6,10.0,SAFE,0,Voie libre
+21.70,24.8,10.0,SAFE,0,Voie libre
+21.75,24.9,10.0,SAFE,0,Voie libre
+21.80,25.1,10.0,SAFE,0,Voie libre
+21.85,25.2,10.1,SAFE,0,Voie libre
+21.90,25.3,10.2,SAFE,0,Voie libre
+21.95,25.5,10.4,SAFE,0,Voie libre
+22.00,25.6,10.5,SAFE,0,Voie libre
+22.05,25.8,10.7,SAFE,0,Voie libre
+22.10,25.9,10.9,SAFE,0,Voie libre
+22.15,26.1,11.2,SAFE,0,Voie libre
+22.20,26.2,11.4,SAFE,0,Voie libre
+22.25,26.4,11.6,SAFE,0,Voie libre
+22.30,26.5,11.9,SAFE,0,Voie libre
+22.35,26.7,12.1,SAFE,0,Voie libre
+22.40,26.9,12.4,SAFE,0,Voie libre
+22.45,27.1,12.6,SAFE,0,Voie libre
+22.50,27.2,12.9,SAFE,0,Voie libre
+22.55,27.4,13.2,SAFE,0,Voie libre
+22.60,27.6,13.4,SAFE,0,Voie libre
+22.65,27.8,13.7,SAFE,0,Voie libre
+22.70,28.0,13.9,SAFE,0,Voie libre
+22.75,28.2,14.2,SAFE,0,Voie libre
+22.80,28.4,14.5,SAFE,0,Voie libre
+22.85,28.6,14.7,SAFE,0,Voie libre
+22.90,28.8,15.0,SAFE,0,Voie libre
+22.95,29.0,15.2,SAFE,0,Voie libre
+23.00,29.2,15.5,SAFE,0,Voie libre
+23.05,29.4,15.7,SAFE,0,Voie libre
+23.10,29.6,15.9,SAFE,0,Voie libre
+23.15,29.9,16.2,SAFE,0,Voie libre
+23.20,30.1,16.4,SAFE,0,Voie libre
+23.25,30.3,16.7,SAFE,0,Voie libre
+23.30,30.6,16.9,SAFE,0,Voie libre
+23.35,30.8,17.1,SAFE,0,Voie libre
+23.40,31.0,17.4,SAFE,0,Voie libre
+23.45,31.3,17.6,SAFE,0,Voie libre
+23.50,31.5,17.8,SAFE,0,Voie libre
+23.55,31.8,18.0,SAFE,0,Voie libre
+23.60,32.0,18.2,SAFE,0,Voie libre
+23.65,32.3,18.1,SAFE,0,Voie libre
+23.70,32.5,18.1,SAFE,0,Voie libre
+23.75,32.8,18.0,SAFE,0,Voie libre
+23.80,33.0,18.3,SAFE,0,Voie libre
+23.85,33.3,18.1,SAFE,0,Voie libre
+23.90,33.5,18.3,SAFE,0,Voie libre
+23.95,33.8,18.5,SAFE,0,Voie libre
+24.00,34.1,18.3,SAFE,0,Voie libre
+24.05,34.3,18.2,SAFE,0,Voie libre
+24.10,34.6,18.1,SAFE,0,Voie libre
+24.15,34.8,18.1,SAFE,0,Voie libre
+24.20,35.1,18.0,SAFE,0,Voie libre
+24.25,35.3,18.1,SAFE,0,Voie libre
+24.30,35.6,18.1,SAFE,0,Voie libre
+24.35,35.8,18.1,SAFE,0,Voie libre
+24.40,36.1,18.1,SAFE,0,Voie libre
+24.45,36.3,18.2,SAFE,0,Voie libre
+24.50,36.6,18.2,SAFE,0,Voie libre
+24.55,36.8,18.3,SAFE,0,Voie libre
+24.60,37.1,18.3,SAFE,0,Voie libre
+24.65,37.3,18.3,SAFE,0,Voie libre
+24.70,37.6,18.4,SAFE,0,Voie libre
+24.75,37.8,18.4,SAFE,0,Voie libre
+24.80,38.1,18.4,SAFE,0,Voie libre
+24.85,38.4,18.5,SAFE,0,Voie libre
+24.90,38.6,18.5,SAFE,0,Voie libre
+24.95,38.9,18.5,SAFE,0,Voie libre
+25.00,39.1,18.6,SAFE,0,Voie libre
+25.05,39.4,18.6,SAFE,0,Voie libre
+25.10,39.6,18.6,SAFE,0,Voie libre
+25.15,39.9,18.6,SAFE,0,Voie libre
+25.20,40.2,18.6,SAFE,0,Voie libre
+25.25,40.4,18.6,SAFE,0,Voie libre
+25.30,40.7,18.6,SAFE,0,Voie libre
+25.35,40.9,18.6,SAFE,0,Voie libre
+25.40,41.2,18.6,SAFE,0,Voie libre
+25.45,41.5,18.7,SAFE,0,Voie libre
+25.50,41.7,18.7,SAFE,0,Voie libre
+25.55,42.0,18.7,SAFE,0,Voie libre
+25.60,42.2,18.7,SAFE,0,Voie libre
+25.65,42.5,18.7,SAFE,0,Voie libre
+25.70,42.8,18.7,SAFE,0,Voie libre
+25.75,43.0,18.7,SAFE,0,Voie libre
+25.80,43.3,18.7,SAFE,0,Voie libre
+25.85,43.5,18.7,SAFE,0,Voie libre
+25.90,43.8,18.7,SAFE,0,Voie libre
+25.95,44.1,18.7,SAFE,0,Voie libre
+26.00,44.3,18.7,SAFE,0,Voie libre
+26.05,44.6,18.8,SAFE,0,Voie libre
+26.10,44.8,18.8,SAFE,0,Voie libre
+26.15,45.1,18.8,SAFE,0,Voie libre
+26.20,45.4,18.8,SAFE,0,Voie libre
+26.25,45.6,18.8,SAFE,0,Voie libre
+26.30,45.9,18.8,SAFE,0,Voie libre
+26.35,46.1,18.8,SAFE,0,Voie libre
+26.40,46.4,18.8,SAFE,0,Voie libre
+26.45,46.7,18.8,SAFE,0,Voie libre
+26.50,46.9,18.8,SAFE,0,Voie libre
+26.55,47.2,18.8,SAFE,0,Voie libre
+26.60,47.4,18.8,SAFE,0,Voie libre
+26.65,47.7,18.8,SAFE,0,Voie libre
+26.70,48.0,18.8,SAFE,0,Voie libre
+26.75,48.2,18.8,SAFE,0,Voie libre
+26.80,48.5,18.8,SAFE,0,Voie libre
+26.85,48.8,18.9,SAFE,0,Voie libre
+26.90,49.0,18.9,SAFE,0,Voie libre
+26.95,49.3,18.9,SAFE,0,Voie libre
+27.00,49.5,18.9,SAFE,0,Voie libre
+27.05,49.8,18.9,SAFE,0,Voie libre
+27.10,50.1,18.9,SAFE,0,Voie libre
+27.15,50.3,18.9,SAFE,0,Voie libre
+27.20,50.6,18.9,SAFE,0,Voie libre
+27.25,50.9,18.9,SAFE,0,Voie libre
+27.30,51.1,18.9,SAFE,0,Voie libre
+27.35,51.4,18.9,SAFE,0,Voie libre
+27.40,51.6,18.9,SAFE,0,Voie libre
+27.45,51.9,18.9,SAFE,0,Voie libre
+27.50,52.2,18.9,SAFE,0,Voie libre
+27.55,52.4,18.9,SAFE,0,Voie libre
+27.60,52.7,18.9,SAFE,0,Voie libre
+27.65,53.0,18.9,SAFE,0,Voie libre
+27.70,53.2,18.9,SAFE,0,Voie libre
+27.75,53.5,18.9,SAFE,0,Voie libre
+27.80,53.7,18.9,SAFE,0,Voie libre
+27.85,54.0,18.9,SAFE,0,Voie libre
+27.90,54.3,18.9,SAFE,0,Voie libre
+27.95,54.5,18.9,SAFE,0,Voie libre
+28.00,54.8,18.9,SAFE,0,Voie libre
+28.05,55.1,19.0,SAFE,0,Voie libre
+28.10,55.3,19.0,SAFE,0,Voie libre
+28.15,55.6,19.0,SAFE,0,Voie libre
+28.20,55.8,19.0,SAFE,0,Voie libre
+28.25,56.1,19.0,SAFE,0,Voie libre
+28.30,56.4,19.0,SAFE,0,Voie libre
+28.35,56.6,19.0,SAFE,0,Voie libre
+28.40,56.9,19.0,SAFE,0,Voie libre
+28.45,57.2,19.0,SAFE,0,Voie libre
+28.50,57.4,19.0,SAFE,0,Voie libre
+28.55,57.7,19.0,SAFE,0,Voie libre
+28.60,58.0,19.0,SAFE,0,Voie libre
+28.65,58.2,19.0,SAFE,0,Voie libre
+28.70,58.5,19.0,SAFE,0,Voie libre
+28.75,58.7,19.0,SAFE,0,Voie libre
+28.80,59.0,19.0,SAFE,0,Voie libre
+28.85,59.3,19.0,SAFE,0,Voie libre
+28.90,59.5,19.0,SAFE,0,Voie libre
+28.95,59.8,19.0,SAFE,0,Voie libre
+29.00,60.1,19.0,SAFE,0,Voie libre
+29.05,60.3,19.0,SAFE,0,Voie libre
+29.10,60.6,19.0,SAFE,0,Voie libre
+29.15,60.9,19.0,SAFE,0,Voie libre
+29.20,61.1,19.1,SAFE,0,Voie libre
+29.25,61.4,19.1,SAFE,0,Voie libre
+29.30,61.7,19.1,SAFE,0,Voie libre
+29.35,61.9,19.1,SAFE,0,Voie libre
+29.40,62.2,19.1,SAFE,0,Voie libre
+29.45,62.4,19.1,SAFE,0,Voie libre
+29.50,62.7,19.1,SAFE,0,Voie libre
+29.55,63.0,19.1,SAFE,0,Voie libre
+29.60,63.2,19.1,SAFE,0,Voie libre
+29.65,63.5,19.1,SAFE,0,Voie libre
+29.70,63.8,19.1,SAFE,0,Voie libre
+29.75,64.0,19.1,SAFE,0,Voie libre
+29.80,64.3,19.1,SAFE,0,Voie libre
+29.85,64.6,19.2,SAFE,0,Voie libre
+29.90,64.8,19.2,SAFE,0,Voie libre
+29.95,65.1,19.2,SAFE,0,Voie libre
+30.00,65.4,19.2,SAFE,1,Situation maîtrisée
+30.05,65.6,19.2,SAFE,1,Situation maîtrisée
+30.10,65.9,19.2,SAFE,1,Situation maîtrisée
+30.15,66.2,19.2,SAFE,1,Situation maîtrisée
+30.20,66.4,19.2,SAFE,1,Situation maîtrisée
+30.25,66.7,19.2,SAFE,1,Situation maîtrisée
+30.30,67.0,19.2,SAFE,1,Situation maîtrisée
+30.35,67.2,19.2,SAFE,1,Situation maîtrisée
+30.40,67.5,19.3,SAFE,1,Situation maîtrisée
+30.45,67.8,19.3,SAFE,1,Situation maîtrisée
+30.50,68.0,19.3,SAFE,1,Situation maîtrisée
+30.55,68.3,19.3,SAFE,1,Situation maîtrisée
+30.60,68.6,19.3,SAFE,1,Situation maîtrisée
+30.65,68.8,19.3,SAFE,1,Situation maîtrisée
+30.70,69.1,19.3,SAFE,1,Situation maîtrisée
+30.75,69.4,19.3,SAFE,1,Situation maîtrisée
+30.80,69.6,19.3,SAFE,1,Situation maîtrisée
+30.85,69.9,19.4,SAFE,1,Situation maîtrisée
+30.90,70.2,19.4,SAFE,1,Situation maîtrisée
+30.95,70.5,19.4,SAFE,1,Situation maîtrisée
+31.00,70.7,19.4,SAFE,1,Situation maîtrisée
+31.05,71.0,19.4,SAFE,1,Situation maîtrisée
+31.10,71.3,19.4,SAFE,1,Situation maîtrisée
+31.15,71.5,19.4,SAFE,1,Situation maîtrisée
+31.20,71.8,19.4,SAFE,1,Situation maîtrisée
+31.25,72.1,19.4,SAFE,1,Situation maîtrisée
+31.30,72.3,19.4,SAFE,1,Situation maîtrisée
+31.35,72.6,19.5,SAFE,1,Situation maîtrisée
+31.40,72.9,19.5,SAFE,1,Situation maîtrisée
+31.45,73.2,19.5,SAFE,1,Situation maîtrisée
+31.50,73.4,19.5,SAFE,1,Situation maîtrisée
+31.55,73.7,19.5,SAFE,1,Situation maîtrisée
+31.60,74.0,19.5,SAFE,1,Situation maîtrisée
+31.65,74.2,19.5,SAFE,1,Situation maîtrisée
+31.70,74.5,19.5,SAFE,1,Situation maîtrisée
+31.75,74.8,19.5,SAFE,1,Situation maîtrisée
+31.80,75.0,19.5,SAFE,1,Situation maîtrisée
+31.85,75.3,19.6,SAFE,1,Situation maîtrisée
+31.90,75.6,19.6,SAFE,1,Situation maîtrisée
+31.95,75.9,19.6,SAFE,1,Situation maîtrisée
+32.00,76.1,19.6,SAFE,1,Situation maîtrisée
+32.05,76.4,19.6,SAFE,1,Situation maîtrisée
+32.10,76.7,19.6,SAFE,1,Situation maîtrisée
+32.15,76.9,19.6,SAFE,1,Situation maîtrisée
+32.20,77.2,19.6,SAFE,1,Situation maîtrisée
+32.25,77.5,19.6,SAFE,1,Situation maîtrisée
+32.30,77.8,19.7,SAFE,1,Situation maîtrisée
+32.35,78.0,19.7,SAFE,1,Situation maîtrisée
+32.40,78.3,19.7,SAFE,1,Situation maîtrisée
+32.45,78.6,19.7,SAFE,1,Situation maîtrisée
+32.50,78.9,19.7,SAFE,1,Situation maîtrisée
+32.55,79.1,19.7,SAFE,1,Situation maîtrisée
+32.60,79.4,19.7,SAFE,1,Situation maîtrisée
+32.65,79.7,19.7,SAFE,1,Situation maîtrisée
+32.70,80.0,19.7,SAFE,1,Situation maîtrisée
+32.75,80.2,19.8,SAFE,1,Situation maîtrisée
+32.80,80.5,19.8,SAFE,1,Situation maîtrisée
+32.85,80.8,19.8,SAFE,1,Situation maîtrisée
+32.90,81.1,19.8,SAFE,1,Situation maîtrisée
+32.95,81.3,19.8,SAFE,1,Situation maîtrisée
+33.00,81.6,19.8,SAFE,1,Situation maîtrisée
+33.05,81.9,19.8,SAFE,1,Situation maîtrisée
+33.10,82.2,19.8,SAFE,1,Situation maîtrisée
+33.15,82.4,19.8,SAFE,1,Situation maîtrisée
+33.20,82.7,19.8,SAFE,1,Situation maîtrisée
+33.25,83.0,19.9,SAFE,1,Situation maîtrisée
+33.30,83.3,19.9,SAFE,1,Situation maîtrisée
+33.35,83.5,19.9,SAFE,1,Situation maîtrisée
+33.40,83.8,19.9,SAFE,1,Situation maîtrisée
+33.45,84.1,19.9,SAFE,1,Situation maîtrisée
+33.50,84.4,19.9,SAFE,1,Situation maîtrisée
+33.55,84.6,19.9,SAFE,1,Situation maîtrisée
+33.60,84.9,19.9,SAFE,1,Situation maîtrisée
+33.65,85.2,19.9,SAFE,1,Situation maîtrisée
+33.70,85.5,20.0,SAFE,1,Situation maîtrisée
+33.75,85.7,20.0,SAFE,1,Situation maîtrisée
+33.80,86.0,20.0,SAFE,1,Situation maîtrisée
+33.85,86.3,20.0,SAFE,1,Situation maîtrisée
+33.90,86.6,20.0,SAFE,1,Situation maîtrisée
+33.95,86.8,20.0,SAFE,1,Situation maîtrisée
+34.00,87.1,20.0,SAFE,1,Situation maîtrisée
+34.05,87.4,20.0,SAFE,1,Situation maîtrisée
+34.10,87.7,20.0,SAFE,1,Situation maîtrisée
+34.15,88.0,20.0,SAFE,1,Situation maîtrisée
+34.20,88.2,20.1,SAFE,1,Situation maîtrisée
+34.25,88.5,20.1,SAFE,1,Situation maîtrisée
+34.30,88.8,20.1,SAFE,1,Situation maîtrisée
+34.35,89.1,20.1,SAFE,1,Situation maîtrisée
+34.40,89.4,20.1,SAFE,1,Situation maîtrisée
+34.45,89.6,20.1,SAFE,1,Situation maîtrisée
+34.50,89.9,20.1,SAFE,1,Situation maîtrisée
+34.55,90.2,20.1,SAFE,1,Situation maîtrisée
+34.60,90.5,20.1,SAFE,1,Situation maîtrisée
+34.65,90.7,20.1,SAFE,1,Situation maîtrisée
+34.70,91.0,20.1,SAFE,1,Situation maîtrisée
+34.75,91.3,20.1,SAFE,1,Situation maîtrisée
+34.80,91.6,20.1,SAFE,1,Situation maîtrisée
+34.85,91.9,20.1,SAFE,1,Situation maîtrisée
+34.90,92.1,20.1,SAFE,1,Situation maîtrisée
+34.95,92.4,20.1,SAFE,1,Situation maîtrisée
+35.00,92.7,20.1,SAFE,1,Situation maîtrisée
+35.05,93.0,20.1,SAFE,1,Situation maîtrisée
+35.10,93.3,20.2,SAFE,1,Situation maîtrisée
+35.15,93.5,20.2,SAFE,1,Situation maîtrisée
+35.20,93.8,20.2,SAFE,1,Situation maîtrisée
+35.25,94.1,20.2,SAFE,1,Situation maîtrisée
+35.30,94.4,20.2,SAFE,1,Situation maîtrisée
+35.35,94.7,20.2,SAFE,1,Situation maîtrisée
+35.40,94.9,20.2,SAFE,1,Situation maîtrisée
+35.45,95.2,20.2,SAFE,1,Situation maîtrisée
+35.50,95.5,20.2,SAFE,1,Situation maîtrisée
+35.55,95.8,20.2,SAFE,1,Situation maîtrisée
+35.60,96.1,20.2,SAFE,1,Situation maîtrisée
+35.65,96.3,20.2,SAFE,1,Situation maîtrisée
+35.70,96.6,20.2,SAFE,1,Situation maîtrisée
+35.75,96.9,20.2,SAFE,1,Situation maîtrisée
+35.80,97.2,20.2,SAFE,1,Situation maîtrisée
+35.85,97.5,20.2,SAFE,1,Situation maîtrisée
+35.90,97.7,20.2,SAFE,1,Situation maîtrisée
+35.95,98.0,20.2,SAFE,1,Situation maîtrisée
+36.00,98.3,20.2,SAFE,1,Situation maîtrisée
+36.05,98.6,20.2,SAFE,1,Situation maîtrisée
+36.10,98.9,20.2,SAFE,1,Situation maîtrisée
+36.15,99.1,20.2,SAFE,1,Situation maîtrisée
+36.20,99.4,20.2,SAFE,1,Situation maîtrisée
+36.25,99.7,20.2,SAFE,1,Situation maîtrisée
+36.30,100.0,20.2,SAFE,1,Situation maîtrisée
+36.35,100.3,20.2,SAFE,1,Situation maîtrisée
+36.40,100.6,20.2,SAFE,1,Situation maîtrisée
+36.45,100.8,20.1,SAFE,1,Situation maîtrisée
+36.50,101.1,19.8,SAFE,1,Situation maîtrisée
+36.55,101.4,19.0,SAFE,1,Situation maîtrisée
+36.60,101.6,14.7,SAFE,1,Situation maîtrisée
+36.65,101.8,9.9,SAFE,1,Situation maîtrisée
+36.70,101.9,5.1,SAFE,1,Situation maîtrisée
+36.75,101.9,0.7,SAFE,1,Situation maîtrisée
+36.80,101.9,0.0,SAFE,1,Situation maîtrisée
+36.85,101.9,0.2,SAFE,1,Situation maîtrisée
+36.90,101.9,0.7,SAFE,1,Situation maîtrisée
+36.95,101.9,1.0,SAFE,1,Situation maîtrisée
+37.00,101.9,1.1,SAFE,1,Situation maîtrisée
+37.05,101.9,0.0,SAFE,1,Situation maîtrisée
+37.10,101.9,0.0,SAFE,1,Situation maîtrisée
+37.15,101.9,0.1,SAFE,1,Situation maîtrisée
+37.20,101.9,0.2,SAFE,1,Situation maîtrisée
+37.25,101.9,0.3,SAFE,1,Situation maîtrisée
+37.30,102.0,0.3,SAFE,1,Situation maîtrisée
+37.35,102.0,0.3,SAFE,1,Situation maîtrisée
+37.40,102.0,0.4,SAFE,1,Situation maîtrisée
+37.45,102.0,0.4,SAFE,1,Situation maîtrisée
+37.50,102.0,0.4,SAFE,1,Situation maîtrisée
+37.55,102.0,0.4,SAFE,1,Situation maîtrisée
+37.60,102.0,0.5,SAFE,1,Situation maîtrisée
+37.65,102.0,0.5,SAFE,1,Situation maîtrisée
+37.70,102.0,0.5,SAFE,1,Situation maîtrisée
+37.75,102.0,0.5,SAFE,1,Situation maîtrisée
+37.80,102.0,0.5,SAFE,1,Situation maîtrisée
+37.85,102.0,0.5,SAFE,1,Situation maîtrisée
+37.90,102.0,0.5,SAFE,1,Situation maîtrisée
+37.95,102.0,0.5,SAFE,1,Situation maîtrisée
+38.00,102.0,0.6,SAFE,1,Situation maîtrisée
+38.05,102.0,0.6,SAFE,1,Situation maîtrisée
+38.10,102.1,0.6,SAFE,1,Situation maîtrisée
+38.15,102.1,0.6,SAFE,1,Situation maîtrisée
+38.20,102.1,0.6,SAFE,1,Situation maîtrisée
+38.25,102.1,0.6,SAFE,1,Situation maîtrisée
+38.30,102.1,0.7,SAFE,1,Situation maîtrisée
+38.35,102.1,0.6,SAFE,1,Situation maîtrisée
+38.40,102.1,0.7,SAFE,1,Situation maîtrisée
+38.45,102.1,0.7,SAFE,1,Situation maîtrisée
+38.50,102.1,0.7,SAFE,1,Situation maîtrisée
+38.55,102.1,0.7,SAFE,1,Situation maîtrisée
+38.60,102.1,0.7,SAFE,1,Situation maîtrisée
+38.65,102.2,0.7,SAFE,1,Situation maîtrisée
+38.70,102.2,0.7,SAFE,1,Situation maîtrisée
+38.75,102.2,0.7,SAFE,1,Situation maîtrisée
+38.80,102.2,0.8,SAFE,1,Situation maîtrisée
+38.85,102.2,0.7,SAFE,1,Situation maîtrisée
+38.90,102.2,0.8,SAFE,1,Situation maîtrisée
+38.95,102.2,0.8,SAFE,1,Situation maîtrisée
+39.00,102.2,0.8,SAFE,1,Situation maîtrisée
+39.05,102.2,0.8,SAFE,1,Situation maîtrisée
+39.10,102.3,0.8,SAFE,1,Situation maîtrisée
+39.15,102.3,0.8,SAFE,1,Situation maîtrisée
+39.20,102.3,0.8,SAFE,1,Situation maîtrisée
+39.25,102.3,0.8,SAFE,1,Situation maîtrisée
+39.30,102.3,0.8,SAFE,1,Situation maîtrisée
+39.35,102.3,0.8,SAFE,1,Situation maîtrisée
+39.40,102.3,0.9,SAFE,1,Situation maîtrisée
+39.45,102.3,0.9,SAFE,1,Situation maîtrisée
+39.50,102.3,0.9,SAFE,1,Situation maîtrisée
+39.55,102.4,0.9,SAFE,1,Situation maîtrisée
+39.60,102.4,0.9,SAFE,1,Situation maîtrisée
+39.65,102.4,0.9,SAFE,1,Situation maîtrisée
+39.70,102.4,0.9,SAFE,1,Situation maîtrisée
+39.75,102.4,0.9,SAFE,1,Situation maîtrisée
+39.80,102.4,0.9,SAFE,1,Situation maîtrisée
+39.85,102.4,0.9,SAFE,1,Situation maîtrisée
+39.90,102.4,0.9,SAFE,1,Situation maîtrisée
+39.95,102.5,0.9,SAFE,1,Situation maîtrisée
+40.00,102.5,0.9,SAFE,1,Situation maîtrisée
+40.05,102.5,0.9,SAFE,1,Situation maîtrisée
+40.10,102.5,1.0,SAFE,1,Situation maîtrisée
+40.15,102.5,0.9,SAFE,1,Situation maîtrisée
+40.20,102.5,1.0,SAFE,1,Situation maîtrisée
+40.25,102.5,1.0,SAFE,1,Situation maîtrisée
+40.30,102.6,1.0,SAFE,1,Situation maîtrisée
+40.35,102.6,1.0,SAFE,1,Situation maîtrisée
+40.40,102.6,1.0,SAFE,1,Situation maîtrisée
+40.45,102.6,1.0,SAFE,1,Situation maîtrisée
+40.50,102.6,1.0,SAFE,1,Situation maîtrisée
+40.55,102.6,1.0,SAFE,1,Situation maîtrisée
+40.60,102.6,1.0,SAFE,1,Situation maîtrisée
+40.65,102.6,1.0,SAFE,1,Situation maîtrisée
+40.70,102.7,1.0,SAFE,1,Situation maîtrisée
+40.75,102.7,1.0,SAFE,1,Situation maîtrisée
+40.80,102.7,1.0,SAFE,1,Situation maîtrisée
+40.85,102.7,1.0,SAFE,1,Situation maîtrisée
+40.90,102.7,1.0,SAFE,1,Situation maîtrisée
+40.95,102.7,1.0,SAFE,1,Situation maîtrisée
+41.00,102.7,1.0,SAFE,1,Situation maîtrisée
+41.05,102.8,1.0,SAFE,1,Situation maîtrisée
+41.10,102.8,1.0,SAFE,1,Situation maîtrisée
+41.15,102.8,1.0,SAFE,1,Situation maîtrisée
+41.20,102.8,1.1,SAFE,1,Situation maîtrisée
+41.25,102.8,1.0,SAFE,1,Situation maîtrisée
+41.30,102.8,1.1,SAFE,1,Situation maîtrisée
+41.35,102.8,1.0,SAFE,1,Situation maîtrisée
+41.40,102.9,1.1,SAFE,1,Situation maîtrisée
+41.45,102.9,1.1,SAFE,1,Situation maîtrisée
+41.50,102.9,1.1,SAFE,1,Situation maîtrisée
+41.55,102.9,1.1,SAFE,1,Situation maîtrisée
+41.60,102.9,1.1,SAFE,1,Situation maîtrisée
+41.65,102.9,0.0,SAFE,1,Situation maîtrisée
+41.70,102.9,0.0,SAFE,1,Situation maîtrisée
+41.75,102.9,0.1,SAFE,1,Situation maîtrisée
+41.80,102.9,0.2,SAFE,1,Situation maîtrisée
+41.85,102.9,0.2,SAFE,1,Situation maîtrisée
+41.90,102.9,0.3,SAFE,1,Situation maîtrisée
+41.95,102.9,0.3,SAFE,1,Situation maîtrisée
+42.00,102.9,0.3,SAFE,1,Situation maîtrisée
+42.05,102.9,0.3,SAFE,1,Situation maîtrisée
+42.10,102.9,0.3,SAFE,1,Situation maîtrisée
+42.15,103.0,0.3,SAFE,1,Situation maîtrisée
+42.20,103.0,0.4,SAFE,1,Situation maîtrisée
+42.25,103.0,0.4,SAFE,1,Situation maîtrisée
+42.30,103.0,0.4,SAFE,1,Situation maîtrisée
+42.35,103.0,0.4,SAFE,1,Situation maîtrisée
+42.40,103.0,0.4,SAFE,1,Situation maîtrisée
+42.45,103.0,0.4,SAFE,1,Situation maîtrisée
+42.50,103.0,0.5,SAFE,1,Situation maîtrisée
+42.55,103.0,0.5,SAFE,1,Situation maîtrisée
+42.60,103.0,0.5,SAFE,1,Situation maîtrisée
+42.65,103.0,0.5,SAFE,1,Situation maîtrisée
+42.70,103.0,0.5,SAFE,1,Situation maîtrisée
+42.75,103.0,0.5,SAFE,1,Situation maîtrisée
+42.80,103.0,0.6,SAFE,1,Situation maîtrisée
+42.85,103.0,0.6,SAFE,1,Situation maîtrisée
+42.90,103.1,0.6,SAFE,1,Situation maîtrisée
+42.95,103.1,0.6,SAFE,1,Situation maîtrisée
+43.00,103.1,0.6,SAFE,1,Situation maîtrisée
+43.05,103.1,0.6,SAFE,1,Situation maîtrisée
+43.10,103.1,0.6,SAFE,1,Situation maîtrisée
+43.15,103.1,0.6,SAFE,1,Situation maîtrisée
+43.20,103.1,0.7,SAFE,1,Situation maîtrisée
+43.25,103.1,0.7,SAFE,1,Situation maîtrisée
+43.30,103.1,0.7,SAFE,1,Situation maîtrisée
+43.35,103.1,0.7,SAFE,1,Situation maîtrisée
+43.40,103.1,0.7,SAFE,1,Situation maîtrisée
+43.45,103.2,0.7,SAFE,1,Situation maîtrisée
+43.50,103.2,0.7,SAFE,1,Situation maîtrisée
+43.55,103.2,0.7,SAFE,1,Situation maîtrisée
+43.60,103.2,0.8,SAFE,1,Situation maîtrisée
+43.65,103.2,0.7,SAFE,1,Situation maîtrisée
+43.70,103.2,0.8,SAFE,1,Situation maîtrisée
+43.75,103.2,0.8,SAFE,1,Situation maîtrisée
+43.80,103.2,0.8,SAFE,1,Situation maîtrisée
+43.85,103.2,0.8,SAFE,1,Situation maîtrisée
+43.90,103.2,0.8,SAFE,1,Situation maîtrisée
+43.95,103.3,0.8,SAFE,1,Situation maîtrisée
+44.00,103.3,0.8,SAFE,1,Situation maîtrisée
+44.05,103.3,0.8,SAFE,1,Situation maîtrisée
+44.10,103.3,0.8,SAFE,1,Situation maîtrisée
+44.15,103.3,0.8,SAFE,1,Situation maîtrisée
+44.20,103.3,0.9,SAFE,1,Situation maîtrisée
+44.25,103.3,0.8,SAFE,1,Situation maîtrisée
+44.30,103.3,0.9,SAFE,1,Situation maîtrisée
+44.35,103.4,0.9,SAFE,1,Situation maîtrisée
+44.40,103.4,0.9,SAFE,1,Situation maîtrisée
+44.45,103.4,0.9,SAFE,1,Situation maîtrisée
+44.50,103.4,0.9,SAFE,1,Situation maîtrisée
+44.55,103.4,0.9,SAFE,1,Situation maîtrisée
+44.60,103.4,0.9,SAFE,1,Situation maîtrisée
+44.65,103.4,0.9,SAFE,1,Situation maîtrisée
+44.70,103.4,0.9,SAFE,1,Situation maîtrisée
+44.75,103.5,0.9,SAFE,1,Situation maîtrisée
+44.80,103.5,0.9,SAFE,1,Situation maîtrisée
+44.85,103.5,0.9,SAFE,1,Situation maîtrisée
+44.90,103.5,1.0,SAFE,1,Situation maîtrisée
+44.95,103.5,0.9,SAFE,1,Situation maîtrisée
+45.00,103.5,1.0,SAFE,1,Situation maîtrisée
+45.05,103.5,1.0,SAFE,1,Situation maîtrisée
+45.10,103.5,1.0,SAFE,1,Situation maîtrisée
+45.15,103.6,1.0,SAFE,1,Situation maîtrisée
+45.20,103.6,1.0,SAFE,1,Situation maîtrisée
+45.25,103.6,1.0,SAFE,1,Situation maîtrisée
+45.30,103.6,1.0,SAFE,1,Situation maîtrisée
+45.35,103.6,1.0,SAFE,1,Situation maîtrisée
+45.40,103.6,1.0,SAFE,1,Situation maîtrisée
+45.45,103.6,1.0,SAFE,1,Situation maîtrisée
+45.50,103.7,1.0,SAFE,1,Situation maîtrisée
+45.55,103.7,1.0,SAFE,1,Situation maîtrisée
+45.60,103.7,1.0,SAFE,1,Situation maîtrisée
+45.65,103.7,1.0,SAFE,1,Situation maîtrisée
+45.70,103.7,1.0,SAFE,1,Situation maîtrisée
+45.75,103.7,1.0,SAFE,1,Situation maîtrisée
+45.80,103.7,1.0,SAFE,1,Situation maîtrisée
+45.85,103.8,1.0,SAFE,1,Situation maîtrisée
+45.90,103.8,1.0,SAFE,1,Situation maîtrisée
+45.95,103.8,1.0,SAFE,1,Situation maîtrisée
+46.00,103.8,1.1,SAFE,1,Situation maîtrisée
+46.05,103.8,1.0,SAFE,1,Situation maîtrisée
+46.10,103.8,1.1,SAFE,1,Situation maîtrisée
+46.15,103.8,1.0,SAFE,1,Situation maîtrisée
+46.20,103.9,1.1,SAFE,1,Situation maîtrisée
+46.25,103.9,1.1,SAFE,2,Situation maîtrisée
+46.30,103.9,1.1,SAFE,2,Situation maîtrisée
+46.35,103.9,1.1,SAFE,2,Situation maîtrisée
+46.40,103.9,1.1,SAFE,2,Situation maîtrisée
+46.45,103.9,0.0,SAFE,2,Situation maîtrisée
+46.50,103.9,0.0,SAFE,2,Situation maîtrisée
+46.55,103.9,0.1,SAFE,2,Situation maîtrisée
+46.60,103.9,0.2,SAFE,2,Situation maîtrisée
+46.65,103.9,0.2,SAFE,2,Situation maîtrisée
+46.70,103.9,0.3,SAFE,2,Situation maîtrisée
+46.75,103.9,0.3,SAFE,2,Situation maîtrisée
+46.80,103.9,0.3,SAFE,2,Situation maîtrisée
+46.85,103.9,0.3,SAFE,2,Situation maîtrisée
+46.90,103.9,0.3,SAFE,2,Situation maîtrisée
+46.95,103.9,0.3,SAFE,2,Situation maîtrisée
+47.00,104.0,0.4,SAFE,2,Situation maîtrisée
+47.05,104.0,0.4,SAFE,2,Situation maîtrisée
+47.10,104.0,0.4,SAFE,2,Situation maîtrisée
+47.15,104.0,0.4,SAFE,2,Situation maîtrisée
+47.20,104.0,0.4,SAFE,2,Situation maîtrisée
+47.25,104.0,0.4,SAFE,2,Situation maîtrisée
+47.30,104.0,0.5,SAFE,2,Situation maîtrisée
+47.35,104.0,0.5,SAFE,2,Situation maîtrisée
+47.40,104.0,0.5,SAFE,2,Situation maîtrisée
+47.45,104.0,0.5,SAFE,2,Situation maîtrisée
+47.50,104.0,0.5,SAFE,2,Situation maîtrisée
+47.55,104.0,0.5,SAFE,2,Situation maîtrisée
+47.60,104.0,0.6,SAFE,2,Situation maîtrisée
+47.65,104.0,0.6,SAFE,2,Situation maîtrisée
+47.70,104.0,0.6,SAFE,2,Situation maîtrisée
+47.75,104.1,0.6,SAFE,2,Situation maîtrisée
+47.80,104.1,0.6,SAFE,2,Situation maîtrisée
+47.85,104.1,0.6,SAFE,2,Situation maîtrisée
+47.90,104.1,0.6,SAFE,2,Situation maîtrisée
+47.95,104.1,0.6,SAFE,2,Situation maîtrisée
+48.00,104.1,0.7,SAFE,2,Situation maîtrisée
+48.05,104.1,0.7,SAFE,2,Situation maîtrisée
+48.10,104.1,0.7,SAFE,2,Situation maîtrisée
+48.15,104.1,0.7,SAFE,2,Situation maîtrisée
+48.20,104.1,0.7,SAFE,2,Situation maîtrisée
+48.25,104.1,0.7,SAFE,2,Situation maîtrisée
+48.30,104.2,0.7,SAFE,2,Situation maîtrisée
+48.35,104.2,0.7,SAFE,2,Situation maîtrisée
+48.40,104.2,0.8,SAFE,2,Situation maîtrisée
+48.45,104.2,0.7,SAFE,2,Situation maîtrisée
+48.50,104.2,0.8,SAFE,2,Situation maîtrisée
+48.55,104.2,0.8,SAFE,2,Situation maîtrisée
+48.60,104.2,0.8,SAFE,2,Situation maîtrisée
+48.65,104.2,0.8,SAFE,2,Situation maîtrisée
+48.70,104.2,0.8,SAFE,2,Situation maîtrisée
+48.75,104.3,0.8,SAFE,2,Situation maîtrisée
+48.80,104.3,0.8,SAFE,2,Situation maîtrisée
+48.85,104.3,0.8,SAFE,2,Situation maîtrisée
+48.90,104.3,0.8,SAFE,2,Situation maîtrisée
+48.95,104.3,0.8,SAFE,2,Situation maîtrisée
+49.00,104.3,0.9,SAFE,2,Situation maîtrisée
+49.05,104.3,0.8,SAFE,2,Situation maîtrisée
+49.10,104.3,0.9,SAFE,2,Situation maîtrisée
+49.15,104.3,0.9,SAFE,2,Situation maîtrisée
+49.20,104.4,0.9,SAFE,2,Situation maîtrisée
+49.25,104.4,0.9,SAFE,2,Situation maîtrisée
+49.30,104.4,0.9,SAFE,2,Situation maîtrisée
+49.35,104.4,0.9,SAFE,2,Situation maîtrisée
+49.40,104.4,0.9,SAFE,2,Situation maîtrisée
+49.45,104.4,0.9,SAFE,2,Situation maîtrisée
+49.50,104.4,0.9,SAFE,2,Situation maîtrisée
+49.55,104.4,0.9,SAFE,2,Situation maîtrisée
+49.60,104.5,0.9,SAFE,2,Situation maîtrisée
+49.65,104.5,0.9,SAFE,2,Situation maîtrisée
+49.70,104.5,1.0,SAFE,2,Situation maîtrisée
+49.75,104.5,0.9,SAFE,2,Situation maîtrisée
+49.80,104.5,1.0,SAFE,2,Situation maîtrisée
+49.85,104.5,1.0,SAFE,2,Situation maîtrisée
+49.90,104.5,1.0,SAFE,2,Situation maîtrisée
+49.95,104.6,1.0,SAFE,2,Situation maîtrisée
+50.00,104.6,1.0,SAFE,2,Situation maîtrisée
+50.05,104.6,1.0,SAFE,2,Situation maîtrisée
+50.10,104.6,1.0,SAFE,2,Situation maîtrisée
+50.15,104.6,1.0,SAFE,2,Situation maîtrisée
+50.20,104.6,1.0,SAFE,2,Situation maîtrisée
+50.25,104.6,1.0,SAFE,2,Situation maîtrisée
+50.30,104.6,1.0,SAFE,2,Situation maîtrisée
+50.35,104.7,1.0,SAFE,2,Situation maîtrisée
+50.40,104.7,1.0,SAFE,2,Situation maîtrisée
+50.45,104.7,1.0,SAFE,2,Situation maîtrisée
+50.50,104.7,1.0,SAFE,2,Situation maîtrisée
+50.55,104.7,1.0,SAFE,2,Situation maîtrisée
+50.60,104.7,1.0,SAFE,2,Situation maîtrisée
+50.65,104.7,1.0,SAFE,2,Situation maîtrisée
+50.70,104.8,1.0,SAFE,2,Situation maîtrisée
+50.75,104.8,1.0,SAFE,2,Situation maîtrisée
+50.80,104.8,1.1,SAFE,2,Situation maîtrisée
+50.85,104.8,1.0,SAFE,2,Situation maîtrisée
+50.90,104.8,1.1,SAFE,2,Situation maîtrisée
+50.95,104.8,1.0,SAFE,2,Situation maîtrisée
+51.00,104.8,1.1,SAFE,2,Situation maîtrisée
+51.05,104.9,1.1,SAFE,2,Situation maîtrisée
+51.10,104.9,1.1,SAFE,2,Situation maîtrisée
+51.15,104.9,1.1,SAFE,2,Situation maîtrisée
+51.20,104.9,1.1,SAFE,2,Situation maîtrisée
+51.25,104.9,0.0,SAFE,2,Situation maîtrisée
+51.30,104.9,0.0,SAFE,2,Situation maîtrisée
+51.35,104.9,0.1,SAFE,2,Situation maîtrisée
+51.40,104.9,0.2,SAFE,2,Situation maîtrisée
+51.45,104.9,0.2,SAFE,2,Situation maîtrisée
+51.50,104.9,0.3,SAFE,2,Situation maîtrisée
+51.55,104.9,0.3,SAFE,2,Situation maîtrisée
+51.60,104.9,0.3,SAFE,2,Situation maîtrisée
+51.65,104.9,0.3,SAFE,2,Situation maîtrisée
+51.70,104.9,0.3,SAFE,3,Situation maîtrisée
+51.75,104.9,0.3,SAFE,3,Situation maîtrisée
+51.80,104.9,0.4,SAFE,3,Situation maîtrisée
+51.85,105.0,0.4,SAFE,3,Situation maîtrisée
+51.90,105.0,0.4,SAFE,3,Situation maîtrisée
+51.95,105.0,0.4,SAFE,3,Situation maîtrisée
+52.00,105.0,0.4,SAFE,3,Situation maîtrisée
+52.05,105.0,0.4,SAFE,3,Situation maîtrisée
+52.10,105.0,0.5,SAFE,3,Situation maîtrisée
+52.15,105.0,0.5,SAFE,3,Situation maîtrisée
+52.20,105.0,0.5,SAFE,3,Situation maîtrisée
+52.25,105.0,0.5,SAFE,3,Situation maîtrisée
+52.30,105.0,0.5,SAFE,3,Situation maîtrisée
+52.35,105.0,0.5,SAFE,3,Situation maîtrisée
+52.40,105.0,0.6,SAFE,3,Situation maîtrisée
+52.45,105.0,0.6,SAFE,3,Situation maîtrisée
+52.50,105.0,0.6,SAFE,3,Situation maîtrisée
+52.55,105.0,0.6,SAFE,3,Situation maîtrisée
+52.60,105.1,0.6,SAFE,3,Situation maîtrisée
+52.65,105.1,0.6,SAFE,3,Situation maîtrisée
+52.70,105.1,0.6,SAFE,3,Situation maîtrisée
+52.75,105.1,0.6,SAFE,3,Situation maîtrisée
+52.80,105.1,0.7,SAFE,3,Situation maîtrisée
+52.85,105.1,0.7,SAFE,3,Situation maîtrisée
+52.90,105.1,0.7,SAFE,3,Situation maîtrisée
+52.95,105.1,0.7,SAFE,3,Situation maîtrisée
+53.00,105.1,0.7,SAFE,3,Situation maîtrisée
+53.05,105.1,0.7,SAFE,3,Situation maîtrisée
+53.10,105.2,0.7,SAFE,3,Situation maîtrisée
+53.15,105.2,0.7,SAFE,3,Situation maîtrisée
+53.20,105.2,0.8,SAFE,3,Situation maîtrisée
+53.25,105.2,0.7,SAFE,3,Situation maîtrisée
+53.30,105.2,0.8,SAFE,3,Situation maîtrisée
+53.35,105.2,0.8,SAFE,3,Situation maîtrisée
+53.40,105.2,0.8,SAFE,3,Situation maîtrisée
+53.45,105.2,0.8,SAFE,3,Situation maîtrisée
+53.50,105.2,0.8,SAFE,3,Situation maîtrisée
+53.55,105.2,0.8,SAFE,3,Situation maîtrisée
+53.60,105.3,0.8,SAFE,3,Situation maîtrisée
+53.65,105.3,0.8,SAFE,3,Situation maîtrisée
+53.70,105.3,0.8,SAFE,3,Situation maîtrisée
+53.75,105.3,0.8,SAFE,3,Situation maîtrisée
+53.80,105.3,0.9,SAFE,3,Situation maîtrisée
+53.85,105.3,0.8,SAFE,3,Situation maîtrisée
+53.90,105.3,0.9,SAFE,3,Situation maîtrisée
+53.95,105.3,0.9,SAFE,3,Situation maîtrisée
+54.00,105.4,0.9,SAFE,3,Situation maîtrisée
+54.05,105.4,0.9,SAFE,3,Situation maîtrisée
+54.10,105.4,0.9,SAFE,3,Situation maîtrisée
+54.15,105.4,0.9,SAFE,3,Situation maîtrisée
+54.20,105.4,0.9,SAFE,3,Situation maîtrisée
+54.25,105.4,0.9,SAFE,3,Situation maîtrisée
+54.30,105.4,0.9,SAFE,3,Situation maîtrisée
+54.35,105.4,0.9,SAFE,3,Situation maîtrisée
+54.40,105.5,0.9,SAFE,3,Situation maîtrisée
+54.45,105.5,0.9,SAFE,3,Situation maîtrisée
+54.50,105.5,1.0,SAFE,3,Situation maîtrisée
+54.55,105.5,0.9,SAFE,3,Situation maîtrisée
+54.60,105.5,1.0,SAFE,3,Situation maîtrisée
+54.65,105.5,1.0,SAFE,3,Situation maîtrisée
+54.70,105.5,1.0,SAFE,3,Situation maîtrisée
+54.75,105.5,1.0,SAFE,3,Situation maîtrisée
+54.80,105.6,1.0,SAFE,3,Situation maîtrisée
+54.85,105.6,1.0,SAFE,3,Situation maîtrisée
+54.90,105.6,1.0,SAFE,3,Situation maîtrisée
+54.95,105.6,1.0,SAFE,3,Situation maîtrisée
+55.00,105.6,1.0,SAFE,3,Situation maîtrisée
+55.05,105.6,1.0,SAFE,3,Situation maîtrisée
+55.10,105.6,1.0,SAFE,3,Situation maîtrisée
+55.15,105.7,1.0,SAFE,3,Situation maîtrisée
+55.20,105.7,1.0,SAFE,3,Situation maîtrisée
+55.25,105.7,1.0,SAFE,3,Situation maîtrisée
+55.30,105.7,1.0,SAFE,3,Situation maîtrisée
+55.35,105.7,1.0,SAFE,3,Situation maîtrisée
+55.40,105.7,1.0,SAFE,3,Situation maîtrisée
+55.45,105.7,1.0,SAFE,3,Situation maîtrisée
+55.50,105.8,1.0,SAFE,3,Situation maîtrisée
+55.55,105.8,1.0,SAFE,3,Situation maîtrisée
+55.60,105.8,1.1,SAFE,3,Situation maîtrisée
+55.65,105.8,1.0,SAFE,3,Situation maîtrisée
+55.70,105.8,1.1,SAFE,3,Situation maîtrisée
+55.75,105.8,1.0,SAFE,3,Situation maîtrisée
+55.80,105.8,1.1,SAFE,3,Situation maîtrisée
+55.85,105.9,1.1,SAFE,3,Situation maîtrisée
+55.90,105.9,1.1,SAFE,3,Situation maîtrisée
+55.95,105.9,1.1,SAFE,3,Situation maîtrisée
+56.00,105.9,1.1,SAFE,3,Situation maîtrisée
+56.05,105.9,0.0,SAFE,3,Situation maîtrisée
+56.10,105.9,0.0,SAFE,3,Situation maîtrisée
+56.15,105.9,0.1,SAFE,3,Situation maîtrisée
+56.20,105.9,0.2,SAFE,3,Situation maîtrisée
+56.25,105.9,0.2,SAFE,3,Situation maîtrisée
+56.30,105.9,0.3,SAFE,3,Situation maîtrisée
+56.35,105.9,0.3,SAFE,3,Situation maîtrisée
+56.40,105.9,0.3,SAFE,3,Situation maîtrisée
+56.45,105.9,0.3,SAFE,3,Situation maîtrisée
+56.50,105.9,0.3,SAFE,3,Situation maîtrisée
+56.55,105.9,0.3,SAFE,3,Situation maîtrisée
+56.60,105.9,0.4,SAFE,3,Situation maîtrisée
+56.65,105.9,0.4,SAFE,3,Situation maîtrisée
+56.70,106.0,0.4,SAFE,3,Situation maîtrisée
+56.75,106.0,0.4,SAFE,3,Situation maîtrisée
+56.80,106.0,0.4,SAFE,3,Situation maîtrisée
+56.85,106.0,0.4,SAFE,3,Situation maîtrisée
+56.90,106.0,0.5,SAFE,3,Situation maîtrisée
+56.95,106.0,0.5,SAFE,3,Situation maîtrisée
+57.00,106.0,0.5,SAFE,3,Situation maîtrisée
+57.05,106.0,0.5,SAFE,3,Situation maîtrisée
+57.10,106.0,0.5,SAFE,3,Situation maîtrisée
+57.15,106.0,0.5,SAFE,3,Situation maîtrisée
+57.20,106.0,0.6,SAFE,3,Situation maîtrisée
+57.25,106.0,0.6,SAFE,3,Situation maîtrisée
+57.30,106.0,0.6,SAFE,3,Situation maîtrisée
+57.35,106.0,0.6,SAFE,3,Situation maîtrisée
+57.40,106.1,0.6,SAFE,3,Situation maîtrisée
+57.45,106.1,0.6,SAFE,3,Situation maîtrisée
+57.50,106.1,0.6,SAFE,3,Situation maîtrisée
+57.55,106.1,0.6,SAFE,3,Situation maîtrisée
+57.60,106.1,0.7,SAFE,3,Situation maîtrisée
+57.65,106.1,0.7,SAFE,3,Situation maîtrisée
+57.70,106.1,0.7,SAFE,3,Situation maîtrisée
+57.75,106.1,0.7,SAFE,3,Situation maîtrisée
+57.80,106.1,0.7,SAFE,3,Situation maîtrisée
+57.85,106.1,0.7,SAFE,3,Situation maîtrisée
+57.90,106.1,0.7,SAFE,3,Situation maîtrisée
+57.95,106.2,0.7,SAFE,3,Situation maîtrisée
+58.00,106.2,0.8,SAFE,3,Situation maîtrisée
+58.05,106.2,0.7,SAFE,3,Situation maîtrisée
+58.10,106.2,0.8,SAFE,3,Situation maîtrisée
+58.15,106.2,0.8,SAFE,3,Situation maîtrisée
+58.20,106.2,0.8,SAFE,3,Situation maîtrisée
+58.25,106.2,0.8,SAFE,3,Situation maîtrisée
+58.30,106.2,0.8,SAFE,3,Situation maîtrisée
+58.35,106.2,0.8,SAFE,3,Situation maîtrisée
+58.40,106.3,0.8,SAFE,3,Situation maîtrisée
+58.45,106.3,0.8,SAFE,3,Situation maîtrisée
+58.50,106.3,0.8,SAFE,3,Situation maîtrisée
+58.55,106.3,0.8,SAFE,3,Situation maîtrisée
+58.60,106.3,0.9,SAFE,3,Situation maîtrisée
+58.65,106.3,0.8,SAFE,3,Situation maîtrisée
+58.70,106.3,0.9,SAFE,3,Situation maîtrisée
+58.75,106.3,0.9,SAFE,3,Situation maîtrisée
+58.80,106.3,0.9,SAFE,3,Situation maîtrisée
+58.85,106.4,0.9,SAFE,3,Situation maîtrisée
+58.90,106.4,0.9,SAFE,3,Situation maîtrisée
+58.95,106.4,0.9,SAFE,3,Situation maîtrisée
+59.00,106.4,0.9,SAFE,3,Situation maîtrisée
+59.05,106.4,0.9,SAFE,3,Situation maîtrisée
+59.10,106.4,0.9,SAFE,3,Situation maîtrisée
+59.15,106.4,0.9,SAFE,3,Situation maîtrisée
+59.20,106.4,0.9,SAFE,3,Situation maîtrisée
+59.25,106.5,0.9,SAFE,3,Situation maîtrisée
+59.30,106.5,1.0,SAFE,3,Situation maîtrisée
+59.35,106.5,0.9,SAFE,3,Situation maîtrisée
+59.40,106.5,1.0,SAFE,3,Situation maîtrisée
+59.45,106.5,1.0,SAFE,3,Situation maîtrisée
+59.50,106.5,1.0,SAFE,3,Situation maîtrisée
+59.55,106.5,1.0,SAFE,3,Situation maîtrisée
+59.60,106.6,1.0,SAFE,3,Situation maîtrisée
+59.65,106.6,1.0,SAFE,3,Situation maîtrisée
+59.70,106.6,1.0,SAFE,3,Situation maîtrisée
+59.75,106.6,1.0,SAFE,3,Situation maîtrisée
+59.80,106.6,1.0,SAFE,3,Situation maîtrisée
+59.85,106.6,1.0,SAFE,3,Situation maîtrisée
+59.90,106.6,1.0,SAFE,3,Situation maîtrisée
+59.95,106.7,1.0,SAFE,3,Situation maîtrisée
+60.00,106.7,1.0,SAFE,3,Situation maîtrisée
+60.05,106.7,1.0,SAFE,3,Situation maîtrisée
+60.10,106.7,1.0,SAFE,3,Situation maîtrisée
+60.15,106.7,1.0,SAFE,3,Situation maîtrisée
+60.20,106.7,1.0,SAFE,3,Situation maîtrisée
+60.25,106.7,1.0,SAFE,3,Situation maîtrisée
+60.30,106.7,1.0,SAFE,3,Situation maîtrisée
+60.35,106.8,1.0,SAFE,3,Situation maîtrisée
+60.40,106.8,1.1,SAFE,3,Situation maîtrisée
+60.45,106.8,1.0,SAFE,3,Situation maîtrisée
+60.50,106.8,1.1,SAFE,3,Situation maîtrisée
+60.55,106.8,1.0,SAFE,3,Situation maîtrisée
+60.60,106.8,1.1,SAFE,3,Situation maîtrisée
+60.65,106.9,1.1,SAFE,3,Situation maîtrisée
+60.70,106.9,1.1,SAFE,3,Situation maîtrisée
+60.75,106.9,1.1,SAFE,3,Situation maîtrisée
+60.80,106.9,1.1,SAFE,3,Situation maîtrisée
+60.85,106.9,1.1,SAFE,3,Situation maîtrisée
+60.90,106.9,1.1,SAFE,3,Situation maîtrisée
+60.95,106.9,1.1,SAFE,3,Situation maîtrisée
+61.00,107.0,1.1,SAFE,3,Situation maîtrisée
+61.05,107.0,1.1,SAFE,3,Situation maîtrisée
+61.10,107.0,1.1,SAFE,3,Situation maîtrisée
+61.15,107.0,1.1,SAFE,3,Situation maîtrisée
+61.20,107.0,1.0,SAFE,3,Situation maîtrisée
+61.25,107.0,1.1,SAFE,3,Situation maîtrisée
+61.30,107.0,1.2,SAFE,3,Situation maîtrisée
+61.35,107.1,1.6,SAFE,3,Situation maîtrisée
+61.40,107.1,2.2,SAFE,3,Situation maîtrisée
+61.45,107.1,2.5,SAFE,3,Situation maîtrisée
+61.50,107.2,3.0,SAFE,3,Situation maîtrisée
+61.55,107.2,3.6,SAFE,3,Situation maîtrisée
+61.60,107.3,3.8,SAFE,3,Situation maîtrisée
+61.65,107.3,4.3,SAFE,3,Situation maîtrisée
+61.70,107.4,4.6,SAFE,3,Situation maîtrisée
+61.75,107.5,4.8,SAFE,3,Situation maîtrisée
+61.80,107.5,4.9,SAFE,3,Situation maîtrisée
+61.85,107.6,4.9,SAFE,3,Situation maîtrisée
+61.90,107.7,4.7,SAFE,3,Situation maîtrisée
+61.95,107.7,4.6,SAFE,3,Situation maîtrisée
+62.00,107.8,4.7,SAFE,3,Situation maîtrisée
+62.05,107.8,4.9,SAFE,3,Situation maîtrisée
+62.10,107.9,5.1,SAFE,3,Situation maîtrisée
+62.15,108.0,5.3,SAFE,3,Situation maîtrisée
+62.20,108.1,5.5,SAFE,3,Situation maîtrisée
+62.25,108.1,5.6,SAFE,3,Situation maîtrisée
+62.30,108.2,5.8,SAFE,3,Situation maîtrisée
+62.35,108.3,6.0,SAFE,3,Situation maîtrisée
+62.40,108.4,6.1,SAFE,3,Situation maîtrisée
+62.45,108.5,6.3,SAFE,3,Situation maîtrisée
+62.50,108.6,6.5,SAFE,3,Situation maîtrisée
+62.55,108.7,6.7,SAFE,3,Situation maîtrisée
+62.60,108.7,6.8,SAFE,3,Situation maîtrisée
+62.65,108.8,7.0,SAFE,3,Situation maîtrisée
+62.70,108.9,7.1,SAFE,3,Situation maîtrisée
+62.75,109.0,7.3,SAFE,3,Situation maîtrisée
+62.80,109.1,7.5,SAFE,3,Situation maîtrisée
+62.85,109.3,7.7,SAFE,3,Situation maîtrisée
+62.90,109.4,7.8,SAFE,3,Situation maîtrisée
+62.95,109.5,8.1,SAFE,3,Situation maîtrisée
+63.00,109.6,8.2,SAFE,3,Situation maîtrisée
+63.05,109.7,8.5,SAFE,3,Situation maîtrisée
+63.10,109.8,8.7,SAFE,3,Situation maîtrisée
+63.15,109.9,9.0,SAFE,3,Situation maîtrisée
+63.20,110.1,9.2,SAFE,3,Situation maîtrisée
+63.25,110.2,9.5,SAFE,3,Situation maîtrisée
+63.30,110.3,9.7,SAFE,3,Situation maîtrisée
+63.35,110.5,10.0,SAFE,3,Situation maîtrisée
+63.40,110.6,10.2,SAFE,3,Situation maîtrisée
+63.45,110.8,10.5,SAFE,3,Situation maîtrisée
+63.50,110.9,10.8,SAFE,3,Situation maîtrisée
+63.55,111.1,11.1,SAFE,3,Situation maîtrisée
+63.60,111.2,11.3,SAFE,3,Situation maîtrisée
+63.65,111.4,11.6,SAFE,3,Situation maîtrisée
+63.70,111.5,11.8,SAFE,3,Situation maîtrisée
+63.75,111.7,12.0,SAFE,3,Situation maîtrisée
+63.80,111.9,12.1,SAFE,3,Situation maîtrisée
+63.85,112.0,12.2,SAFE,3,Situation maîtrisée
+63.90,112.2,12.2,SAFE,3,Situation maîtrisée
+63.95,112.4,12.3,SAFE,3,Situation maîtrisée
+64.00,112.5,12.2,SAFE,3,Situation maîtrisée
+64.05,112.7,12.2,SAFE,3,Situation maîtrisée
+64.10,112.9,12.2,SAFE,3,Situation maîtrisée
+64.15,113.1,12.2,SAFE,3,Situation maîtrisée
+64.20,113.2,12.2,SAFE,3,Situation maîtrisée
+64.25,113.4,12.3,SAFE,3,Situation maîtrisée
+64.30,113.6,12.3,SAFE,3,Situation maîtrisée
+64.35,113.7,12.5,SAFE,3,Situation maîtrisée
+64.40,113.9,12.6,SAFE,3,Situation maîtrisée
+64.45,114.1,12.8,SAFE,3,Situation maîtrisée
+64.50,114.3,12.9,SAFE,3,Situation maîtrisée
+64.55,114.5,13.1,SAFE,3,Situation maîtrisée
+64.60,114.6,13.3,SAFE,3,Situation maîtrisée
+64.65,114.8,13.5,SAFE,3,Situation maîtrisée
+64.70,115.0,13.7,SAFE,3,Situation maîtrisée
+64.75,115.2,13.9,SAFE,3,Situation maîtrisée
+64.80,115.4,14.1,SAFE,3,Situation maîtrisée
+64.85,115.6,14.3,SAFE,3,Situation maîtrisée
+64.90,115.8,14.5,SAFE,3,Situation maîtrisée
+64.95,116.0,14.8,SAFE,3,Situation maîtrisée
+65.00,116.2,15.1,SAFE,3,Situation maîtrisée
+65.05,116.4,15.4,SAFE,3,Situation maîtrisée
+65.10,116.6,15.7,SAFE,3,Situation maîtrisée
+65.15,116.9,16.0,SAFE,3,Situation maîtrisée
+65.20,117.1,16.3,SAFE,3,Situation maîtrisée
+65.25,117.3,16.6,SAFE,3,Situation maîtrisée
+65.30,117.5,16.9,SAFE,3,Situation maîtrisée
+65.35,117.8,17.3,SAFE,3,Situation maîtrisée
+65.40,118.0,17.6,SAFE,3,Situation maîtrisée
+65.45,118.3,17.9,SAFE,3,Situation maîtrisée
+65.50,118.5,18.2,SAFE,3,Situation maîtrisée
+65.55,118.8,18.4,SAFE,3,Situation maîtrisée
+65.60,119.0,18.2,SAFE,3,Situation maîtrisée
+65.65,119.3,18.0,SAFE,3,Situation maîtrisée
+65.70,119.5,18.4,SAFE,3,Situation maîtrisée
+65.75,119.8,18.1,SAFE,3,Situation maîtrisée
+65.80,120.0,18.1,SAFE,3,Situation maîtrisée
+65.85,120.3,18.4,SAFE,3,Situation maîtrisée
+65.90,120.5,18.6,SAFE,3,Situation maîtrisée
+65.95,120.8,18.5,SAFE,3,Situation maîtrisée
+66.00,121.1,18.5,SAFE,3,Situation maîtrisée
+66.05,121.3,18.4,SAFE,3,Situation maîtrisée
+66.10,121.6,18.5,SAFE,3,Situation maîtrisée
+66.15,121.8,18.5,SAFE,3,Situation maîtrisée
+66.20,122.1,18.6,SAFE,3,Situation maîtrisée
+66.25,122.3,18.6,SAFE,3,Situation maîtrisée
+66.30,122.6,18.7,SAFE,3,Situation maîtrisée
+66.35,122.9,18.7,SAFE,3,Situation maîtrisée
+66.40,123.1,18.9,SAFE,3,Situation maîtrisée
+66.45,123.4,18.9,SAFE,3,Situation maîtrisée
+66.50,123.7,19.1,SAFE,3,Situation maîtrisée
+66.55,123.9,19.1,SAFE,3,Situation maîtrisée
+66.60,124.2,19.2,SAFE,3,Situation maîtrisée
+66.65,124.5,19.2,SAFE,3,Situation maîtrisée
+66.70,124.7,19.3,SAFE,3,Situation maîtrisée
+66.75,125.0,19.3,SAFE,3,Situation maîtrisée
+66.80,125.3,19.5,SAFE,3,Situation maîtrisée
+66.85,125.5,19.4,SAFE,3,Situation maîtrisée
+66.90,125.8,19.6,SAFE,3,Situation maîtrisée
+66.95,126.1,19.5,SAFE,3,Situation maîtrisée
+67.00,126.3,19.7,SAFE,2,Situation maîtrisée
+67.05,126.6,19.6,SAFE,2,Situation maîtrisée
+67.10,126.9,19.7,SAFE,2,Situation maîtrisée
+67.15,127.2,19.7,SAFE,2,Situation maîtrisée
+67.20,127.4,19.8,SAFE,2,Situation maîtrisée
+67.25,127.7,19.7,SAFE,2,Situation maîtrisée
+67.30,128.0,19.8,SAFE,2,Situation maîtrisée
+67.35,128.3,19.7,SAFE,2,Situation maîtrisée
+67.40,128.5,19.8,SAFE,2,Situation maîtrisée
+67.45,128.8,19.6,SAFE,2,Situation maîtrisée
+67.50,129.1,19.7,SAFE,2,Situation maîtrisée
+67.55,129.4,19.5,SAFE,2,Situation maîtrisée
+67.60,129.6,19.6,SAFE,2,Situation maîtrisée
+67.65,129.9,19.4,SAFE,2,Situation maîtrisée
+67.70,130.2,19.4,SAFE,2,Situation maîtrisée
+67.75,130.4,19.2,SAFE,2,Situation maîtrisée
+67.80,130.7,19.2,SAFE,2,Situation maîtrisée
+67.85,131.0,19.0,SAFE,2,Situation maîtrisée
+67.90,131.2,19.0,SAFE,2,Situation maîtrisée
+67.95,131.5,18.8,SAFE,2,Situation maîtrisée
+68.00,131.8,18.7,SAFE,2,Situation maîtrisée
+68.05,132.0,18.5,SAFE,2,Situation maîtrisée
+68.10,132.3,18.4,SAFE,2,Situation maîtrisée
+68.15,132.5,18.2,SAFE,2,Situation maîtrisée
+68.20,132.8,18.1,SAFE,2,Situation maîtrisée
+68.25,133.0,18.3,SAFE,2,Situation maîtrisée
+68.30,133.3,18.3,SAFE,2,Situation maîtrisée
+68.35,133.5,18.0,SAFE,2,Situation maîtrisée
+68.40,133.8,18.3,SAFE,2,Situation maîtrisée
+68.45,134.0,18.2,SAFE,2,Situation maîtrisée
+68.50,134.3,18.1,SAFE,2,Situation maîtrisée
+68.55,134.5,18.0,SAFE,2,Situation maîtrisée
+68.60,134.8,17.8,SAFE,2,Situation maîtrisée
+68.65,135.0,18.0,SAFE,2,Situation maîtrisée
+68.70,135.3,18.0,SAFE,2,Situation maîtrisée
+68.75,135.5,17.9,SAFE,2,Situation maîtrisée
+68.80,135.8,17.8,SAFE,2,Situation maîtrisée
+68.85,136.0,17.7,SAFE,3,Situation maîtrisée
+68.90,136.3,17.5,SAFE,3,Situation maîtrisée
+68.95,136.5,17.3,SAFE,3,Situation maîtrisée
+69.00,136.8,17.2,SAFE,3,Situation maîtrisée
+69.05,137.0,17.1,SAFE,3,Situation maîtrisée
+69.10,137.2,16.9,SAFE,3,Situation maîtrisée
+69.15,137.5,16.8,SAFE,3,Situation maîtrisée
+69.20,137.7,16.7,SAFE,3,Situation maîtrisée
+69.25,137.9,16.6,SAFE,3,Situation maîtrisée
+69.30,138.1,16.5,SAFE,3,Situation maîtrisée
+69.35,138.4,16.4,SAFE,3,Situation maîtrisée
+69.40,138.6,16.3,SAFE,3,Situation maîtrisée
+69.45,138.8,16.2,SAFE,3,Situation maîtrisée
+69.50,139.1,16.2,SAFE,3,Situation maîtrisée
+69.55,139.3,16.1,SAFE,4,Situation maîtrisée
+69.60,139.5,16.0,SAFE,4,Situation maîtrisée
+69.65,139.7,15.9,SAFE,4,Situation maîtrisée
+69.70,139.9,15.8,SAFE,4,Situation maîtrisée
+69.75,140.2,15.5,SAFE,4,Situation maîtrisée
+69.80,140.4,15.3,SAFE,4,Situation maîtrisée
+69.85,140.6,14.9,SAFE,4,Situation maîtrisée
+69.90,140.8,14.5,SAFE,4,Situation maîtrisée
+69.95,141.0,14.0,SAFE,4,Situation maîtrisée
+70.00,141.2,13.5,SAFE,4,Situation maîtrisée
+70.05,141.3,12.9,SAFE,4,Situation maîtrisée
+70.10,141.5,12.3,SAFE,4,Situation maîtrisée
+70.15,141.7,11.7,SAFE,4,Situation maîtrisée
+70.20,141.8,11.1,SAFE,4,Situation maîtrisée
+70.25,142.0,10.7,SAFE,4,Situation maîtrisée
+70.30,142.1,9.8,SAFE,4,Situation maîtrisée
+70.35,142.2,9.1,SAFE,4,Situation maîtrisée
+70.40,142.3,8.6,SAFE,3,Situation maîtrisée
+70.45,142.4,8.0,SAFE,3,Situation maîtrisée
+70.50,142.5,7.5,SAFE,3,Situation maîtrisée
+70.55,142.6,6.9,SAFE,2,Situation maîtrisée
+70.60,142.7,6.4,SAFE,2,Situation maîtrisée
+70.65,142.8,5.9,SAFE,2,Situation maîtrisée
+70.70,142.8,5.2,SAFE,2,Situation maîtrisée
+70.75,142.9,3.8,SAFE,2,Situation maîtrisée
+70.80,142.9,1.5,SAFE,2,Situation maîtrisée
+70.85,142.9,0.0,SAFE,2,Situation maîtrisée
+70.90,142.9,0.0,SAFE,2,Situation maîtrisée
+70.95,142.9,0.0,SAFE,2,Situation maîtrisée
+71.00,142.9,0.0,SAFE,2,Situation maîtrisée
+71.05,142.9,0.0,SAFE,2,Situation maîtrisée
+71.10,142.9,0.0,SAFE,2,Situation maîtrisée
+71.15,142.9,0.0,SAFE,2,Situation maîtrisée
+71.20,142.9,0.0,SAFE,2,Situation maîtrisée
+71.25,142.9,0.0,SAFE,2,Situation maîtrisée
+71.30,142.9,0.0,SAFE,2,Situation maîtrisée
+71.35,142.9,0.0,SAFE,2,Situation maîtrisée
+71.40,142.9,0.0,SAFE,2,Situation maîtrisée
+71.45,142.9,0.0,SAFE,2,Situation maîtrisée
+71.50,142.9,0.0,SAFE,2,Situation maîtrisée
+71.55,142.9,0.0,SAFE,2,Situation maîtrisée
+71.60,142.9,0.0,SAFE,2,Situation maîtrisée
+71.65,142.9,0.0,SAFE,2,Situation maîtrisée
+71.70,142.9,0.0,SAFE,2,Situation maîtrisée
+71.75,142.9,0.0,SAFE,2,Situation maîtrisée
+71.80,142.9,0.0,SAFE,2,Situation maîtrisée
+71.85,142.9,0.0,SAFE,2,Situation maîtrisée
+71.90,142.9,0.0,SAFE,2,Situation maîtrisée
+71.95,142.9,0.0,SAFE,2,Situation maîtrisée
+72.00,142.9,0.0,SAFE,2,Situation maîtrisée
+72.05,142.9,0.0,SAFE,2,Situation maîtrisée
+72.10,142.9,0.0,SAFE,2,Situation maîtrisée
+72.15,142.9,0.0,SAFE,2,Situation maîtrisée
+72.20,142.9,0.0,SAFE,2,Situation maîtrisée
+72.25,142.9,0.0,SAFE,2,Situation maîtrisée
+72.30,142.9,0.0,SAFE,2,Situation maîtrisée
+72.35,142.9,0.0,SAFE,2,Situation maîtrisée
+72.40,142.9,0.0,SAFE,2,Situation maîtrisée
+72.45,142.9,0.0,SAFE,2,Situation maîtrisée
+72.50,142.9,0.0,SAFE,2,Situation maîtrisée
+72.55,142.9,0.0,SAFE,2,Situation maîtrisée
+72.60,142.9,0.0,SAFE,2,Situation maîtrisée
+72.65,142.9,0.0,SAFE,2,Situation maîtrisée
+72.70,142.9,0.0,SAFE,2,Situation maîtrisée
+72.75,142.9,0.0,SAFE,2,Situation maîtrisée
+72.80,142.9,0.0,SAFE,2,Situation maîtrisée
+72.85,142.9,0.0,SAFE,2,Situation maîtrisée
+72.90,142.9,0.0,SAFE,2,Situation maîtrisée
+72.95,142.9,0.0,SAFE,2,Situation maîtrisée
+73.00,142.9,0.0,SAFE,2,Situation maîtrisée
+73.05,142.9,0.0,SAFE,2,Situation maîtrisée
+73.10,142.9,0.0,SAFE,2,Situation maîtrisée
+73.15,142.9,0.0,SAFE,2,Situation maîtrisée
+73.20,142.9,0.0,SAFE,2,Situation maîtrisée
+73.25,142.9,0.0,SAFE,2,Situation maîtrisée
+73.30,142.9,0.0,SAFE,2,Situation maîtrisée
+73.35,142.9,0.0,SAFE,2,Situation maîtrisée
+73.40,142.9,0.0,SAFE,2,Situation maîtrisée
+73.45,142.9,0.0,SAFE,2,Situation maîtrisée
+73.50,142.9,0.0,SAFE,2,Situation maîtrisée
+73.55,142.9,0.0,SAFE,2,Situation maîtrisée
+73.60,142.9,0.0,SAFE,2,Situation maîtrisée
+73.65,142.9,0.0,SAFE,2,Situation maîtrisée
+73.70,142.9,0.0,SAFE,2,Situation maîtrisée
+73.75,142.9,0.0,SAFE,2,Situation maîtrisée
+73.80,142.9,0.0,SAFE,2,Situation maîtrisée
+73.85,142.9,0.0,SAFE,2,Situation maîtrisée
+73.90,142.9,0.0,SAFE,2,Situation maîtrisée
+73.95,142.9,0.0,SAFE,2,Situation maîtrisée
+74.00,142.9,0.0,SAFE,2,Situation maîtrisée
+74.05,142.9,0.0,SAFE,2,Situation maîtrisée
+74.10,142.9,0.0,SAFE,2,Situation maîtrisée
+74.15,142.9,0.0,SAFE,2,Situation maîtrisée
+74.20,142.9,0.0,SAFE,2,Situation maîtrisée
+74.25,142.9,0.0,SAFE,2,Situation maîtrisée
+74.30,142.9,0.0,SAFE,2,Situation maîtrisée
+74.35,142.9,0.0,SAFE,2,Situation maîtrisée
+74.40,142.9,0.0,SAFE,2,Situation maîtrisée
+74.45,142.9,0.0,SAFE,2,Situation maîtrisée
+74.50,142.9,0.0,SAFE,2,Situation maîtrisée
+74.55,142.9,0.0,SAFE,2,Situation maîtrisée
+74.60,142.9,0.0,SAFE,2,Situation maîtrisée
+74.65,142.9,0.0,SAFE,2,Situation maîtrisée
+74.70,142.9,0.0,SAFE,2,Situation maîtrisée
+74.75,142.9,0.0,SAFE,2,Situation maîtrisée
+74.80,142.9,0.0,SAFE,2,Situation maîtrisée
+74.85,142.9,0.0,SAFE,2,Situation maîtrisée
+74.90,142.9,0.0,SAFE,2,Situation maîtrisée
+74.95,142.9,0.0,SAFE,2,Situation maîtrisée
+75.00,142.9,0.0,SAFE,2,Situation maîtrisée
+75.05,142.9,0.0,SAFE,2,Situation maîtrisée
+75.10,142.9,0.0,SAFE,2,Situation maîtrisée
+75.15,142.9,0.0,SAFE,2,Situation maîtrisée
+75.20,142.9,0.0,SAFE,2,Situation maîtrisée
+75.25,142.9,0.0,SAFE,2,Situation maîtrisée
+75.30,142.9,0.0,SAFE,2,Situation maîtrisée
+75.35,142.9,0.0,SAFE,2,Situation maîtrisée
+75.40,142.9,0.0,SAFE,2,Situation maîtrisée
+75.45,142.9,0.0,SAFE,2,Situation maîtrisée
+75.50,142.9,0.0,SAFE,2,Situation maîtrisée
+75.55,142.9,0.0,SAFE,2,Situation maîtrisée
+75.60,142.9,0.0,SAFE,2,Situation maîtrisée
+75.65,142.9,0.0,SAFE,2,Situation maîtrisée
+75.70,142.9,0.0,SAFE,2,Situation maîtrisée
+75.75,142.9,0.0,SAFE,2,Situation maîtrisée
+75.80,142.9,0.0,SAFE,2,Situation maîtrisée
+75.85,142.9,0.0,SAFE,2,Situation maîtrisée
+75.90,142.9,0.0,SAFE,2,Situation maîtrisée
+75.95,142.9,0.0,SAFE,2,Situation maîtrisée
+76.00,142.9,0.0,SAFE,2,Situation maîtrisée
+76.05,142.9,0.0,SAFE,2,Situation maîtrisée
+76.10,142.9,0.0,SAFE,2,Situation maîtrisée
+76.15,142.9,0.0,SAFE,2,Situation maîtrisée
+76.20,142.9,0.0,SAFE,2,Situation maîtrisée
+76.25,142.9,0.0,SAFE,2,Situation maîtrisée
+76.30,142.9,0.0,SAFE,2,Situation maîtrisée
+76.35,142.9,0.0,SAFE,2,Situation maîtrisée
+76.40,142.9,0.0,SAFE,2,Situation maîtrisée
+76.45,142.9,0.0,SAFE,2,Situation maîtrisée
+76.50,142.9,0.0,SAFE,2,Situation maîtrisée
+76.55,142.9,0.0,SAFE,2,Situation maîtrisée
+76.60,142.9,0.0,SAFE,2,Situation maîtrisée
+76.65,142.9,0.0,SAFE,2,Situation maîtrisée
+76.70,142.9,0.0,SAFE,2,Situation maîtrisée
+76.75,142.9,0.0,SAFE,2,Situation maîtrisée
+76.80,142.9,0.0,CRITICAL,2,FREINEZ — conflit non évitable par la seule vitesse
+76.85,142.9,0.0,CRITICAL,2,Vigilance — situation à la limite
+76.90,142.9,0.0,SAFE,2,Situation maîtrisée
+76.95,142.9,0.0,SAFE,2,Situation maîtrisée
+77.00,142.9,0.0,CRITICAL,2,Vigilance — situation à la limite
+77.05,142.9,0.0,CRITICAL,3,Vigilance — situation à la limite
+77.10,142.9,0.0,CRITICAL,3,Vigilance — situation à la limite
+77.15,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.20,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.25,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.30,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.35,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.40,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.45,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.50,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.55,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.60,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.65,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.70,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.75,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.80,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.85,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.90,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+77.95,142.9,0.0,WATCH,3,FREINEZ — conflit non évitable par la seule vitesse
+78.00,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.05,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.10,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.15,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.20,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.25,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.30,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.35,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.40,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.45,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.50,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.55,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.60,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.65,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.70,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.75,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.80,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.85,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.90,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+78.95,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+79.00,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+79.05,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+79.10,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+79.15,142.9,0.0,CRITICAL,3,FREINEZ — conflit non évitable par la seule vitesse
+79.20,142.9,0.0,SAFE,3,Situation maîtrisée
+79.25,142.9,0.0,SAFE,3,Situation maîtrisée
+79.30,142.9,0.0,SAFE,3,Situation maîtrisée
+79.35,142.9,0.0,SAFE,3,Situation maîtrisée
+79.40,142.9,0.0,SAFE,3,Situation maîtrisée
+79.45,142.9,0.0,SAFE,3,Situation maîtrisée
+79.50,142.9,0.0,SAFE,3,Situation maîtrisée
+79.55,142.9,0.0,SAFE,3,Situation maîtrisée
+79.60,142.9,0.0,SAFE,3,Situation maîtrisée
+79.65,142.9,0.3,SAFE,3,Situation maîtrisée
+79.70,142.9,0.7,SAFE,3,Situation maîtrisée
+79.75,143.0,1.2,SAFE,3,Situation maîtrisée
+79.80,143.0,1.7,SAFE,3,Situation maîtrisée
+79.85,143.0,2.4,SAFE,3,Situation maîtrisée
+79.90,143.0,3.0,SAFE,3,Situation maîtrisée
+79.95,143.1,3.8,SAFE,2,Situation maîtrisée
+80.00,143.1,4.4,SAFE,2,Situation maîtrisée
+80.05,143.2,5.1,SAFE,2,Situation maîtrisée
+80.10,143.3,5.6,SAFE,2,Situation maîtrisée
+80.15,143.3,6.2,SAFE,2,Situation maîtrisée
+80.20,143.4,6.7,SAFE,2,Situation maîtrisée
+80.25,143.5,7.2,SAFE,2,Situation maîtrisée
+80.30,143.6,7.6,SAFE,2,Situation maîtrisée
+80.35,143.7,7.9,SAFE,3,Situation maîtrisée
+80.40,143.8,8.2,SAFE,3,Situation maîtrisée
+80.45,143.9,8.5,SAFE,3,Situation maîtrisée
+80.50,144.0,8.8,SAFE,3,Situation maîtrisée
+80.55,144.2,9.0,SAFE,3,Situation maîtrisée
+80.60,144.3,9.2,SAFE,3,Situation maîtrisée
+80.65,144.4,9.3,SAFE,3,Situation maîtrisée
+80.70,144.5,9.5,SAFE,3,Situation maîtrisée
+80.75,144.7,9.6,SAFE,3,Situation maîtrisée
+80.80,144.8,9.7,SAFE,3,Situation maîtrisée
+80.85,144.9,9.8,SAFE,3,Situation maîtrisée
+80.90,145.0,9.9,SAFE,3,Situation maîtrisée
+80.95,145.2,9.9,SAFE,3,Situation maîtrisée
+81.00,145.3,10.0,SAFE,3,Situation maîtrisée
+81.05,145.4,10.0,SAFE,3,Situation maîtrisée
+81.10,145.6,10.0,SAFE,3,Situation maîtrisée
+81.15,145.7,10.0,SAFE,3,Situation maîtrisée
+81.20,145.8,10.1,SAFE,3,Situation maîtrisée
+81.25,146.0,10.0,SAFE,3,Situation maîtrisée
+81.30,146.1,10.1,SAFE,3,Situation maîtrisée
+81.35,146.3,10.1,SAFE,2,Situation maîtrisée
+81.40,146.4,10.1,SAFE,2,Situation maîtrisée
+81.45,146.5,10.1,SAFE,2,Situation maîtrisée
+81.50,146.7,10.1,SAFE,1,Situation maîtrisée
+81.55,146.8,10.1,SAFE,1,Situation maîtrisée
+81.60,146.9,10.1,SAFE,1,Situation maîtrisée
+81.65,147.1,10.1,SAFE,1,Situation maîtrisée
+81.70,147.2,10.1,SAFE,1,Situation maîtrisée
+81.75,147.3,10.0,SAFE,1,Situation maîtrisée
+81.80,147.5,10.1,SAFE,1,Situation maîtrisée
+81.85,147.6,10.0,SAFE,1,Situation maîtrisée
+81.90,147.8,10.1,SAFE,1,Situation maîtrisée
+81.95,147.9,10.0,SAFE,1,Situation maîtrisée
+82.00,148.0,10.0,SAFE,1,Situation maîtrisée
+82.05,148.2,10.0,SAFE,1,Situation maîtrisée
+82.10,148.3,10.0,SAFE,1,Situation maîtrisée
+82.15,148.5,10.0,SAFE,1,Situation maîtrisée
+82.20,148.6,10.0,SAFE,1,Situation maîtrisée
+82.25,148.7,10.0,SAFE,1,Situation maîtrisée
+82.30,148.9,10.0,SAFE,1,Situation maîtrisée
+82.35,149.0,10.0,SAFE,1,Situation maîtrisée
+82.40,149.1,10.0,SAFE,1,Situation maîtrisée
+82.45,149.3,10.0,SAFE,1,Situation maîtrisée
+82.50,149.4,10.1,SAFE,1,Situation maîtrisée
+82.55,149.6,10.2,SAFE,1,Situation maîtrisée
+82.60,149.7,10.3,SAFE,1,Situation maîtrisée
+82.65,149.8,10.4,SAFE,1,Situation maîtrisée
+82.70,150.0,10.6,SAFE,1,Situation maîtrisée
+82.75,150.1,10.8,SAFE,1,Situation maîtrisée
+82.80,150.3,11.0,SAFE,1,Situation maîtrisée
+82.85,150.4,11.2,SAFE,1,Situation maîtrisée
+82.90,150.6,11.5,SAFE,1,Situation maîtrisée
+82.95,150.8,11.7,SAFE,1,Situation maîtrisée
+83.00,150.9,12.0,SAFE,1,Situation maîtrisée
+83.05,151.1,12.3,SAFE,1,Situation maîtrisée
+83.10,151.3,12.6,SAFE,1,Situation maîtrisée
+83.15,151.4,12.8,SAFE,1,Situation maîtrisée
+83.20,151.6,13.1,SAFE,1,Situation maîtrisée
+83.25,151.8,13.4,SAFE,1,Situation maîtrisée
+83.30,152.0,13.6,SAFE,1,Situation maîtrisée
+83.35,152.2,13.9,SAFE,1,Situation maîtrisée
+83.40,152.4,14.2,SAFE,1,Situation maîtrisée
+83.45,152.6,14.4,SAFE,1,Situation maîtrisée
+83.50,152.8,14.7,SAFE,1,Situation maîtrisée
+83.55,153.0,15.0,SAFE,1,Situation maîtrisée
+83.60,153.2,15.2,SAFE,1,Situation maîtrisée
+83.65,153.4,15.5,SAFE,1,Situation maîtrisée
+83.70,153.6,15.8,SAFE,1,Situation maîtrisée
+83.75,153.9,16.0,SAFE,1,Situation maîtrisée
+83.80,154.1,16.3,SAFE,1,Situation maîtrisée
+83.85,154.3,16.5,SAFE,1,Situation maîtrisée
+83.90,154.5,16.8,SAFE,1,Situation maîtrisée
+83.95,154.8,17.0,SAFE,1,Situation maîtrisée
+84.00,155.0,17.3,SAFE,1,Situation maîtrisée
+84.05,155.3,17.5,SAFE,1,Situation maîtrisée
+84.10,155.5,17.7,SAFE,1,Situation maîtrisée
+84.15,155.7,17.9,SAFE,1,Situation maîtrisée
+84.20,156.0,18.2,SAFE,1,Situation maîtrisée
+84.25,156.3,18.2,SAFE,1,Situation maîtrisée
+84.30,156.5,18.1,SAFE,1,Situation maîtrisée
+84.35,156.8,18.1,SAFE,1,Situation maîtrisée
+84.40,157.0,18.3,SAFE,1,Situation maîtrisée
+84.45,157.3,18.1,SAFE,1,Situation maîtrisée
+84.50,157.5,18.3,SAFE,1,Situation maîtrisée
+84.55,157.8,18.5,SAFE,1,Situation maîtrisée
+84.60,158.0,18.2,SAFE,1,Situation maîtrisée
+84.65,158.3,18.6,SAFE,1,Situation maîtrisée
+84.70,158.5,18.2,SAFE,1,Situation maîtrisée
+84.75,158.8,18.6,SAFE,1,Situation maîtrisée
+84.80,159.0,18.4,SAFE,1,Situation maîtrisée
+84.85,159.3,18.8,SAFE,1,Situation maîtrisée
+84.90,159.6,18.4,SAFE,1,Situation maîtrisée
+84.95,159.8,18.9,SAFE,1,Situation maîtrisée
+85.00,160.1,18.6,SAFE,1,Situation maîtrisée
+85.05,160.3,19.0,SAFE,1,Situation maîtrisée
+85.10,160.6,18.7,SAFE,1,Situation maîtrisée
+85.15,160.9,19.1,SAFE,1,Situation maîtrisée
+85.20,161.1,18.8,SAFE,1,Situation maîtrisée
+85.25,161.4,19.2,SAFE,1,Situation maîtrisée
+85.30,161.7,18.8,SAFE,1,Situation maîtrisée
+85.35,161.9,19.2,SAFE,1,Situation maîtrisée
+85.40,162.2,19.0,SAFE,1,Situation maîtrisée
+85.45,162.4,19.3,SAFE,1,Situation maîtrisée
+85.50,162.7,19.0,SAFE,1,Situation maîtrisée
+85.55,163.0,19.4,SAFE,1,Situation maîtrisée
+85.60,163.2,19.1,SAFE,1,Situation maîtrisée
+85.65,163.5,19.4,SAFE,1,Situation maîtrisée
+85.70,163.8,19.1,SAFE,1,Situation maîtrisée
+85.75,164.1,19.6,SAFE,1,Situation maîtrisée
+85.80,164.3,19.4,SAFE,1,Situation maîtrisée
+85.85,164.6,19.7,SAFE,1,Situation maîtrisée
+85.90,164.9,19.3,SAFE,1,Situation maîtrisée
+85.95,165.1,19.8,SAFE,1,Situation maîtrisée
+86.00,165.4,19.5,SAFE,1,Situation maîtrisée
+86.05,165.7,19.8,SAFE,1,Situation maîtrisée
+86.10,166.0,19.4,SAFE,1,Situation maîtrisée
+86.15,166.2,19.9,SAFE,1,Situation maîtrisée
+86.20,166.5,19.6,SAFE,1,Situation maîtrisée
+86.25,166.8,19.8,SAFE,1,Situation maîtrisée
+86.30,167.0,19.5,SAFE,1,Situation maîtrisée
+86.35,167.3,19.9,SAFE,1,Situation maîtrisée
+86.40,167.6,19.6,SAFE,1,Situation maîtrisée
+86.45,167.9,19.9,SAFE,1,Situation maîtrisée
+86.50,168.1,19.5,SAFE,1,Situation maîtrisée
+86.55,168.4,20.0,SAFE,1,Situation maîtrisée
+86.60,168.7,19.7,SAFE,1,Situation maîtrisée
+86.65,169.0,20.0,SAFE,1,Situation maîtrisée
+86.70,169.2,19.6,SAFE,1,Situation maîtrisée
+86.75,169.5,20.1,SAFE,1,Situation maîtrisée
+86.80,169.8,19.8,SAFE,1,Situation maîtrisée
+86.85,170.1,20.0,SAFE,1,Situation maîtrisée
+86.90,170.4,19.7,SAFE,1,Situation maîtrisée
+86.95,170.6,20.1,SAFE,1,Situation maîtrisée
+87.00,170.9,19.8,SAFE,1,Situation maîtrisée
+87.05,171.2,20.1,SAFE,1,Situation maîtrisée
+87.10,171.5,19.7,SAFE,1,Situation maîtrisée
+87.15,171.7,20.1,SAFE,1,Situation maîtrisée
+87.20,172.0,19.9,SAFE,1,Situation maîtrisée
+87.25,172.3,20.1,SAFE,1,Situation maîtrisée
+87.30,172.6,19.7,SAFE,1,Situation maîtrisée
+87.35,172.8,20.2,SAFE,1,Situation maîtrisée
+87.40,173.1,19.9,SAFE,1,Situation maîtrisée
+87.45,173.4,20.1,SAFE,1,Situation maîtrisée
+87.50,173.7,19.7,SAFE,1,Situation maîtrisée
+87.55,174.0,20.2,SAFE,1,Situation maîtrisée
+87.60,174.2,19.9,SAFE,1,Situation maîtrisée
+87.65,174.5,20.1,SAFE,1,Situation maîtrisée
+87.70,174.8,19.7,SAFE,1,Situation maîtrisée
+87.75,175.1,20.1,SAFE,1,Situation maîtrisée
+87.80,175.3,19.8,SAFE,1,Situation maîtrisée
+87.85,175.6,20.1,SAFE,1,Situation maîtrisée
+87.90,175.9,19.7,SAFE,1,Situation maîtrisée
+87.95,176.2,20.1,SAFE,1,Situation maîtrisée
+88.00,176.4,19.8,SAFE,1,Situation maîtrisée
+88.05,176.7,20.1,SAFE,1,Situation maîtrisée
+88.10,177.0,19.7,SAFE,1,Situation maîtrisée
+88.15,177.3,20.1,SAFE,1,Situation maîtrisée
+88.20,177.6,19.8,SAFE,1,Situation maîtrisée
+88.25,177.8,20.0,SAFE,1,Situation maîtrisée
+88.30,178.1,19.6,SAFE,1,Situation maîtrisée
+88.35,178.4,20.1,SAFE,1,Situation maîtrisée
+88.40,178.7,19.8,SAFE,1,Situation maîtrisée
+88.45,178.9,20.0,SAFE,1,Situation maîtrisée
+88.50,179.2,19.6,SAFE,1,Situation maîtrisée
+88.55,179.5,20.1,SAFE,1,Situation maîtrisée
+88.60,179.8,19.8,SAFE,1,Situation maîtrisée
+88.65,180.0,20.0,SAFE,1,Situation maîtrisée
+88.70,180.3,19.6,SAFE,1,Situation maîtrisée
+88.75,180.6,20.0,SAFE,1,Situation maîtrisée
+88.80,180.9,19.7,SAFE,1,Situation maîtrisée
+88.85,181.1,20.0,SAFE,1,Situation maîtrisée
+88.90,181.4,19.6,SAFE,1,Situation maîtrisée
+88.95,181.7,20.0,SAFE,1,Situation maîtrisée
+89.00,182.0,19.7,SAFE,1,Situation maîtrisée
+89.05,182.2,20.0,SAFE,1,Situation maîtrisée
+89.10,182.5,19.6,SAFE,1,Situation maîtrisée
+89.15,182.8,20.0,SAFE,1,Situation maîtrisée
+89.20,183.1,19.7,SAFE,1,Situation maîtrisée
+89.25,183.3,20.0,SAFE,1,Situation maîtrisée
+89.30,183.6,19.6,SAFE,1,Situation maîtrisée
+89.35,183.9,20.0,SAFE,1,Situation maîtrisée
+89.40,184.2,19.7,SAFE,1,Situation maîtrisée
+89.45,184.4,19.9,SAFE,1,Situation maîtrisée
+89.50,184.7,19.6,SAFE,1,Situation maîtrisée
+89.55,185.0,20.0,SAFE,1,Situation maîtrisée
+89.60,185.3,19.7,SAFE,1,Situation maîtrisée
+89.65,185.5,19.9,SAFE,1,Situation maîtrisée
+89.70,185.8,19.5,SAFE,1,Situation maîtrisée
+89.75,186.1,20.0,SAFE,1,Situation maîtrisée
+89.80,186.4,19.7,SAFE,1,Situation maîtrisée
+89.85,186.6,19.9,SAFE,1,Situation maîtrisée
+89.90,186.9,19.5,SAFE,1,Situation maîtrisée
+89.95,187.2,20.0,SAFE,1,Situation maîtrisée
+90.00,187.5,19.7,SAFE,1,Situation maîtrisée
+90.05,187.7,19.9,SAFE,1,Situation maîtrisée
+90.10,188.0,19.5,SAFE,1,Situation maîtrisée
+90.15,188.3,20.0,SAFE,1,Situation maîtrisée
+90.20,188.6,19.7,SAFE,1,Situation maîtrisée
+90.25,188.8,19.9,SAFE,1,Situation maîtrisée
+90.30,189.1,19.5,SAFE,1,Situation maîtrisée
+90.35,189.4,20.0,SAFE,1,Situation maîtrisée
+90.40,189.7,19.7,SAFE,1,Situation maîtrisée
+90.45,189.9,19.9,SAFE,1,Situation maîtrisée
+90.50,190.2,19.5,SAFE,1,Situation maîtrisée
+90.55,190.5,20.0,SAFE,1,Situation maîtrisée
+90.60,190.8,19.7,SAFE,1,Situation maîtrisée
+90.65,191.0,19.9,SAFE,1,Situation maîtrisée
+90.70,191.3,19.5,SAFE,1,Situation maîtrisée
+90.75,191.6,20.0,SAFE,1,Situation maîtrisée
+90.80,191.9,19.7,SAFE,1,Situation maîtrisée
+90.85,192.1,19.9,SAFE,1,Situation maîtrisée
+90.90,192.4,19.5,SAFE,1,Situation maîtrisée
+90.95,192.7,20.0,SAFE,1,Situation maîtrisée
+91.00,193.0,19.7,SAFE,1,Situation maîtrisée
+91.05,193.2,19.9,SAFE,1,Situation maîtrisée
+91.10,193.5,19.5,SAFE,1,Situation maîtrisée
+91.15,193.8,20.0,SAFE,1,Situation maîtrisée
+91.20,194.1,19.7,SAFE,1,Situation maîtrisée
+91.25,194.3,19.9,SAFE,1,Situation maîtrisée
+91.30,194.6,19.5,SAFE,1,Situation maîtrisée
+91.35,194.9,20.0,SAFE,1,Situation maîtrisée
+91.40,195.2,19.7,SAFE,1,Situation maîtrisée
+91.45,195.4,19.9,SAFE,1,Situation maîtrisée
+91.50,195.7,19.5,SAFE,1,Situation maîtrisée
+91.55,196.0,20.0,SAFE,1,Situation maîtrisée
+91.60,196.3,19.7,SAFE,1,Situation maîtrisée
+91.65,196.5,19.9,SAFE,1,Situation maîtrisée
+91.70,196.8,19.5,SAFE,1,Situation maîtrisée
+91.75,197.1,20.0,SAFE,1,Situation maîtrisée
+91.80,197.4,19.7,SAFE,1,Situation maîtrisée
+91.85,197.6,19.9,SAFE,1,Situation maîtrisée
+91.90,197.9,19.6,SAFE,1,Situation maîtrisée
+91.95,198.2,20.0,SAFE,1,Situation maîtrisée
+92.00,198.5,19.7,SAFE,1,Situation maîtrisée
+92.05,198.7,20.0,SAFE,1,Situation maîtrisée
+92.10,199.0,19.6,SAFE,1,Situation maîtrisée
+92.15,199.3,20.0,SAFE,1,Situation maîtrisée
+92.20,199.6,19.8,SAFE,1,Situation maîtrisée
+92.25,199.8,20.0,SAFE,1,Situation maîtrisée
+92.30,200.1,19.6,SAFE,1,Situation maîtrisée
+92.35,200.4,20.1,SAFE,1,Situation maîtrisée
+92.40,200.7,19.8,SAFE,1,Situation maîtrisée
+92.45,200.9,20.0,SAFE,1,Situation maîtrisée
+92.50,201.2,19.6,SAFE,1,Situation maîtrisée
+92.55,201.5,20.1,SAFE,1,Situation maîtrisée
+92.60,201.8,19.8,SAFE,1,Situation maîtrisée
+92.65,202.0,20.0,SAFE,1,Situation maîtrisée
+92.70,202.3,19.7,SAFE,1,Situation maîtrisée
+92.75,202.6,20.1,SAFE,1,Situation maîtrisée
+92.80,202.9,19.8,SAFE,1,Situation maîtrisée
+92.85,203.1,20.1,SAFE,1,Situation maîtrisée
+92.90,203.4,19.7,SAFE,1,Situation maîtrisée
+92.95,203.7,20.1,SAFE,1,Situation maîtrisée
+93.00,204.0,19.9,SAFE,1,Situation maîtrisée
+93.05,204.2,20.1,SAFE,1,Situation maîtrisée
+93.10,204.5,19.7,SAFE,1,Situation maîtrisée
+93.15,204.8,20.2,SAFE,1,Situation maîtrisée
+93.20,205.1,19.9,SAFE,1,Situation maîtrisée
+93.25,205.4,20.1,SAFE,1,Situation maîtrisée
+93.30,205.6,19.8,SAFE,1,Situation maîtrisée
+93.35,205.9,20.2,SAFE,1,Situation maîtrisée
+93.40,206.2,19.9,SAFE,1,Situation maîtrisée
+93.45,206.5,20.2,SAFE,1,Situation maîtrisée
+93.50,206.7,19.8,SAFE,1,Situation maîtrisée
+93.55,207.0,20.2,SAFE,1,Situation maîtrisée
+93.60,207.3,20.0,SAFE,1,Situation maîtrisée
+93.65,207.6,20.2,SAFE,1,Situation maîtrisée
+93.70,207.9,19.8,SAFE,1,Situation maîtrisée
+93.75,208.1,20.3,SAFE,1,Situation maîtrisée
+93.80,208.4,20.0,SAFE,1,Situation maîtrisée
+93.85,208.7,20.2,SAFE,1,Situation maîtrisée
+93.90,209.0,19.9,SAFE,1,Situation maîtrisée
+93.95,209.3,20.3,SAFE,1,Situation maîtrisée
+94.00,209.5,20.0,SAFE,1,Situation maîtrisée
+94.05,209.8,20.3,SAFE,1,Situation maîtrisée
+94.10,210.1,19.9,SAFE,1,Situation maîtrisée
+94.15,210.4,20.3,SAFE,1,Situation maîtrisée
+94.20,210.7,20.1,SAFE,1,Situation maîtrisée
+94.25,210.9,20.3,SAFE,1,Situation maîtrisée
+94.30,211.2,20.0,SAFE,1,Situation maîtrisée
+94.35,211.5,20.4,SAFE,1,Situation maîtrisée
+94.40,211.8,20.1,SAFE,1,Situation maîtrisée
+94.45,212.1,20.3,SAFE,1,Situation maîtrisée
+94.50,212.3,20.0,SAFE,1,Situation maîtrisée
+94.55,212.6,20.4,SAFE,1,Situation maîtrisée
+94.60,212.9,20.1,SAFE,1,Situation maîtrisée
+94.65,213.2,20.4,SAFE,1,Situation maîtrisée
+94.70,213.5,20.0,SAFE,1,Situation maîtrisée
+94.75,213.7,20.5,SAFE,1,Situation maîtrisée
+94.80,214.0,20.2,SAFE,1,Situation maîtrisée
+94.85,214.3,20.4,SAFE,1,Situation maîtrisée
+94.90,214.6,20.1,SAFE,1,Situation maîtrisée
+94.95,214.9,20.5,SAFE,1,Situation maîtrisée
+95.00,215.1,20.2,SAFE,1,Situation maîtrisée
+95.05,215.4,20.5,SAFE,1,Situation maîtrisée
+95.10,215.7,20.1,SAFE,2,Situation maîtrisée
+95.15,216.0,20.5,SAFE,2,Situation maîtrisée
+95.20,216.3,20.2,SAFE,2,Situation maîtrisée
+95.25,216.6,20.5,SAFE,2,Situation maîtrisée
+95.30,216.8,20.1,SAFE,2,Situation maîtrisée
+95.35,217.1,20.5,SAFE,2,Situation maîtrisée
+95.40,217.4,20.3,SAFE,2,Situation maîtrisée
+95.45,217.7,20.5,SAFE,2,Situation maîtrisée
+95.50,218.0,20.2,SAFE,2,Situation maîtrisée
+95.55,218.3,20.6,SAFE,2,Situation maîtrisée
+95.60,218.5,20.3,SAFE,2,Situation maîtrisée
+95.65,218.8,20.6,SAFE,2,Situation maîtrisée
+95.70,219.1,20.2,SAFE,2,Situation maîtrisée
+95.75,219.4,20.6,SAFE,2,Situation maîtrisée
+95.80,219.7,20.3,SAFE,2,Situation maîtrisée
+95.85,220.0,20.6,SAFE,2,Situation maîtrisée
+95.90,220.2,20.2,SAFE,2,Situation maîtrisée
+95.95,220.5,20.7,SAFE,2,Situation maîtrisée
+96.00,220.8,20.4,SAFE,2,Situation maîtrisée
+96.05,221.1,20.6,SAFE,2,Situation maîtrisée
+96.10,221.4,20.3,SAFE,2,Situation maîtrisée
+96.15,221.7,20.7,SAFE,2,Situation maîtrisée
+96.20,221.9,20.4,SAFE,2,Situation maîtrisée
+96.25,222.2,20.7,SAFE,2,Situation maîtrisée
+96.30,222.5,20.3,SAFE,2,Situation maîtrisée
+96.35,222.8,20.7,SAFE,2,Situation maîtrisée
+96.40,223.1,20.4,SAFE,2,Situation maîtrisée
+96.45,223.4,20.7,SAFE,2,Situation maîtrisée
+96.50,223.7,20.4,SAFE,2,Situation maîtrisée
+96.55,223.9,20.7,SAFE,2,Situation maîtrisée
+96.60,224.2,20.5,SAFE,2,Situation maîtrisée
+96.65,224.5,20.7,SAFE,2,Situation maîtrisée
+96.70,224.8,20.4,SAFE,2,Situation maîtrisée
+96.75,225.1,20.8,SAFE,3,Situation maîtrisée
+96.80,225.4,20.5,SAFE,3,Situation maîtrisée
+96.85,225.7,20.8,SAFE,3,Situation maîtrisée
+96.90,225.9,20.4,SAFE,3,Situation maîtrisée
+96.95,226.2,20.8,SAFE,3,Situation maîtrisée
+97.00,226.5,20.5,SAFE,3,Situation maîtrisée
+97.05,226.8,20.8,SAFE,3,Situation maîtrisée
+97.10,227.1,20.4,SAFE,3,Situation maîtrisée
+97.15,227.4,20.8,SAFE,3,Situation maîtrisée
+97.20,227.7,20.5,SAFE,3,Situation maîtrisée
+97.25,227.9,20.8,SAFE,3,Situation maîtrisée
+97.30,228.2,20.5,SAFE,3,Situation maîtrisée
+97.35,228.5,20.7,SAFE,3,Situation maîtrisée
+97.40,228.8,20.0,SAFE,3,Situation maîtrisée
+97.45,229.1,19.3,SAFE,3,Situation maîtrisée
+97.50,229.3,14.5,SAFE,3,Situation maîtrisée
+97.55,229.5,9.7,SAFE,3,Situation maîtrisée
+97.60,229.6,5.0,SAFE,3,Situation maîtrisée
+97.65,229.6,0.6,SAFE,3,Situation maîtrisée
+97.70,229.6,0.0,SAFE,3,Situation maîtrisée
+97.75,229.6,0.2,SAFE,3,Situation maîtrisée
+97.80,229.6,0.7,SAFE,3,Situation maîtrisée
+97.85,229.6,1.0,SAFE,3,Situation maîtrisée
+97.90,229.6,1.1,SAFE,3,Situation maîtrisée
+97.95,229.6,0.0,SAFE,3,Situation maîtrisée
+98.00,229.6,0.0,SAFE,3,Situation maîtrisée
+98.05,229.6,0.2,SAFE,3,Situation maîtrisée
+98.10,229.6,0.3,SAFE,3,Situation maîtrisée
+98.15,229.6,0.3,SAFE,3,Situation maîtrisée
+98.20,229.6,0.4,SAFE,3,Situation maîtrisée
+98.25,229.7,0.4,SAFE,3,Situation maîtrisée
+98.30,229.7,0.5,SAFE,3,Situation maîtrisée
+98.35,229.7,0.5,SAFE,3,Situation maîtrisée
+98.40,229.7,0.5,SAFE,3,Situation maîtrisée
+98.45,229.7,0.6,SAFE,3,Situation maîtrisée
+98.50,229.7,0.6,SAFE,3,Situation maîtrisée
+98.55,229.7,0.6,SAFE,3,Situation maîtrisée
+98.60,229.7,0.7,SAFE,3,Situation maîtrisée
+98.65,229.7,0.7,SAFE,3,Situation maîtrisée
+98.70,229.7,0.7,SAFE,3,Situation maîtrisée
+98.75,229.7,0.7,SAFE,3,Situation maîtrisée
+98.80,229.7,0.8,SAFE,3,Situation maîtrisée
+98.85,229.8,0.8,SAFE,3,Situation maîtrisée
+98.90,229.8,0.8,SAFE,3,Situation maîtrisée
+98.95,229.8,0.8,SAFE,3,Situation maîtrisée
+99.00,229.8,0.9,SAFE,3,Situation maîtrisée
+99.05,229.8,0.9,SAFE,3,Situation maîtrisée
+99.10,229.8,0.9,SAFE,3,Situation maîtrisée
+99.15,229.8,0.9,SAFE,3,Situation maîtrisée
+99.20,229.8,0.9,SAFE,3,Situation maîtrisée
+99.25,229.9,0.9,SAFE,3,Situation maîtrisée
+99.30,229.9,1.0,SAFE,3,Situation maîtrisée
+99.35,229.9,1.0,SAFE,3,Situation maîtrisée
+99.40,229.9,1.0,SAFE,3,Situation maîtrisée
+99.45,229.9,1.0,SAFE,3,Situation maîtrisée
+99.50,229.9,1.1,SAFE,3,Situation maîtrisée
+99.55,229.9,1.1,SAFE,3,Situation maîtrisée
+99.60,230.0,1.1,SAFE,3,Situation maîtrisée
+99.65,230.0,0.0,SAFE,3,Situation maîtrisée
+99.70,230.0,0.0,SAFE,3,Situation maîtrisée
+99.75,230.0,0.1,SAFE,3,Situation maîtrisée
+99.80,230.0,0.2,SAFE,3,Situation maîtrisée
+99.85,230.0,0.2,SAFE,3,Situation maîtrisée
+99.90,230.0,0.3,SAFE,3,Situation maîtrisée
+99.95,230.0,0.3,SAFE,3,Situation maîtrisée
+100.00,230.0,0.4,SAFE,3,Situation maîtrisée
+100.05,230.0,0.4,SAFE,3,Situation maîtrisée
+100.10,230.0,0.5,SAFE,3,Situation maîtrisée
+100.15,230.0,0.5,SAFE,3,Situation maîtrisée
+100.20,230.0,0.5,SAFE,3,Situation maîtrisée
+100.25,230.0,0.5,SAFE,3,Situation maîtrisée
+100.30,230.0,0.6,SAFE,3,Situation maîtrisée
+100.35,230.0,0.6,SAFE,3,Situation maîtrisée
+100.40,230.0,0.6,SAFE,3,Situation maîtrisée
+100.45,230.0,0.6,SAFE,3,Situation maîtrisée
+100.50,230.0,0.7,SAFE,3,Situation maîtrisée
+100.55,230.1,0.7,SAFE,3,Situation maîtrisée
+100.60,230.1,0.7,SAFE,3,Situation maîtrisée
+100.65,230.1,0.7,SAFE,3,Situation maîtrisée
+100.70,230.1,0.8,SAFE,3,Situation maîtrisée
+100.75,230.1,0.8,SAFE,3,Situation maîtrisée
+100.80,230.1,0.8,SAFE,3,Situation maîtrisée
+100.85,230.1,0.8,SAFE,3,Situation maîtrisée
+100.90,230.1,0.9,SAFE,3,Situation maîtrisée
+100.95,230.1,0.9,SAFE,3,Situation maîtrisée
+101.00,230.2,0.9,SAFE,3,Situation maîtrisée
+101.05,230.2,0.9,SAFE,3,Situation maîtrisée
+101.10,230.2,1.0,SAFE,3,Situation maîtrisée
+101.15,230.2,1.0,SAFE,3,Situation maîtrisée
+101.20,230.2,1.0,SAFE,3,Situation maîtrisée
+101.25,230.2,1.0,SAFE,3,Situation maîtrisée
+101.30,230.2,1.1,SAFE,3,Situation maîtrisée
+101.35,230.3,1.0,SAFE,3,Situation maîtrisée
+101.40,230.3,1.1,SAFE,3,Situation maîtrisée
+101.45,230.3,0.0,SAFE,3,Situation maîtrisée
+101.50,230.3,0.0,SAFE,3,Situation maîtrisée
+101.55,230.3,0.1,SAFE,3,Situation maîtrisée
+101.60,230.3,0.2,SAFE,3,Situation maîtrisée
+101.65,230.3,0.2,SAFE,3,Situation maîtrisée
+101.70,230.3,0.3,SAFE,3,Situation maîtrisée
+101.75,230.3,0.3,SAFE,3,Situation maîtrisée
+101.80,230.3,0.4,SAFE,3,Situation maîtrisée
+101.85,230.3,0.4,SAFE,3,Situation maîtrisée
+101.90,230.3,0.5,SAFE,3,Situation maîtrisée
+101.95,230.3,0.5,SAFE,3,Situation maîtrisée
+102.00,230.3,0.5,SAFE,3,Situation maîtrisée
+102.05,230.3,0.5,SAFE,3,Situation maîtrisée
+102.10,230.3,0.6,SAFE,3,Situation maîtrisée
+102.15,230.3,0.6,SAFE,3,Situation maîtrisée
+102.20,230.4,0.6,SAFE,2,Situation maîtrisée
+102.25,230.4,0.6,SAFE,2,Situation maîtrisée
+102.30,230.4,0.7,SAFE,2,Situation maîtrisée
+102.35,230.4,0.7,SAFE,2,Situation maîtrisée
+102.40,230.4,0.7,SAFE,2,Situation maîtrisée
+102.45,230.4,0.7,SAFE,2,Situation maîtrisée
+102.50,230.4,0.8,SAFE,2,Situation maîtrisée
+102.55,230.4,0.8,SAFE,2,Situation maîtrisée
+102.60,230.4,0.8,SAFE,2,Situation maîtrisée
+102.65,230.4,0.8,SAFE,2,Situation maîtrisée
+102.70,230.5,0.9,SAFE,2,Situation maîtrisée
+102.75,230.5,0.9,SAFE,2,Situation maîtrisée
+102.80,230.5,0.9,SAFE,2,Situation maîtrisée
+102.85,230.5,0.9,SAFE,2,Situation maîtrisée
+102.90,230.5,1.0,SAFE,2,Situation maîtrisée
+102.95,230.5,1.0,SAFE,2,Situation maîtrisée
+103.00,230.5,1.0,SAFE,2,Situation maîtrisée
+103.05,230.5,1.0,SAFE,2,Situation maîtrisée
+103.10,230.6,1.1,SAFE,2,Situation maîtrisée
+103.15,230.6,1.0,SAFE,2,Situation maîtrisée
+103.20,230.6,1.1,SAFE,2,Situation maîtrisée
+103.25,230.6,0.0,SAFE,2,Situation maîtrisée
+103.30,230.6,0.0,SAFE,2,Situation maîtrisée
+103.35,230.6,0.1,SAFE,2,Situation maîtrisée
+103.40,230.6,0.2,SAFE,2,Situation maîtrisée
+103.45,230.6,0.2,SAFE,2,Situation maîtrisée
+103.50,230.6,0.3,SAFE,2,Situation maîtrisée
+103.55,230.6,0.3,SAFE,2,Situation maîtrisée
+103.60,230.6,0.4,SAFE,2,Situation maîtrisée
+103.65,230.6,0.4,SAFE,2,Situation maîtrisée
+103.70,230.6,0.5,SAFE,2,Situation maîtrisée
+103.75,230.6,0.5,SAFE,2,Situation maîtrisée
+103.80,230.6,0.5,SAFE,2,Situation maîtrisée
+103.85,230.6,0.5,SAFE,2,Situation maîtrisée
+103.90,230.7,0.6,SAFE,2,Situation maîtrisée
+103.95,230.7,0.6,SAFE,2,Situation maîtrisée
+104.00,230.7,0.6,SAFE,2,Situation maîtrisée
+104.05,230.7,0.6,SAFE,2,Situation maîtrisée
+104.10,230.7,0.7,SAFE,2,Situation maîtrisée
+104.15,230.7,0.7,SAFE,2,Situation maîtrisée
+104.20,230.7,0.7,SAFE,2,Situation maîtrisée
+104.25,230.7,0.7,SAFE,2,Situation maîtrisée
+104.30,230.7,0.8,SAFE,2,Situation maîtrisée
+104.35,230.7,0.8,SAFE,2,Situation maîtrisée
+104.40,230.8,0.8,SAFE,2,Situation maîtrisée
+104.45,230.8,0.8,SAFE,2,Situation maîtrisée
+104.50,230.8,0.9,SAFE,2,Situation maîtrisée
+104.55,230.8,0.9,SAFE,2,Situation maîtrisée
+104.60,230.8,0.9,SAFE,2,Situation maîtrisée
+104.65,230.8,0.9,SAFE,2,Situation maîtrisée
+104.70,230.8,1.0,SAFE,2,Situation maîtrisée
+104.75,230.8,1.0,SAFE,2,Situation maîtrisée
+104.80,230.9,1.0,SAFE,2,Situation maîtrisée
+104.85,230.9,1.0,SAFE,2,Situation maîtrisée
+104.90,230.9,1.0,SAFE,2,Situation maîtrisée
+104.95,230.9,1.0,SAFE,2,Situation maîtrisée
+105.00,230.9,1.1,SAFE,2,Situation maîtrisée
+105.05,230.9,1.1,SAFE,2,Situation maîtrisée
+105.10,230.9,1.1,SAFE,2,Situation maîtrisée
+105.15,230.9,0.0,SAFE,2,Situation maîtrisée
+105.20,230.9,0.0,SAFE,2,Situation maîtrisée
+105.25,230.9,0.1,SAFE,2,Situation maîtrisée
+105.30,230.9,0.2,SAFE,2,Situation maîtrisée
+105.35,230.9,0.2,SAFE,2,Situation maîtrisée
+105.40,231.0,0.3,SAFE,2,Situation maîtrisée
+105.45,231.0,0.3,SAFE,2,Situation maîtrisée
+105.50,231.0,0.4,SAFE,2,Situation maîtrisée
+105.55,231.0,0.4,SAFE,2,Situation maîtrisée
+105.60,231.0,0.4,SAFE,2,Situation maîtrisée
+105.65,231.0,0.5,SAFE,2,Situation maîtrisée
+105.70,231.0,0.5,SAFE,2,Situation maîtrisée
+105.75,231.0,0.5,SAFE,2,Situation maîtrisée
+105.80,231.0,0.6,SAFE,2,Situation maîtrisée
+105.85,231.0,0.6,SAFE,2,Situation maîtrisée
+105.90,231.0,0.6,SAFE,1,Situation maîtrisée
+105.95,231.0,0.6,SAFE,1,Situation maîtrisée
+106.00,231.0,0.7,SAFE,1,Situation maîtrisée
+106.05,231.0,0.7,SAFE,1,Situation maîtrisée
+106.10,231.1,0.7,SAFE,1,Situation maîtrisée
